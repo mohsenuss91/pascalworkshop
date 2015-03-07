@@ -1,0 +1,330 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+    "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+<head>
+  <title>Exercices Pascal - Club d'entraide des d&#233;veloppeurs francophones</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+  <meta name="generator" content="developpez-com" />
+  <link rel="stylesheet" type="text/css" media="screen" href="./article.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="./code.css" />
+  <script src="js/fonctions-kit.js" type="text/javascript"></script>
+  
+  <style type="text/css">
+<!--
+body {
+	background-color : #DDEEFF;
+	background: #DDEEFF;
+	font: normal;
+    font-family: Verdana;
+    font-weight: normal;    
+    margin: 0
+}
+
+img {
+    border:0
+}
+form {
+    margin : 0
+}
+td {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10pt;
+	font-weight: normal;
+}
+td.iongl {
+	width : 1px;
+}
+
+td.bgongl {
+	background-image : url(./images/kitint.gif);
+	text-align : center;
+}
+.ntdrub:link {
+	color : #000000;
+	font-weight : bold;
+    font-size : 8pt;
+    text-decoration: none;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.ntdrub:visited {
+    color : #000000;
+    font-weight : bold;
+    font-size : 8pt;
+    text-decoration: none;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.ntdrub:active {
+	color : #000000;
+	font-weight : bold;
+    font-size : 8pt;
+    text-decoration: none;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.ntdrub:hover {
+    color : #FF0000;
+    background-color: #FFF8DD;
+    font-weight : bold;
+	font-size : 8pt;
+	text-decoration: none;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+td.trbleu {
+	background-color:#6389D8;
+	text-align : center;
+    margin: 0 ;
+	border: 0;
+	padding-top : 3px;
+	padding-bottom : 3px;
+	height : 34px;
+}
+td.fondart {
+    background-color:#FFFFFF;
+    
+}
+
+table.tbnoir{
+	background-color:#000000;
+}
+.titrepied {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size : 10pt;
+	font: normal;
+	font-weight: normal
+}
+
+-->
+</style>
+  
+  
+</head>
+<body>
+<table width="100%" cellspacing="4">
+	<tr>
+	<td align="center">
+		<table width="100%" cellspacing="0" cellpadding="0">
+			<tr>
+				<td>
+				  <table width="100%" cellspacing="11">
+					<tr>
+						<td>
+						<a href="http://www.developpez.com"><img src="images/kitlogo.gif" alt="Accueil" /></a>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+					</tr>
+				</table>
+				</td>
+			</tr>
+			<tr>
+    			<td>
+						<table class="cachee" cellpadding="0" cellspacing="0" width="100%">
+							<tr>
+								<td class="iongl"><img src="images/kitbordg.gif" alt=""/></td>
+								<td class="bgongl"><a href="http://www.developpez.com" class="ntdrub">Accueil</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://club.developpez.com" class="ntdrub">Le Club</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://delphi.developpez.com" class="ntdrub">Delphi Kylix</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://c.developpez.com" class="ntdrub">C C++</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://java.developpez.com" class="ntdrub">Java J2EE</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://dotnet.developpez.com" class="ntdrub">DotNET &amp; C#</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://vb.developpez.com" class="ntdrub">Visual Basic</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://access.developpez.com" class="ntdrub">Access</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://pascal.developpez.com" class="ntdrub">Pascal</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://web.developpez.com" class="ntdrub">Dev Web</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://php.developpez.com" class="ntdrub">PHP</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://asp.developpez.com" class="ntdrub">ASP</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://xml.developpez.com" class="ntdrub">XML</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://uml.developpez.com" class="ntdrub">UML</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://sgbd.developpez.com" class="ntdrub">SQLSGBD</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://windows.developpez.com" class="ntdrub">Windows</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://linux.developpez.com" class="ntdrub">Linux</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://www.developpez.com/cours/" class="ntdrub">Autres</a></td>
+								<td class="iongl"><img src="images/kitbordd.gif" alt="" /></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+
+				<tr>
+					<td class="trbleu">
+					</td>
+				</tr>
+
+				<tr valign="top">
+					<td valign="top" class="fondart">
+						<table cellspacing="1" width="100%" class="tbnoir">
+							<tr>
+								<td class="fondart">
+									<div style="text-align:center;">
+									<table class="cadrearticle" width="90%" cellpadding="10" cellspacing="0">
+										<tr>
+											<td align="center" style="text-align:left">
+
+		<div style="text-align: center;"><img src="./images/exercices.gif" alt="logo"/></div><div class="sommaire"><span class="titreSection"><a class="titreSection" href="index.html">
+          Sommaire
+        </a>
+        &gt;
+        <a class="titreSection" href="Sect9.html">Pointeurs</a></span><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="sommaireQuestionNom" href="#gestmem">Gestion de la mémoire</a><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="sommaireQuestionNom" href="#point1">Allocation/libération dynamique de mémoire </a><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="sommaireQuestionNom" href="#point2">Pointeurs sur enregistrements</a><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="sommaireQuestionNom" href="#point3">Liste chaînée simple</a><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="sommaireQuestionNom" href="#point4">Liste chaînée bidirectionnelle</a><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="sommaireQuestionNom" href="#point5">Arbres binaires</a><br/></div><hr/><div class="barreNavigation"><div style="width:100%;"><table width="99%"><tr><td/><td><div style="text-align:right;"><a href="Sect8.html"><img src="./images/kitprecedent.gif" alt="precedent"/></a>
+				  
+				<a href="index.html"><img src="./images/kitsommaire.gif" alt="sommaire"/></a>
+				  
+				<a href="Sect10.html"><img src="./images/kitsuivant.gif" alt="suivant"/></a>
+					  
+					</div></td></tr></table></div></div><hr/><div style="width:100%;"><br/><table id="gestmem" class="SRC"><tr><td class="TDGAUCHE" rowspan="2" valign="top"><table width="100%"><tr><td class="TDAUTEUR"><span class="auteur">Auteur : </span><a class="auteur" href="http://www.developpez.net/forums/profile.php?mode=viewprofile&amp;u=886">Mathieu Dalbin</a><br/></td></tr><tr><td class="TDAUTEUR" colspan="2">Version : 21/07/2004</td></tr><tr><td class="TDAUTEUR"/></tr><tr><td class="TDAUTEUR"/></tr></table></td><td class="TDTITRE" colspan="2"><table width="100%"><tr><td><a class="question" href="#gestmem">Gestion de la mémoire</a></td><td><div style="text-align: right;"><a class="haut" href="#">[haut]
+									</a></div></td></tr></table></td></tr><tr><td class="TDTEXT" colspan="2"><div class="paragraph">
+Si il est un point délicat dans la programmation sous DOS, c'est bien celui-ci. Car même si les 
+ordinateurs modernes possèdent parfois jusqu'à plusieurs Giga-octets de mémoire, DOS n'a été conçu 
+que pour en utiliser un Méga-octet seulement. Et à l'intérieur de ce méga-octet, une partie définie 
+est réservée pour le fonctionnement interne de DOS, il ne reste donc que 640 Ko de <b>mémoire dynamique</b> 
+pour que les programmes puissent s'exécuter correctement.
+</div><br/><div class="paragraph"><br />
+</div><br/><div class="paragraph">
+Mémoire dynamique oui, car il existe pour 
+un programme deux types de mémoire : la mémoire statique, où sont stockées toutes les variables qui 
+ont été déclarées lors de la compilation, et la mémoire dynamique, qui permet donc de définir des 
+variables créées lors de l'exécution du programme. L'avantage de la mémoire dynamique, par rapport à 
+la mémoire statique, est qu'elle permet d'adapter la zone de mémoire utilisée au programme qui 
+s'exécute : en effet, on pourra par exemple créer en mémoire une zone spéciale qui ne pourrait servir 
+qu'à un traitement ponctuel, mais dont la taille ne pourrait contenir dans un segment de 
+64 kilo-octets. Car 64 kilo-octets est la limite pour la taille d'une variable en mémoire statique, 
+cette limite n'existant pas pour la mémoire dynamique, qui permet d'allouer de plus grands espaces. 
+</div><br/><div class="paragraph"><br />
+</div><br/><div class="paragraph">
+Malheureusement, la taille de ma mémoire dynamique est fixe, soit 640 kilo-octets, ce qui peut 
+parfois entraîner des désagréments lors de l'exécution (des erreurs se produisent lorsqu'ils n'y a 
+plus d'espace mémoire disponible mais ceci reste relativement rare). Pour contrer cette contrainte 
+peu réjouissante, l'objectif est de gérer correctement nos moyens pour réserver et libérer des 
+espaces en mémoire dynamique.
+</div><br/><div class="paragraph"><br />
+</div><br/><div class="paragraph">
+Cette gestion passe par les pointeurs : les pointeurs sont des 
+variables pouvant être statiques ou dynamiques (stockées sur quatre octets) qui représentent un lien vers 
+un espace de la mémoire dynamique. Il existe donc au minimum un petit espace de quatre octets 
+réservés en mémoire et représentant un lien vers une zone de mémoire dynamique. Pour allouer et 
+libérer de l'espace, nous disposons de deux couples d'instructions : <b>GetMem/FreeMem</b> et 
+<b>New/Dispose</b>.
+</div><br/><div class="paragraph"><br />
+</div><br/><div class="paragraph">
+La première paire permet, à partir d'un pointeur donné, de réserver ou libérer un 
+espace en mémoire dynamique : la taille de l'espace à allouer ou libérer est cependant spécifiée, ce 
+qui permet par exemple de créer des zones de mémoire tampon pour le traitement spécifique de données. 
+</div><br/><div class="paragraph"><br />
+</div><br/><div class="paragraph">
+Le second jeu d'instructions permet plus spécifiquement de réserver des zones destinées à contenir 
+des éléments précis, comme par exemple des enregistrements ou des objets. La taille n'est alors pas 
+passée en paramètre, et le compilateur alloue ou libère la zone concernée avec la taille qu'il aura 
+définie. Ceci s'utilise généralement avec les pointeurs sur enregistrements ou les pointeurs sur 
+objets : le programmeur évite donc de se soucier de la taille d'un enregistrement ou d'un objet. 
+Les nouvelles versions des instructions new et dispose permettent également de passer en paramètre 
+des méthodes spéciales, appelées constructeurs et destructeurs, ce qui facilite grandement la tâche 
+du programmeur (ceci sera abordé lors des exercices sur les objets).
+</div><br/></td></tr></table></div><div style="width:100%;"><br/><table id="point1" class="SRC"><tr><td class="TDGAUCHE" rowspan="2" valign="top"><table width="100%"><tr><td class="TDAUTEUR"><span class="auteur">Auteur : </span><a class="auteur" href="http://www.developpez.net/forums/profile.php?mode=viewprofile&amp;u=886">Mathieu Dalbin</a><br/></td></tr><tr><td class="TDAUTEUR" colspan="2">Version : 21/07/2004</td></tr><tr><td class="TDAUTEUR"/></tr><tr><td class="TDAUTEUR"><a href="">
+										Téléchargez le zip
+									</a></td></tr></table></td><td class="TDTITRE" colspan="2"><table width="100%"><tr><td><a class="question" href="#point1">Allocation/libération dynamique de mémoire </a></td><td><div style="text-align: right;"><a class="haut" href="#">[haut]
+									</a></div></td></tr></table></td></tr><tr><td class="TDTEXT" colspan="2"><div class="paragraph">
+On décide de réserver dynamiquement un espace de données en mémoire. La taille de cet espace devra 
+être suffisante afin de contenir une image récupérée avec la fonction <b>GetImage</b> de l'unité 
+<b>Graph</b>. La taille de l'image est récupérée avec la fonction <b>ImageSize</b>. Après avoir 
+récupéré et réaffiché l'image, la zone mémoire sera libérée. 
+
+</div><br/></td></tr></table></div><div style="width:100%;"><br/><table id="point2" class="SRC"><tr><td class="TDGAUCHE" rowspan="2" valign="top"><table width="100%"><tr><td class="TDAUTEUR"><span class="auteur">Auteur : </span><a class="auteur" href="http://www.developpez.net/forums/profile.php?mode=viewprofile&amp;u=886">Mathieu Dalbin</a><br/></td></tr><tr><td class="TDAUTEUR" colspan="2">Version : 21/07/2004</td></tr><tr><td class="TDAUTEUR"/></tr><tr><td class="TDAUTEUR"><a href="">
+										Téléchargez le zip
+									</a></td></tr></table></td><td class="TDTITRE" colspan="2"><table width="100%"><tr><td><a class="question" href="#point2">Pointeurs sur enregistrements</a></td><td><div style="text-align: right;"><a class="haut" href="#">[haut]
+									</a></div></td></tr></table></td></tr><tr><td class="TDTEXT" colspan="2"><div class="paragraph">
+En reprenant l'exercice sur l'annuaire téléphonique, déclarer un type pointeur sur l'enregistrement, 
+et créer dynamiquement en mémoire plusieurs enregistrements, et les remplir avec des données 
+acquises au clavier. On demandera à l'utilisateur les données nécessaires et on créera un 
+enregistrement pour chaque entrée.
+
+</div><br/></td></tr></table></div><div style="width:100%;"><br/><table id="point3" class="SRC"><tr><td class="TDGAUCHE" rowspan="2" valign="top"><table width="100%"><tr><td class="TDAUTEUR"><span class="auteur">Auteur : </span><a class="auteur" href="http://www.developpez.net/forums/profile.php?mode=viewprofile&amp;u=886">Mathieu Dalbin</a><br/></td></tr><tr><td class="TDAUTEUR" colspan="2">Version : 21/07/2004</td></tr><tr><td class="TDAUTEUR"/></tr><tr><td class="TDAUTEUR"><a href="">
+										Téléchargez le zip
+									</a></td></tr></table></td><td class="TDTITRE" colspan="2"><table width="100%"><tr><td><a class="question" href="#point3">Liste chaînée simple</a></td><td><div style="text-align: right;"><a class="haut" href="#">[haut]
+									</a></div></td></tr></table></td></tr><tr><td class="TDTEXT" colspan="2"><div class="paragraph">
+On décide de créer une liste chaînée contenant des entiers. Définir les types nécessaires pour la 
+mise en œuvre de cette liste chaînée, et prévoir deux procédure ou fonctions pour ajouter une valeur 
+et afficher le contenu de la liste. Remplir la chaîne avec quelques valeurs. Enfin écrire une 
+procédure pour vider la liste et libérer l'espace mémoire qui lui était associé.
+
+</div><br/></td></tr></table></div><div style="width:100%;"><br/><table id="point4" class="SRC"><tr><td class="TDGAUCHE" rowspan="2" valign="top"><table width="100%"><tr><td class="TDAUTEUR"><span class="auteur">Auteur : </span><a class="auteur" href="http://www.developpez.net/forums/profile.php?mode=viewprofile&amp;u=886">Mathieu Dalbin</a><br/></td></tr><tr><td class="TDAUTEUR" colspan="2">Version : 21/07/2004</td></tr><tr><td class="TDAUTEUR"/></tr><tr><td class="TDAUTEUR"><a href="">
+										Téléchargez le zip
+									</a></td></tr></table></td><td class="TDTITRE" colspan="2"><table width="100%"><tr><td><a class="question" href="#point4">Liste chaînée bidirectionnelle</a></td><td><div style="text-align: right;"><a class="haut" href="#">[haut]
+									</a></div></td></tr></table></td></tr><tr><td class="TDTEXT" colspan="2"><div class="paragraph">
+On décide de créer à présent une liste chaînée bidirectionnelle à partir de la liste précédente. 
+Créer les types nécessaires pour la mise en œuvre d'une liste chaînée bidirectionnelle. On prévoit 
+trois procédures : la première pour ajouter une valeur en tête de  liste, la deuxième pour afficher 
+la liste à l'écran, et la troisième pour vider la liste et libérer l'espace mémoire.
+
+</div><br/></td></tr></table></div><div style="width:100%;"><br/><table id="point5" class="SRC"><tr><td class="TDGAUCHE" rowspan="2" valign="top"><table width="100%"><tr><td class="TDAUTEUR"><span class="auteur">Auteur : </span><a class="auteur" href="http://www.developpez.net/forums/profile.php?mode=viewprofile&amp;u=886">Mathieu Dalbin</a><br/></td></tr><tr><td class="TDAUTEUR" colspan="2">Version : 21/07/2004</td></tr><tr><td class="TDAUTEUR"/></tr><tr><td class="TDAUTEUR"><a href="">
+										Téléchargez le zip
+									</a></td></tr></table></td><td class="TDTITRE" colspan="2"><table width="100%"><tr><td><a class="question" href="#point5">Arbres binaires</a></td><td><div style="text-align: right;"><a class="haut" href="#">[haut]
+									</a></div></td></tr></table></td></tr><tr><td class="TDTEXT" colspan="2"><div class="paragraph">
+On décide de créer un arbre binaire afin d'organiser nos données, constituées de variables de type 
+entier. Définir les types nécessaires pour la mise en oeuvre de cet arbre, et remplir les premières 
+feuilles de l'arbre avec quelques valeurs. Ici aussi trois procédures, pour ajouter un nombre, 
+afficher sommairement l'arbre et enfin libérer la mémoire.
+
+</div><br/></td></tr></table></div><hr/><div class="barreNavigation"><div style="width:100%;"><table width="99%"><tr><td/><td><div style="text-align:right;"><a href="Sect8.html"><img src="./images/kitprecedent.gif" alt="precedent"/></a>
+				  
+				<a href="index.html"><img src="./images/kitsommaire.gif" alt="sommaire"/></a>
+				  
+				<a href="Sect10.html"><img src="./images/kitsuivant.gif" alt="suivant"/></a>
+					  
+					</div></td></tr></table></div></div><hr/><p style="text-align:center;"><a class="barreNavigationTexte" href="http://www.developpez.com/sources/">
+						Consultez les autres pages sources
+					</a></p><hr/><p class="licence">Les sources présentés sur cette pages sont libre de droits,
+			et vous pouvez les utiliser à votre convenance. Par contre cette page de présentation de ces sources constitue une oeuvre intellectuelle protégée par les droits d'auteurs.
+			Copyright &copy;2008 
+			Developpez LLC. Tout droits réservés Developpez LLC.
+			Aucune reproduction, même partielle, ne peut être faite de ce site et de
+			l'ensemble de son contenu : textes, documents et images sans l'autorisation
+			expresse de Developpez LLC. Sinon vous encourez selon la loi jusqu'à 3 ans
+			de prison et jusqu'à 300 000 E de dommages et intérets.
+			Cette page est déposée à la <a href="http://www.sacd.fr/" >SACD</a>.</p>
+												</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table></div>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+			<table width="100%" cellpadding="4" class="cachee">
+				<tr>
+					<td class="titrepied">
+			  Vos questions techniques : <b><a href="http://www.developpez.net/forums/" >forum d'entraide Accueil</a></b> - Publiez vos articles, tutoriels, cours
+			  et rejoignez-nous dans l'&eacute;quipe de r&eacute;daction du club d'entraide des d&eacute;veloppeurs francophones. <a href="http://club.developpez.com/contacts/">Nous contacter</a>
+	
+			  - Copyright 2000..2005 www.developpez.com
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+</body>
+</html>
+
+	

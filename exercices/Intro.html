@@ -1,0 +1,275 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+    "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+<head>
+  <title>Exercices Pascal - Club d'entraide des d&#233;veloppeurs francophones</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+  <meta name="generator" content="developpez-com" />
+  <link rel="stylesheet" type="text/css" media="screen" href="./article.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="./code.css" />
+  <script src="js/fonctions-kit.js" type="text/javascript"></script>
+  
+  <style type="text/css">
+<!--
+body {
+	background-color : #DDEEFF;
+	background: #DDEEFF;
+	font: normal;
+    font-family: Verdana;
+    font-weight: normal;    
+    margin: 0
+}
+
+img {
+    border:0
+}
+form {
+    margin : 0
+}
+td {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10pt;
+	font-weight: normal;
+}
+td.iongl {
+	width : 1px;
+}
+
+td.bgongl {
+	background-image : url(./images/kitint.gif);
+	text-align : center;
+}
+.ntdrub:link {
+	color : #000000;
+	font-weight : bold;
+    font-size : 8pt;
+    text-decoration: none;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.ntdrub:visited {
+    color : #000000;
+    font-weight : bold;
+    font-size : 8pt;
+    text-decoration: none;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.ntdrub:active {
+	color : #000000;
+	font-weight : bold;
+    font-size : 8pt;
+    text-decoration: none;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.ntdrub:hover {
+    color : #FF0000;
+    background-color: #FFF8DD;
+    font-weight : bold;
+	font-size : 8pt;
+	text-decoration: none;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+td.trbleu {
+	background-color:#6389D8;
+	text-align : center;
+    margin: 0 ;
+	border: 0;
+	padding-top : 3px;
+	padding-bottom : 3px;
+	height : 34px;
+}
+td.fondart {
+    background-color:#FFFFFF;
+    
+}
+
+table.tbnoir{
+	background-color:#000000;
+}
+.titrepied {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size : 10pt;
+	font: normal;
+	font-weight: normal
+}
+
+-->
+</style>
+  
+  
+</head>
+<body>
+<table width="100%" cellspacing="4">
+	<tr>
+	<td align="center">
+		<table width="100%" cellspacing="0" cellpadding="0">
+			<tr>
+				<td>
+				  <table width="100%" cellspacing="11">
+					<tr>
+						<td>
+						<a href="http://www.developpez.com"><img src="images/kitlogo.gif" alt="Accueil" /></a>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+					</tr>
+				</table>
+				</td>
+			</tr>
+			<tr>
+    			<td>
+						<table class="cachee" cellpadding="0" cellspacing="0" width="100%">
+							<tr>
+								<td class="iongl"><img src="images/kitbordg.gif" alt=""/></td>
+								<td class="bgongl"><a href="http://www.developpez.com" class="ntdrub">Accueil</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://club.developpez.com" class="ntdrub">Le Club</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://delphi.developpez.com" class="ntdrub">Delphi Kylix</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://c.developpez.com" class="ntdrub">C C++</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://java.developpez.com" class="ntdrub">Java J2EE</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://dotnet.developpez.com" class="ntdrub">DotNET &amp; C#</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://vb.developpez.com" class="ntdrub">Visual Basic</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://access.developpez.com" class="ntdrub">Access</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://pascal.developpez.com" class="ntdrub">Pascal</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://web.developpez.com" class="ntdrub">Dev Web</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://php.developpez.com" class="ntdrub">PHP</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://asp.developpez.com" class="ntdrub">ASP</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://xml.developpez.com" class="ntdrub">XML</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://uml.developpez.com" class="ntdrub">UML</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://sgbd.developpez.com" class="ntdrub">SQLSGBD</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://windows.developpez.com" class="ntdrub">Windows</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://linux.developpez.com" class="ntdrub">Linux</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://www.developpez.com/cours/" class="ntdrub">Autres</a></td>
+								<td class="iongl"><img src="images/kitbordd.gif" alt="" /></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+
+				<tr>
+					<td class="trbleu">
+					</td>
+				</tr>
+
+				<tr valign="top">
+					<td valign="top" class="fondart">
+						<table cellspacing="1" width="100%" class="tbnoir">
+							<tr>
+								<td class="fondart">
+									<div style="text-align:center;">
+									<table class="cadrearticle" width="90%" cellpadding="10" cellspacing="0">
+										<tr>
+											<td align="center" style="text-align:left">
+
+		<div style="text-align: center;"><img src="./images/exercices.gif" alt="logo"/></div><div class="sommaire"><span class="titreSection"><a class="titreSection" href="index.html">
+          Sommaire
+        </a>
+        &gt;
+        <a class="titreSection" href="Intro.html">Introduction</a></span><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="sommaireQuestionNom" href="#ide">Comment utiliser l'IDE ?</a><br/></div><hr/><div class="barreNavigation"><div style="width:100%;"><table width="99%"><tr><td/><td><div style="text-align:right;"><a href="index.html"><img src="./images/kitprecedent.gif" alt="precedent"/></a>
+				  
+				<a href="index.html"><img src="./images/kitsommaire.gif" alt="sommaire"/></a>
+				  
+				<a href="Sect1.html"><img src="./images/kitsuivant.gif" alt="suivant"/></a>
+					  
+					</div></td></tr></table></div></div><hr/><div style="width:100%;"><br/><table id="ide" class="SRC"><tr><td class="TDGAUCHE" rowspan="2" valign="top"><table width="100%"><tr><td class="TDAUTEUR"><span class="auteur">Auteur : </span><a class="auteur" href="http://www.developpez.net/forums/profile.php?mode=viewprofile&amp;u=886">Mathieu Dalbin</a><br/></td></tr><tr><td class="TDAUTEUR" colspan="2">Version : 21/07/2004</td></tr><tr><td class="TDAUTEUR"/></tr><tr><td class="TDAUTEUR"/></tr></table></td><td class="TDTITRE" colspan="2"><table width="100%"><tr><td><a class="question" href="#ide">Comment utiliser l'IDE ?</a></td><td><div style="text-align: right;"><a class="haut" href="#">[haut]
+									</a></div></td></tr></table></td></tr><tr><td class="TDTEXT" colspan="2"><div class="paragraph">
+L'IDE ("Integrated Development Environment", en Français "Environnement de développement intégré") de 
+Turbo Pascal est un outil qu'il faut savoir manier un minimum afin d'obtenir une certaine efficacité 
+lors du développement d'applications. Notre but ici n'est pas de détailler en profondeur comment 
+marche l'IDE, mais de montrer brièvement les actions basiques et communes à tout IDE.
+</div><br/><div class="paragraph"><br />
+</div><br/><div class="paragraph">
+Commençons 
+tout de suite par naviguer dans l'interface : on se rend alors vite compte que l'IDE est à la base 
+est simple éditeur de texte. En effet les deux premiers menus ("<b>File</b>" et "<b>Edit</b>") sont communs à tous 
+les logiciels d'édition. Le troisième menu "<b>Run</b>" et quatrième menu "<b>Compile</b>" sont les plus importants 
+pour le développement d'une application. Le menu "<b>Run</b>" donne l'accès à la commande "<b>Run</b>" qui permet 
+de compiler et de lancer un programme : deux opérations sont donc faites en une seule commande. Dans 
+le menu "<b>Compile</b>", la commande "<b>Compile</b>" permet donc de compiler un programme, sans le lancer cette 
+fois-ci. Compiler un programme sans l'exécuter permet de contrôler par exemple si il y a des erreurs 
+dans le code : il est conseillé de n'exécuter un programme que lorsque le code a été vérifié avec 
+attention (cet avertissement prends tout son sens lorsque l'on travaille sur des projets techniques 
+pouvant endommager la machine par exemple).
+</div><br/><div class="paragraph"><br />
+</div><br/><div class="paragraph">
+On trouve ensuite le menu "<b>Debug</b>", permettant comme son 
+nom l'indique de débuguer un programme (grâce aux "breakpoints" en particulier, "point d'arrêt" en 
+français). Ensuite le menu "<b>Options</b>" permet de configurer l'IDE, le comportement du compilateur, de 
+l'éditeur de lien, et de plein d'autres éléments parfois sans grande importance !
+</div><br/><div class="paragraph"><br />
+</div><br/><div class="paragraph">
+On arrive ainsi à 
+un autre menu très important pour le programmeur : le menu d'aide. Sous TP7 l'aide rassemble toutes 
+les notions et connaissances nécessaires pour le développement de tout type d'applications : la liste 
+de toutes les fonctions y est disponible, et chaque fonction est complètement expliquée séparément. 
+On trouve également des explications sur les unités communes (Dos, Graph), les erreurs les plus 
+courantes, les directives de compilations et Turbo Vision. Tout ce qui est nécessaire au développeur se trouve dans l'aide !
+</div><br/><div class="paragraph"><br />
+</div><br/><div class="paragraph">
+Après la découverte du menu principal, on peut admirer, dans la large partie d'écran qui reste, une 
+belle fenêtre bleue, destinée à recevoir le code que vous allez produire. Il ne reste donc plus qu'à 
+coder ! 
+</div><br/></td></tr></table></div><hr/><div class="barreNavigation"><div style="width:100%;"><table width="99%"><tr><td/><td><div style="text-align:right;"><a href="index.html"><img src="./images/kitprecedent.gif" alt="precedent"/></a>
+				  
+				<a href="index.html"><img src="./images/kitsommaire.gif" alt="sommaire"/></a>
+				  
+				<a href="Sect1.html"><img src="./images/kitsuivant.gif" alt="suivant"/></a>
+					  
+					</div></td></tr></table></div></div><hr/><p style="text-align:center;"><a class="barreNavigationTexte" href="http://www.developpez.com/sources/">
+						Consultez les autres pages sources
+					</a></p><hr/><p class="licence">Les sources présentés sur cette pages sont libre de droits,
+			et vous pouvez les utiliser à votre convenance. Par contre cette page de présentation de ces sources constitue une oeuvre intellectuelle protégée par les droits d'auteurs.
+			Copyright &copy;2008 
+			Developpez LLC. Tout droits réservés Developpez LLC.
+			Aucune reproduction, même partielle, ne peut être faite de ce site et de
+			l'ensemble de son contenu : textes, documents et images sans l'autorisation
+			expresse de Developpez LLC. Sinon vous encourez selon la loi jusqu'à 3 ans
+			de prison et jusqu'à 300 000 E de dommages et intérets.
+			Cette page est déposée à la <a href="http://www.sacd.fr/" >SACD</a>.</p>
+												</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table></div>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+			<table width="100%" cellpadding="4" class="cachee">
+				<tr>
+					<td class="titrepied">
+			  Vos questions techniques : <b><a href="http://www.developpez.net/forums/" >forum d'entraide Accueil</a></b> - Publiez vos articles, tutoriels, cours
+			  et rejoignez-nous dans l'&eacute;quipe de r&eacute;daction du club d'entraide des d&eacute;veloppeurs francophones. <a href="http://club.developpez.com/contacts/">Nous contacter</a>
+	
+			  - Copyright 2000..2005 www.developpez.com
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+</body>
+</html>
+
+	

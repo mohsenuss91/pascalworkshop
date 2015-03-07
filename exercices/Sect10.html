@@ -1,0 +1,295 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+    "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+<head>
+  <title>Exercices Pascal - Club d'entraide des d&#233;veloppeurs francophones</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+  <meta name="generator" content="developpez-com" />
+  <link rel="stylesheet" type="text/css" media="screen" href="./article.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="./code.css" />
+  <script src="js/fonctions-kit.js" type="text/javascript"></script>
+  
+  <style type="text/css">
+<!--
+body {
+	background-color : #DDEEFF;
+	background: #DDEEFF;
+	font: normal;
+    font-family: Verdana;
+    font-weight: normal;    
+    margin: 0
+}
+
+img {
+    border:0
+}
+form {
+    margin : 0
+}
+td {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10pt;
+	font-weight: normal;
+}
+td.iongl {
+	width : 1px;
+}
+
+td.bgongl {
+	background-image : url(./images/kitint.gif);
+	text-align : center;
+}
+.ntdrub:link {
+	color : #000000;
+	font-weight : bold;
+    font-size : 8pt;
+    text-decoration: none;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.ntdrub:visited {
+    color : #000000;
+    font-weight : bold;
+    font-size : 8pt;
+    text-decoration: none;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.ntdrub:active {
+	color : #000000;
+	font-weight : bold;
+    font-size : 8pt;
+    text-decoration: none;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.ntdrub:hover {
+    color : #FF0000;
+    background-color: #FFF8DD;
+    font-weight : bold;
+	font-size : 8pt;
+	text-decoration: none;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+td.trbleu {
+	background-color:#6389D8;
+	text-align : center;
+    margin: 0 ;
+	border: 0;
+	padding-top : 3px;
+	padding-bottom : 3px;
+	height : 34px;
+}
+td.fondart {
+    background-color:#FFFFFF;
+    
+}
+
+table.tbnoir{
+	background-color:#000000;
+}
+.titrepied {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size : 10pt;
+	font: normal;
+	font-weight: normal
+}
+
+-->
+</style>
+  
+  
+</head>
+<body>
+<table width="100%" cellspacing="4">
+	<tr>
+	<td align="center">
+		<table width="100%" cellspacing="0" cellpadding="0">
+			<tr>
+				<td>
+				  <table width="100%" cellspacing="11">
+					<tr>
+						<td>
+						<a href="http://www.developpez.com"><img src="images/kitlogo.gif" alt="Accueil" /></a>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+					</tr>
+				</table>
+				</td>
+			</tr>
+			<tr>
+    			<td>
+						<table class="cachee" cellpadding="0" cellspacing="0" width="100%">
+							<tr>
+								<td class="iongl"><img src="images/kitbordg.gif" alt=""/></td>
+								<td class="bgongl"><a href="http://www.developpez.com" class="ntdrub">Accueil</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://club.developpez.com" class="ntdrub">Le Club</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://delphi.developpez.com" class="ntdrub">Delphi Kylix</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://c.developpez.com" class="ntdrub">C C++</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://java.developpez.com" class="ntdrub">Java J2EE</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://dotnet.developpez.com" class="ntdrub">DotNET &amp; C#</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://vb.developpez.com" class="ntdrub">Visual Basic</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://access.developpez.com" class="ntdrub">Access</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://pascal.developpez.com" class="ntdrub">Pascal</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://web.developpez.com" class="ntdrub">Dev Web</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://php.developpez.com" class="ntdrub">PHP</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://asp.developpez.com" class="ntdrub">ASP</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://xml.developpez.com" class="ntdrub">XML</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://uml.developpez.com" class="ntdrub">UML</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://sgbd.developpez.com" class="ntdrub">SQLSGBD</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://windows.developpez.com" class="ntdrub">Windows</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://linux.developpez.com" class="ntdrub">Linux</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://www.developpez.com/cours/" class="ntdrub">Autres</a></td>
+								<td class="iongl"><img src="images/kitbordd.gif" alt="" /></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+
+				<tr>
+					<td class="trbleu">
+					</td>
+				</tr>
+
+				<tr valign="top">
+					<td valign="top" class="fondart">
+						<table cellspacing="1" width="100%" class="tbnoir">
+							<tr>
+								<td class="fondart">
+									<div style="text-align:center;">
+									<table class="cadrearticle" width="90%" cellpadding="10" cellspacing="0">
+										<tr>
+											<td align="center" style="text-align:left">
+
+		<div style="text-align: center;"><img src="./images/exercices.gif" alt="logo"/></div><div class="sommaire"><span class="titreSection"><a class="titreSection" href="index.html">
+          Sommaire
+        </a>
+        &gt;
+        <a class="titreSection" href="Sect10.html">Objets</a></span><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="sommaireQuestionNom" href="#objets1">Création d'un objet simple : une personne</a><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="sommaireQuestionNom" href="#objets2">Définition des méthodes d'un objet</a><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="sommaireQuestionNom" href="#objets3">Exemple d'héritage</a><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="sommaireQuestionNom" href="#objets4">Pointeurs d'objets</a><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="sommaireQuestionNom" href="#objets5">Liste chaînées d'objets</a><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="sommaireQuestionNom" href="#objets6">Polymorphisme</a><br/></div><hr/><div class="barreNavigation"><div style="width:100%;"><table width="99%"><tr><td/><td><div style="text-align:right;"><a href="Sect9.html"><img src="./images/kitprecedent.gif" alt="precedent"/></a>
+				  
+				<a href="index.html"><img src="./images/kitsommaire.gif" alt="sommaire"/></a>
+				  
+				<a href="Sect11.html"><img src="./images/kitsuivant.gif" alt="suivant"/></a>
+					  
+					</div></td></tr></table></div></div><hr/><div style="width:100%;"><br/><table id="objets1" class="SRC"><tr><td class="TDGAUCHE" rowspan="2" valign="top"><table width="100%"><tr><td class="TDAUTEUR"><span class="auteur">Auteur : </span><a class="auteur" href="http://www.developpez.net/forums/profile.php?mode=viewprofile&amp;u=886">Mathieu Dalbin</a><br/></td></tr><tr><td class="TDAUTEUR" colspan="2">Version : 21/07/2004</td></tr><tr><td class="TDAUTEUR"/></tr><tr><td class="TDAUTEUR"><a href="">
+										Téléchargez le zip
+									</a></td></tr></table></td><td class="TDTITRE" colspan="2"><table width="100%"><tr><td><a class="question" href="#objets1">Création d'un objet simple : une personne</a></td><td><div style="text-align: right;"><a class="haut" href="#">[haut]
+									</a></div></td></tr></table></td></tr><tr><td class="TDTEXT" colspan="2"><div class="paragraph">
+On décide de reprendre l'annuaire téléphonique pour le compléter. On déclare ainsi un objet 
+<i>TPersonne</i>, reprenant les caractéristiques des personnes classées dans l'annuaire. Cet objet 
+<i>TPersonne</i> héritera de <i>TObject</i>, afin de profiter des avantages offerts par l'objet 
+<i>TObject</i>. On déclare également un constructeur et un destructeur pour cet objet <i>TPersonne</i>.
+Créer ensuite quelques instances de <i>TPersonne</i> en lisant les valeurs obtenues au clavier.
+
+</div><br/></td></tr></table></div><div style="width:100%;"><br/><table id="objets2" class="SRC"><tr><td class="TDGAUCHE" rowspan="2" valign="top"><table width="100%"><tr><td class="TDAUTEUR"><span class="auteur">Auteur : </span><a class="auteur" href="http://www.developpez.net/forums/profile.php?mode=viewprofile&amp;u=886">Mathieu Dalbin</a><br/></td></tr><tr><td class="TDAUTEUR" colspan="2">Version : 21/07/2004</td></tr><tr><td class="TDAUTEUR"/></tr><tr><td class="TDAUTEUR"><a href="">
+										Téléchargez le zip
+									</a></td></tr></table></td><td class="TDTITRE" colspan="2"><table width="100%"><tr><td><a class="question" href="#objets2">Définition des méthodes d'un objet</a></td><td><div style="text-align: right;"><a class="haut" href="#">[haut]
+									</a></div></td></tr></table></td></tr><tr><td class="TDTEXT" colspan="2"><div class="paragraph">
+On décide de classer les attributs de l'objet <i>TPersonne</i> en attributs privés, tout en gardant 
+dans la clause <b>public</b> les méthodes de l'objet. Ecrire la série de méthodes permettant de lire 
+la valeur des attributs (accesseurs en lecture) et de les modifier (accesseurs en écriture).
+
+</div><br/></td></tr></table></div><div style="width:100%;"><br/><table id="objets3" class="SRC"><tr><td class="TDGAUCHE" rowspan="2" valign="top"><table width="100%"><tr><td class="TDAUTEUR"><span class="auteur">Auteur : </span><a class="auteur" href="http://www.developpez.net/forums/profile.php?mode=viewprofile&amp;u=886">Mathieu Dalbin</a><br/></td></tr><tr><td class="TDAUTEUR" colspan="2">Version : 21/07/2004</td></tr><tr><td class="TDAUTEUR"/></tr><tr><td class="TDAUTEUR"><a href="">
+										Téléchargez le zip
+									</a></td></tr></table></td><td class="TDTITRE" colspan="2"><table width="100%"><tr><td><a class="question" href="#objets3">Exemple d'héritage</a></td><td><div style="text-align: right;"><a class="haut" href="#">[haut]
+									</a></div></td></tr></table></td></tr><tr><td class="TDTEXT" colspan="2"><div class="paragraph">
+En reprenant l'objet <i>TPersonne</i> précédemment créé, déclarer le type dérivé <i>TEtudiant</i>, qui 
+a en plus comme attributs privés cinq notes représentant cinq matières, et la moyenne de ses cinq 
+notes. Les accesseurs en lecture et en écriture peuvent également être écris.
+
+</div><br/></td></tr></table></div><div style="width:100%;"><br/><table id="objets4" class="SRC"><tr><td class="TDGAUCHE" rowspan="2" valign="top"><table width="100%"><tr><td class="TDAUTEUR"><span class="auteur">Auteur : </span><a class="auteur" href="http://www.developpez.net/forums/profile.php?mode=viewprofile&amp;u=886">Mathieu Dalbin</a><br/></td></tr><tr><td class="TDAUTEUR" colspan="2">Version : 21/07/2004</td></tr><tr><td class="TDAUTEUR"/></tr><tr><td class="TDAUTEUR"><a href="">
+										Téléchargez le zip
+									</a></td></tr></table></td><td class="TDTITRE" colspan="2"><table width="100%"><tr><td><a class="question" href="#objets4">Pointeurs d'objets</a></td><td><div style="text-align: right;"><a class="haut" href="#">[haut]
+									</a></div></td></tr></table></td></tr><tr><td class="TDTEXT" colspan="2"><div class="paragraph">
+En reprenant l'objet <i>TPersonne</i>, déclarer un type pointeur sur objet, nommé <i>PPersonne</i>. 
+Ensuite initialiser plusieurs instances de l'objet <i>TPersonne</i>, et les remplir avec les données 
+obtenues à partir du clavier (tel qu'à l'exercice "Pointeurs 2").
+
+</div><br/></td></tr></table></div><div style="width:100%;"><br/><table id="objets5" class="SRC"><tr><td class="TDGAUCHE" rowspan="2" valign="top"><table width="100%"><tr><td class="TDAUTEUR"><span class="auteur">Auteur : </span><a class="auteur" href="http://www.developpez.net/forums/profile.php?mode=viewprofile&amp;u=886">Mathieu Dalbin</a><br/></td></tr><tr><td class="TDAUTEUR" colspan="2">Version : 21/07/2004</td></tr><tr><td class="TDAUTEUR"/></tr><tr><td class="TDAUTEUR"><a href="">
+										Téléchargez le zip
+									</a></td></tr></table></td><td class="TDTITRE" colspan="2"><table width="100%"><tr><td><a class="question" href="#objets5">Liste chaînées d'objets</a></td><td><div style="text-align: right;"><a class="haut" href="#">[haut]
+									</a></div></td></tr></table></td></tr><tr><td class="TDTEXT" colspan="2"><div class="paragraph">
+Reprendre les objets <i>TPersonne</i> et <i>PPersonne</i>, et créer une liste chaînée de personnes. 
+Remplir la liste avec les personnes dont les informations sont obtenues au clavier. On reprendra par 
+exemple les procédures créées à l'exercice "Pointeurs 2".
+
+</div><br/></td></tr></table></div><div style="width:100%;"><br/><table id="objets6" class="SRC"><tr><td class="TDGAUCHE" rowspan="2" valign="top"><table width="100%"><tr><td class="TDAUTEUR"><span class="auteur">Auteur : </span><a class="auteur" href="http://www.developpez.net/forums/profile.php?mode=viewprofile&amp;u=886">Mathieu Dalbin</a><br/></td></tr><tr><td class="TDAUTEUR" colspan="2">Version : 21/07/2004</td></tr><tr><td class="TDAUTEUR"/></tr><tr><td class="TDAUTEUR"><a href="">
+										Téléchargez le zip
+									</a></td></tr></table></td><td class="TDTITRE" colspan="2"><table width="100%"><tr><td><a class="question" href="#objets6">Polymorphisme</a></td><td><div style="text-align: right;"><a class="haut" href="#">[haut]
+									</a></div></td></tr></table></td></tr><tr><td class="TDTEXT" colspan="2"><div class="paragraph">
+A partir de l'objet <i>TPersonne</i>, définir un autre type <i>TSalarie</i>, à la manière de 
+<i>TEtudiant</i>. Ce type <i>TSalarie</i> pourra contenir par exemple en attributs privés son salaire, 
+en le nom de son employeur. Définir également des types pointeurs sur objets pour les types 
+<i>TEtudiant</i> et <i>TSalarie</i>. A ce stade, trois types pointeur sur objet doivent être définis : 
+<i>PPersonne</i>, <i>PEtudiant</i> et <i>PSalarie</i>. Pour les trois types de départ, ajouter une 
+fonction <i>Presentation</i>, qui retourne une chaine de caractère donnant le nom et le prénom pour 
+<i>TPersonne</i>, les nom et prénom et la moyenne pour <i>TEtudiant</i>, les nom, prénoms, et salaire 
+pour <i>TSalarie</i>. Reprendre la liste chaînée précédente et y inclure des objets des trois types 
+définis. Après avoir rempli la liste, on affichera à l'écran le résultat de la fonction de 
+<i>Presentation</i> pour tous les éléments de la liste. Enfin on videra la liste correctement avec la 
+procédure conçue à cet effet.
+
+</div><br/></td></tr></table></div><hr/><div class="barreNavigation"><div style="width:100%;"><table width="99%"><tr><td/><td><div style="text-align:right;"><a href="Sect9.html"><img src="./images/kitprecedent.gif" alt="precedent"/></a>
+				  
+				<a href="index.html"><img src="./images/kitsommaire.gif" alt="sommaire"/></a>
+				  
+				<a href="Sect11.html"><img src="./images/kitsuivant.gif" alt="suivant"/></a>
+					  
+					</div></td></tr></table></div></div><hr/><p style="text-align:center;"><a class="barreNavigationTexte" href="http://www.developpez.com/sources/">
+						Consultez les autres pages sources
+					</a></p><hr/><p class="licence">Les sources présentés sur cette pages sont libre de droits,
+			et vous pouvez les utiliser à votre convenance. Par contre cette page de présentation de ces sources constitue une oeuvre intellectuelle protégée par les droits d'auteurs.
+			Copyright &copy;2008 
+			Developpez LLC. Tout droits réservés Developpez LLC.
+			Aucune reproduction, même partielle, ne peut être faite de ce site et de
+			l'ensemble de son contenu : textes, documents et images sans l'autorisation
+			expresse de Developpez LLC. Sinon vous encourez selon la loi jusqu'à 3 ans
+			de prison et jusqu'à 300 000 E de dommages et intérets.
+			Cette page est déposée à la <a href="http://www.sacd.fr/" >SACD</a>.</p>
+												</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table></div>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+			<table width="100%" cellpadding="4" class="cachee">
+				<tr>
+					<td class="titrepied">
+			  Vos questions techniques : <b><a href="http://www.developpez.net/forums/" >forum d'entraide Accueil</a></b> - Publiez vos articles, tutoriels, cours
+			  et rejoignez-nous dans l'&eacute;quipe de r&eacute;daction du club d'entraide des d&eacute;veloppeurs francophones. <a href="http://club.developpez.com/contacts/">Nous contacter</a>
+	
+			  - Copyright 2000..2005 www.developpez.com
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+</body>
+</html>
+
+	

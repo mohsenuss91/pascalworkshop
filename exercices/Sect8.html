@@ -1,0 +1,292 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+    "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+<head>
+  <title>Exercices Pascal - Club d'entraide des d&#233;veloppeurs francophones</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+  <meta name="generator" content="developpez-com" />
+  <link rel="stylesheet" type="text/css" media="screen" href="./article.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="./code.css" />
+  <script src="js/fonctions-kit.js" type="text/javascript"></script>
+  
+  <style type="text/css">
+<!--
+body {
+	background-color : #DDEEFF;
+	background: #DDEEFF;
+	font: normal;
+    font-family: Verdana;
+    font-weight: normal;    
+    margin: 0
+}
+
+img {
+    border:0
+}
+form {
+    margin : 0
+}
+td {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10pt;
+	font-weight: normal;
+}
+td.iongl {
+	width : 1px;
+}
+
+td.bgongl {
+	background-image : url(./images/kitint.gif);
+	text-align : center;
+}
+.ntdrub:link {
+	color : #000000;
+	font-weight : bold;
+    font-size : 8pt;
+    text-decoration: none;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.ntdrub:visited {
+    color : #000000;
+    font-weight : bold;
+    font-size : 8pt;
+    text-decoration: none;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.ntdrub:active {
+	color : #000000;
+	font-weight : bold;
+    font-size : 8pt;
+    text-decoration: none;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.ntdrub:hover {
+    color : #FF0000;
+    background-color: #FFF8DD;
+    font-weight : bold;
+	font-size : 8pt;
+	text-decoration: none;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+td.trbleu {
+	background-color:#6389D8;
+	text-align : center;
+    margin: 0 ;
+	border: 0;
+	padding-top : 3px;
+	padding-bottom : 3px;
+	height : 34px;
+}
+td.fondart {
+    background-color:#FFFFFF;
+    
+}
+
+table.tbnoir{
+	background-color:#000000;
+}
+.titrepied {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size : 10pt;
+	font: normal;
+	font-weight: normal
+}
+
+-->
+</style>
+  
+  
+</head>
+<body>
+<table width="100%" cellspacing="4">
+	<tr>
+	<td align="center">
+		<table width="100%" cellspacing="0" cellpadding="0">
+			<tr>
+				<td>
+				  <table width="100%" cellspacing="11">
+					<tr>
+						<td>
+						<a href="http://www.developpez.com"><img src="images/kitlogo.gif" alt="Accueil" /></a>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+					</tr>
+				</table>
+				</td>
+			</tr>
+			<tr>
+    			<td>
+						<table class="cachee" cellpadding="0" cellspacing="0" width="100%">
+							<tr>
+								<td class="iongl"><img src="images/kitbordg.gif" alt=""/></td>
+								<td class="bgongl"><a href="http://www.developpez.com" class="ntdrub">Accueil</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://club.developpez.com" class="ntdrub">Le Club</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://delphi.developpez.com" class="ntdrub">Delphi Kylix</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://c.developpez.com" class="ntdrub">C C++</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://java.developpez.com" class="ntdrub">Java J2EE</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://dotnet.developpez.com" class="ntdrub">DotNET &amp; C#</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://vb.developpez.com" class="ntdrub">Visual Basic</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://access.developpez.com" class="ntdrub">Access</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://pascal.developpez.com" class="ntdrub">Pascal</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://web.developpez.com" class="ntdrub">Dev Web</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://php.developpez.com" class="ntdrub">PHP</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://asp.developpez.com" class="ntdrub">ASP</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://xml.developpez.com" class="ntdrub">XML</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://uml.developpez.com" class="ntdrub">UML</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://sgbd.developpez.com" class="ntdrub">SQLSGBD</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://windows.developpez.com" class="ntdrub">Windows</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://linux.developpez.com" class="ntdrub">Linux</a></td>
+								<td class="iongl"><img src="images/kitbord1.gif" alt="" /></td>
+								<td class="bgongl"><a href="http://www.developpez.com/cours/" class="ntdrub">Autres</a></td>
+								<td class="iongl"><img src="images/kitbordd.gif" alt="" /></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+
+				<tr>
+					<td class="trbleu">
+					</td>
+				</tr>
+
+				<tr valign="top">
+					<td valign="top" class="fondart">
+						<table cellspacing="1" width="100%" class="tbnoir">
+							<tr>
+								<td class="fondart">
+									<div style="text-align:center;">
+									<table class="cadrearticle" width="90%" cellpadding="10" cellspacing="0">
+										<tr>
+											<td align="center" style="text-align:left">
+
+		<div style="text-align: center;"><img src="./images/exercices.gif" alt="logo"/></div><div class="sommaire"><span class="titreSection"><a class="titreSection" href="index.html">
+          Sommaire
+        </a>
+        &gt;
+        <a class="titreSection" href="Sect8.html">Graphismes avec Turbo Pascal</a></span><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="sommaireQuestionNom" href="#introg">Introduction au graphisme</a><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="sommaireQuestionNom" href="#repere">Tracer un repère</a><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="sommaireQuestionNom" href="#graphrea">Réalisation d'un menu</a><br/></div><hr/><div class="barreNavigation"><div style="width:100%;"><table width="99%"><tr><td/><td><div style="text-align:right;"><a href="Sect7.html"><img src="./images/kitprecedent.gif" alt="precedent"/></a>
+				  
+				<a href="index.html"><img src="./images/kitsommaire.gif" alt="sommaire"/></a>
+				  
+				<a href="Sect9.html"><img src="./images/kitsuivant.gif" alt="suivant"/></a>
+					  
+					</div></td></tr></table></div></div><hr/><div style="width:100%;"><br/><table id="introg" class="SRC"><tr><td class="TDGAUCHE" rowspan="2" valign="top"><table width="100%"><tr><td class="TDAUTEUR"><span class="auteur">Auteur : </span><a class="auteur" href="http://www.developpez.net/forums/profile.php?mode=viewprofile&amp;u=30374">Giovanny Temgoua</a><br/></td></tr><tr><td class="TDAUTEUR" colspan="2">Version : 21/07/2004</td></tr><tr><td class="TDAUTEUR"/></tr><tr><td class="TDAUTEUR"/></tr></table></td><td class="TDTITRE" colspan="2"><table width="100%"><tr><td><a class="question" href="#introg">Introduction au graphisme</a></td><td><div style="text-align: right;"><a class="haut" href="#">[haut]
+									</a></div></td></tr></table></td></tr><tr><td class="TDTEXT" colspan="2"><div class="paragraph">
+Outre son importance pour la création de programmes tournant en mode DOS, Turbo Pascal permet 
+également d'adjoindre à ces applications une interface graphique.<br />
+Nous serons donc en mesure de créer des fichiers console avec des menus, des décors, et le tout sur 
+mesure !<br />
+En fait, Turbo Pascal initialise les modes graphiques en utilisant des pilotes qui peuvent se trouver 
+dans le repertoire <i>/BGI</i>. Entre autres, nous avons <i>EGAVGA.BGI</i> et <i>VESA16.BGI</i> qui 
+permettent d'initialiser des modes spécifiques.<br />
+De nombreuses fonctions et procédures sont fournies par Turbo Pascal, à l'instar de <b>InitGraph</b>,
+<b>DetectGraph</b>, <b>GraphResult</b>, etc... qui sont toutes clairement définies, exemple à l'appui, 
+dans l'aide de TP.<br />
+La liste exhaustive des fonctions et procédures de l'unité <b>Graph</b> (celle qui nous permet de 
+gérer le graphisme) peut être obtenue en consultant tout simplement l'aide sur <b>Graph</b>.
+</div><br/></td></tr></table></div><div style="width:100%;"><br/><table id="repere" class="SRC"><tr><td class="TDGAUCHE" rowspan="2" valign="top"><table width="100%"><tr><td class="TDAUTEUR"><span class="auteur">Auteur : </span><a class="auteur" href="http://www.developpez.net/forums/profile.php?mode=viewprofile&amp;u=30374">Giovanny Temgoua</a><br/></td></tr><tr><td class="TDAUTEUR" colspan="2">Version : 21/07/2004</td></tr><tr><td class="TDAUTEUR"/></tr><tr><td class="TDAUTEUR"><a href="&#xA;&#xA;">
+										Téléchargez le zip
+									</a></td></tr></table></td><td class="TDTITRE" colspan="2"><table width="100%"><tr><td><a class="question" href="#repere">Tracer un repère</a></td><td><div style="text-align: right;"><a class="haut" href="#">[haut]
+									</a></div></td></tr></table></td></tr><tr><td class="TDTEXT" colspan="2"><div class="paragraph">
+Initialiser le mode graphique et dessiner un repère gradué où est dessiné un losange de centre de 
+gravité l'origine du repère.<br />
+<br />
+<b>Solution :</b> Voir le fichier <i>Repere1.pas</i><br />
+
+<br />
+<span style="text-decoration: underline;">Commentaire :</span>
+</div><br/><div class="paragraph"><ul>
+<li>Nous utilisons la fonction <b>GraphResult</b> pour connaître si oui ou non l'initialisation 
+du mode graphique a été réussie (un peu comme la fonction <b>IOResult</b> pour les entrées/sorties). 
+Comme précisé plus haut, il est possible d'avoir la liste exhaustive des fonctions et procédures de 
+l'unité <b>Graph</b>, dont <b>Line</b> fait partie, en demandant l'aide sur le mot <b>Graph</b> ! La 
+procédure <b>Halt</b> interrompt l'exécution du programme et redonne la main au système d'exploitation.
+</li>
+</ul>
+</div><br/></td></tr></table></div><div style="width:100%;"><br/><table id="graphrea" class="SRC"><tr><td class="TDGAUCHE" rowspan="2" valign="top"><table width="100%"><tr><td class="TDAUTEUR"><span class="auteur">Auteur : </span><a class="auteur" href="http://www.developpez.net/forums/profile.php?mode=viewprofile&amp;u=30374">Giovanny Temgoua</a><br/></td></tr><tr><td class="TDAUTEUR" colspan="2">Version : 21/07/2004</td></tr><tr><td class="TDAUTEUR"/></tr><tr><td class="TDAUTEUR"><a href="">
+										Téléchargez le zip
+									</a></td></tr></table></td><td class="TDTITRE" colspan="2"><table width="100%"><tr><td><a class="question" href="#graphrea">Réalisation d'un menu</a></td><td><div style="text-align: right;"><a class="haut" href="#">[haut]
+									</a></div></td></tr></table></td></tr><tr><td class="TDTEXT" colspan="2"><div class="paragraph">
+<b>Réalisation d'un menu interactif</b><br />
+<br />
+Le but de l'exercice est de modifier l'interface graphique du programme en fonction du clavier.<br />
+</div><br/><div class="paragraph"><ul>
+<li>Dessiner trois boutons (rectangles) de couleur (de fond) rouge. Ces trois boîtes s'appelent 
+respectivement A, B et C.</li>
+<li>Capter les touches du clavier, et si la lettre correspondant à une des boîtes est tapée, 
+alors, cette boîte de vient de couleur bleue pendant 2 secondes et un son différent pour chaque touche 
+est émis. Ecrire en haut de chaque bouton son nom.</li>
+<li>L'utilisateur a la possibilité de quitter le programme en appuyant sur la touche <i>Esc</i>.
+</li>
+</ul>
+</div><br/><div class="paragraph">
+<b>Préréquis :</b> Consultez l'aide sur les fonctions <b>Bar</b>, <b>Bar3D</b>, <b>OutText</b> et 
+<b>OutTextXY</b>.<br />
+<br />
+<b>Solution :</b> Voir le fichier <i>Graphrea.pas</i>
+
+</div><br/></td></tr></table></div><hr/><div class="barreNavigation"><div style="width:100%;"><table width="99%"><tr><td/><td><div style="text-align:right;"><a href="Sect7.html"><img src="./images/kitprecedent.gif" alt="precedent"/></a>
+				  
+				<a href="index.html"><img src="./images/kitsommaire.gif" alt="sommaire"/></a>
+				  
+				<a href="Sect9.html"><img src="./images/kitsuivant.gif" alt="suivant"/></a>
+					  
+					</div></td></tr></table></div></div><hr/><p style="text-align:center;"><a class="barreNavigationTexte" href="http://www.developpez.com/sources/">
+						Consultez les autres pages sources
+					</a></p><hr/><p class="licence">Les sources présentés sur cette pages sont libre de droits,
+			et vous pouvez les utiliser à votre convenance. Par contre cette page de présentation de ces sources constitue une oeuvre intellectuelle protégée par les droits d'auteurs.
+			Copyright &copy;2008 
+			Developpez LLC. Tout droits réservés Developpez LLC.
+			Aucune reproduction, même partielle, ne peut être faite de ce site et de
+			l'ensemble de son contenu : textes, documents et images sans l'autorisation
+			expresse de Developpez LLC. Sinon vous encourez selon la loi jusqu'à 3 ans
+			de prison et jusqu'à 300 000 E de dommages et intérets.
+			Cette page est déposée à la <a href="http://www.sacd.fr/" >SACD</a>.</p>
+												</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table></div>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+			<table width="100%" cellpadding="4" class="cachee">
+				<tr>
+					<td class="titrepied">
+			  Vos questions techniques : <b><a href="http://www.developpez.net/forums/" >forum d'entraide Accueil</a></b> - Publiez vos articles, tutoriels, cours
+			  et rejoignez-nous dans l'&eacute;quipe de r&eacute;daction du club d'entraide des d&eacute;veloppeurs francophones. <a href="http://club.developpez.com/contacts/">Nous contacter</a>
+	
+			  - Copyright 2000..2005 www.developpez.com
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+</body>
+</html>
+
+	

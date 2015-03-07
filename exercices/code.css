@@ -1,0 +1,9256 @@
+﻿code.contenuCode{
+	padding : 0px;
+  text-align : left;
+  font-size : 11px;
+  font-family : "Courier New", Courier, mono, sans-serif;
+  text-decoration : none;
+}
+.marge_code{
+	background-color: #B6B5D2;
+	color: white;
+	padding-left: 2px;
+	padding-right: 2px;
+	margin-right: 2px;
+	font-weight: bold;
+}
+
+.marge_code_highlight{
+	background-color: #B6B5D2;
+	color: red;
+	padding-left: 2px;
+	padding-right: 2px;
+	margin-right: 2px;
+	font-style: italic;
+	
+}
+
+.ligne_code_vide{
+	visibility: hidden;
+	height: 0px;
+}
+
+.codeWrapper{
+	
+	height: auto;
+	min-height: 30px; 
+	width: 100%; 
+}
+
+/* for Internet Explorer */
+/*\*/
+* html .codeWrapper {
+height: 30px;
+}
+/**/
+
+/*Coloration générique*/
+.keyword1 {
+	color: #7F0055;
+}
+
+.keyword2 {
+	color: #0033FF;
+}
+
+.keyword3 {
+	color: #3066AC;
+}
+
+.keyword4 {
+	color: #3366CC;
+}
+
+.function,.markup {
+	color: navy;
+}
+
+.operator {
+	color: #7F0055;
+}
+
+.label {
+	color: olive;
+}
+
+.digit{
+	color: red;
+}
+
+.comment1 {
+	color: #3f7f5f;
+}
+
+.comment2 {
+	color: #999999;
+}
+
+.comment3 {
+	color: #3f5fbf;
+}
+
+.comment4 {
+	color: #000080;
+}
+
+.literal1 {
+	color: #2a00ff;
+}
+
+.literal2 {
+	color: teal;
+}
+/*Coloration actionscript*/
+.actionscript_keyword1 {
+	font-weight : bold;
+	color: #3366CC;
+}
+
+.actionscript_keyword2 {
+	color: #3366CC;
+}
+
+.actionscript_keyword3 {
+	color: #3366CC;
+}
+
+.actionscript_keyword4 {
+	color: #3366CC;
+}
+
+.actionscript_function,.actionscript_markup {
+	color: #3366CC;
+}
+
+.actionscript_operator {
+	color: #7F0055;
+}
+
+.actionscript_label {
+	color: olive;
+}
+
+.actionscript_digit{
+	color: red;
+}
+
+.actionscript_comment1 {
+	color: #008000;
+}
+
+.actionscript_comment2 {
+	color: #999999;
+}
+
+.actionscript_comment3 {
+	color: #3f5fbf;
+}
+
+.actionscript_comment4 {
+	color: #000080;
+}
+
+.actionscript_literal1 {
+	color: #993399;
+}
+
+.actionscript_literal2 {
+	color: #3366CC;
+}
+/*Coloration ada95*/
+.ada95_keyword1 {
+	color: #7F0055;
+}
+
+.ada95_keyword2 {
+	color: #0033FF;
+}
+
+.ada95_keyword3 {
+	color: #3066AC;
+}
+
+.ada95_keyword4 {
+	color: #3366CC;
+}
+
+.ada95_function,.ada95_markup {
+	color: navy;
+}
+
+.ada95_operator {
+	color: #7F0055;
+}
+
+.ada95_label {
+	color: olive;
+}
+
+.ada95_digit{
+	color: red;
+}
+
+.ada95_comment1 {
+	color: #3f7f5f;
+}
+
+.ada95_comment2 {
+	color: #999999;
+}
+
+.ada95_comment3 {
+	color: #3f5fbf;
+}
+
+.ada95_comment4 {
+	color: #000080;
+}
+
+.ada95_literal1 {
+	color: #2a00ff;
+}
+
+.ada95_literal2 {
+	color: teal;
+}
+/*Coloration antlr*/
+.antlr_keyword1 {
+	color: #7F0055;
+}
+
+.antlr_keyword2 {
+	color: #0033FF;
+}
+
+.antlr_keyword3 {
+	color: #3066AC;
+}
+
+.antlr_keyword4 {
+	color: #3366CC;
+}
+
+.antlr_function,.antlr_markup {
+	color: navy;
+}
+
+.antlr_operator {
+	color: #7F0055;
+}
+
+.antlr_label {
+	color: olive;
+}
+
+.antlr_digit{
+	color: red;
+}
+
+.antlr_comment1 {
+	color: #3f7f5f;
+}
+
+.antlr_comment2 {
+	color: #999999;
+}
+
+.antlr_comment3 {
+	color: #3f5fbf;
+}
+
+.antlr_comment4 {
+	color: #000080;
+}
+
+.antlr_literal1 {
+	color: #2a00ff;
+}
+
+.antlr_literal2 {
+	color: teal;
+}
+/*Coloration apacheconf*/
+.apacheconf_keyword1 {
+	color: #7F0055;
+}
+
+.apacheconf_keyword2 {
+	color: #0033FF;
+}
+
+.apacheconf_keyword3 {
+	color: #3066AC;
+}
+
+.apacheconf_keyword4 {
+	color: #3366CC;
+}
+
+.apacheconf_function,.apacheconf_markup {
+	color: navy;
+}
+
+.apacheconf_operator {
+	color: #7F0055;
+}
+
+.apacheconf_label {
+	color: olive;
+}
+
+.apacheconf_digit{
+	color: red;
+}
+
+.apacheconf_comment1 {
+	color: #3f7f5f;
+}
+
+.apacheconf_comment2 {
+	color: #999999;
+}
+
+.apacheconf_comment3 {
+	color: #3f5fbf;
+}
+
+.apacheconf_comment4 {
+	color: #000080;
+}
+
+.apacheconf_literal1 {
+	color: #2a00ff;
+}
+
+.apacheconf_literal2 {
+	color: teal;
+}
+/*Coloration apdl*/
+.apdl_keyword1 {
+	color: #7F0055;
+}
+
+.apdl_keyword2 {
+	color: #0033FF;
+}
+
+.apdl_keyword3 {
+	color: #3066AC;
+}
+
+.apdl_keyword4 {
+	color: #3366CC;
+}
+
+.apdl_function,.apdl_markup {
+	color: navy;
+}
+
+.apdl_operator {
+	color: #7F0055;
+}
+
+.apdl_label {
+	color: olive;
+}
+
+.apdl_digit{
+	color: red;
+}
+
+.apdl_comment1 {
+	color: #3f7f5f;
+}
+
+.apdl_comment2 {
+	color: #999999;
+}
+
+.apdl_comment3 {
+	color: #3f5fbf;
+}
+
+.apdl_comment4 {
+	color: #000080;
+}
+
+.apdl_literal1 {
+	color: #2a00ff;
+}
+
+.apdl_literal2 {
+	color: teal;
+}
+/*Coloration applescript*/
+.applescript_keyword1 {
+	color: #7F0055;
+}
+
+.applescript_keyword2 {
+	color: #0033FF;
+}
+
+.applescript_keyword3 {
+	color: #3066AC;
+}
+
+.applescript_keyword4 {
+	color: #3366CC;
+}
+
+.applescript_function,.applescript_markup {
+	color: navy;
+}
+
+.applescript_operator {
+	color: #7F0055;
+}
+
+.applescript_label {
+	color: olive;
+}
+
+.applescript_digit{
+	color: red;
+}
+
+.applescript_comment1 {
+	color: #3f7f5f;
+}
+
+.applescript_comment2 {
+	color: #999999;
+}
+
+.applescript_comment3 {
+	color: #3f5fbf;
+}
+
+.applescript_comment4 {
+	color: #000080;
+}
+
+.applescript_literal1 {
+	color: #2a00ff;
+}
+
+.applescript_literal2 {
+	color: teal;
+}
+/*Coloration as*/
+.as_keyword1 {
+	font-weight : bold;
+	color: #3366CC;
+}
+
+.as_keyword2 {
+	color: #3366CC;
+}
+
+.as_keyword3 {
+	color: #3366CC;
+}
+
+.as_keyword4 {
+	color: #3366CC;
+}
+
+.as_function,.as_markup {
+	color: #3366CC;
+}
+
+.as_operator {
+	color: #7F0055;
+}
+
+.as_label {
+	color: olive;
+}
+
+.as_digit{
+	color: red;
+}
+
+.as_comment1 {
+	color: #008000;
+}
+
+.as_comment2 {
+	color: #999999;
+}
+
+.as_comment3 {
+	color: #3f5fbf;
+}
+
+.as_comment4 {
+	color: #000080;
+}
+
+.as_literal1 {
+	color: #993399;
+}
+
+.as_literal2 {
+	color: #3366CC;
+}
+/*Coloration asp*/
+.asp_keyword1 {
+	color: #660099;
+}
+
+.asp_keyword2 {
+	color: #0033FF;
+}
+
+.asp_keyword3 {
+	font-weight: bold;
+	color: #990000;
+}
+
+.asp_keyword4 {
+	color: #3366CC;
+}
+
+.asp_function,.asp_markup {
+	font-weight: bold;
+	color: #000099;
+}
+
+.asp_operator {
+	color: #7F0055;
+}
+
+.asp_label {
+	color: olive;
+}
+
+.asp_digit{
+	color: red;
+}
+
+.asp_comment1 {
+	color: #999999;
+}
+
+.asp_comment2 {
+	color: #999999;
+}
+
+.asp_comment3 {
+	color: #3f5fbf;
+}
+
+.asp_comment4 {
+	color: #000080;
+}
+
+.asp_literal1 {
+	color: #006600;
+}
+
+.asp_literal2 {
+	color: teal;
+}
+/*Coloration aspect-j*/
+.aspect-j_keyword1 {
+	color: #7F0055;
+}
+
+.aspect-j_keyword2 {
+	color: #0033FF;
+}
+
+.aspect-j_keyword3 {
+	color: #3066AC;
+}
+
+.aspect-j_keyword4 {
+	color: #3366CC;
+}
+
+.aspect-j_function,.aspect-j_markup {
+	color: navy;
+}
+
+.aspect-j_operator {
+	color: #7F0055;
+}
+
+.aspect-j_label {
+	color: olive;
+}
+
+.aspect-j_digit{
+	color: red;
+}
+
+.aspect-j_comment1 {
+	color: #3f7f5f;
+}
+
+.aspect-j_comment2 {
+	color: #999999;
+}
+
+.aspect-j_comment3 {
+	color: #3f5fbf;
+}
+
+.aspect-j_comment4 {
+	color: #000080;
+}
+
+.aspect-j_literal1 {
+	color: #2a00ff;
+}
+
+.aspect-j_literal2 {
+	color: teal;
+}
+/*Coloration aspnet*/
+.aspnet_keyword1 {
+	color: #7F0055;
+}
+
+.aspnet_keyword2 {
+	color: #0033FF;
+}
+
+.aspnet_keyword3 {
+	color: #3066AC;
+}
+
+.aspnet_keyword4 {
+	color: #3366CC;
+}
+
+.aspnet_function{
+	color: #923F16;
+}
+.aspnet_markup {
+	color: #923F16;
+}
+
+.aspnet_operator {
+	color: #7F0055;
+}
+
+.aspnet_label {
+	color: olive;
+}
+
+.aspnet_digit{
+	color: red;
+}
+
+.aspnet_comment1 {
+	color: #00A000;
+}
+
+.aspnet_comment2 {
+	color: #999999;
+}
+
+.aspnet_comment3 {
+	color: #3f5fbf;
+}
+
+.aspnet_comment4 {
+	color: #000080;
+}
+
+.aspnet_literal1 {
+	color: #0000ff;
+}
+
+.aspnet_literal2 {
+	color: teal;
+}
+/*Coloration assembly-m68k*/
+.assembly-m68k_keyword1 {
+	color: #7F0055;
+}
+
+.assembly-m68k_keyword2 {
+	color: #0033FF;
+}
+
+.assembly-m68k_keyword3 {
+	color: #3066AC;
+}
+
+.assembly-m68k_keyword4 {
+	color: #3366CC;
+}
+
+.assembly-m68k_function,.assembly-m68k_markup {
+	color: navy;
+}
+
+.assembly-m68k_operator {
+	color: #7F0055;
+}
+
+.assembly-m68k_label {
+	color: olive;
+}
+
+.assembly-m68k_digit{
+	color: red;
+}
+
+.assembly-m68k_comment1 {
+	color: #3f7f5f;
+}
+
+.assembly-m68k_comment2 {
+	color: #999999;
+}
+
+.assembly-m68k_comment3 {
+	color: #3f5fbf;
+}
+
+.assembly-m68k_comment4 {
+	color: #000080;
+}
+
+.assembly-m68k_literal1 {
+	color: #2a00ff;
+}
+
+.assembly-m68k_literal2 {
+	color: teal;
+}
+/*Coloration assembly-macro32*/
+.assembly-macro32_keyword1 {
+	color: #7F0055;
+}
+
+.assembly-macro32_keyword2 {
+	color: #0033FF;
+}
+
+.assembly-macro32_keyword3 {
+	color: #3066AC;
+}
+
+.assembly-macro32_keyword4 {
+	color: #3366CC;
+}
+
+.assembly-macro32_function,.assembly-macro32_markup {
+	color: navy;
+}
+
+.assembly-macro32_operator {
+	color: #7F0055;
+}
+
+.assembly-macro32_label {
+	color: olive;
+}
+
+.assembly-macro32_digit{
+	color: red;
+}
+
+.assembly-macro32_comment1 {
+	color: #3f7f5f;
+}
+
+.assembly-macro32_comment2 {
+	color: #999999;
+}
+
+.assembly-macro32_comment3 {
+	color: #3f5fbf;
+}
+
+.assembly-macro32_comment4 {
+	color: #000080;
+}
+
+.assembly-macro32_literal1 {
+	color: #2a00ff;
+}
+
+.assembly-macro32_literal2 {
+	color: teal;
+}
+/*Coloration assembly-mcs51*/
+.assembly-mcs51_keyword1 {
+	color: #7F0055;
+}
+
+.assembly-mcs51_keyword2 {
+	color: #0033FF;
+}
+
+.assembly-mcs51_keyword3 {
+	color: #3066AC;
+}
+
+.assembly-mcs51_keyword4 {
+	color: #3366CC;
+}
+
+.assembly-mcs51_function,.assembly-mcs51_markup {
+	color: navy;
+}
+
+.assembly-mcs51_operator {
+	color: #7F0055;
+}
+
+.assembly-mcs51_label {
+	color: olive;
+}
+
+.assembly-mcs51_digit{
+	color: red;
+}
+
+.assembly-mcs51_comment1 {
+	color: #3f7f5f;
+}
+
+.assembly-mcs51_comment2 {
+	color: #999999;
+}
+
+.assembly-mcs51_comment3 {
+	color: #3f5fbf;
+}
+
+.assembly-mcs51_comment4 {
+	color: #000080;
+}
+
+.assembly-mcs51_literal1 {
+	color: #2a00ff;
+}
+
+.assembly-mcs51_literal2 {
+	color: teal;
+}
+/*Coloration assembly-parrot*/
+.assembly-parrot_keyword1 {
+	color: #7F0055;
+}
+
+.assembly-parrot_keyword2 {
+	color: #0033FF;
+}
+
+.assembly-parrot_keyword3 {
+	color: #3066AC;
+}
+
+.assembly-parrot_keyword4 {
+	color: #3366CC;
+}
+
+.assembly-parrot_function,.assembly-parrot_markup {
+	color: navy;
+}
+
+.assembly-parrot_operator {
+	color: #7F0055;
+}
+
+.assembly-parrot_label {
+	color: olive;
+}
+
+.assembly-parrot_digit{
+	color: red;
+}
+
+.assembly-parrot_comment1 {
+	color: #3f7f5f;
+}
+
+.assembly-parrot_comment2 {
+	color: #999999;
+}
+
+.assembly-parrot_comment3 {
+	color: #3f5fbf;
+}
+
+.assembly-parrot_comment4 {
+	color: #000080;
+}
+
+.assembly-parrot_literal1 {
+	color: #2a00ff;
+}
+
+.assembly-parrot_literal2 {
+	color: teal;
+}
+/*Coloration assembly-r2000*/
+.assembly-r2000_keyword1 {
+	color: #7F0055;
+}
+
+.assembly-r2000_keyword2 {
+	color: #0033FF;
+}
+
+.assembly-r2000_keyword3 {
+	color: #3066AC;
+}
+
+.assembly-r2000_keyword4 {
+	color: #3366CC;
+}
+
+.assembly-r2000_function,.assembly-r2000_markup {
+	color: navy;
+}
+
+.assembly-r2000_operator {
+	color: #7F0055;
+}
+
+.assembly-r2000_label {
+	color: olive;
+}
+
+.assembly-r2000_digit{
+	color: red;
+}
+
+.assembly-r2000_comment1 {
+	color: #3f7f5f;
+}
+
+.assembly-r2000_comment2 {
+	color: #999999;
+}
+
+.assembly-r2000_comment3 {
+	color: #3f5fbf;
+}
+
+.assembly-r2000_comment4 {
+	color: #000080;
+}
+
+.assembly-r2000_literal1 {
+	color: #2a00ff;
+}
+
+.assembly-r2000_literal2 {
+	color: teal;
+}
+/*Coloration assembly-x86*/
+.assembly-x86_keyword1 {
+	color: #7F0055;
+}
+
+.assembly-x86_keyword2 {
+	color: #0033FF;
+}
+
+.assembly-x86_keyword3 {
+	color: #3066AC;
+}
+
+.assembly-x86_keyword4 {
+	color: #3366CC;
+}
+
+.assembly-x86_function,.assembly-x86_markup {
+	color: navy;
+}
+
+.assembly-x86_operator {
+	color: #7F0055;
+}
+
+.assembly-x86_label {
+	color: olive;
+}
+
+.assembly-x86_digit{
+	color: red;
+}
+
+.assembly-x86_comment1 {
+	color: #3f7f5f;
+}
+
+.assembly-x86_comment2 {
+	color: #999999;
+}
+
+.assembly-x86_comment3 {
+	color: #3f5fbf;
+}
+
+.assembly-x86_comment4 {
+	color: #000080;
+}
+
+.assembly-x86_literal1 {
+	color: #2a00ff;
+}
+
+.assembly-x86_literal2 {
+	color: teal;
+}
+/*Coloration awk*/
+.awk_keyword1 {
+	font-weight: bold;
+	color: #BAD7B9;
+}
+
+.awk_keyword2 {
+	color: #0033FF;
+}
+
+.awk_keyword3 {
+	color: #BAD7B9;
+}
+
+.awk_keyword4 {
+	color: #3366CC;
+}
+
+.awk_function,.awk_markup {
+	color: navy;
+}
+
+.awk_operator {
+	color: #7F0055;
+}
+
+.awk_label {
+	color: olive;
+}
+
+.awk_digit{
+	color: red;
+}
+
+.awk_comment1 {
+	font-weight: bold;
+	color: #D59B9B;
+}
+
+.awk_comment2 {
+	color: #999999;
+}
+
+.awk_comment3 {
+	color: #3f5fbf;
+}
+
+.awk_comment4 {
+	color: #000080;
+}
+
+.awk_literal1 {
+	color: #A8B6DB;
+}
+
+.awk_literal2 {
+	color: teal;
+}
+/*Coloration b*/
+.b_keyword1 {
+	color: #7F0055;
+}
+
+.b_keyword2 {
+	color: #0033FF;
+}
+
+.b_keyword3 {
+	color: #3066AC;
+}
+
+.b_keyword4 {
+	color: #3366CC;
+}
+
+.b_function,.b_markup {
+	color: navy;
+}
+
+.b_operator {
+	color: #7F0055;
+}
+
+.b_label {
+	color: olive;
+}
+
+.b_digit{
+	color: red;
+}
+
+.b_comment1 {
+	color: #3f7f5f;
+}
+
+.b_comment2 {
+	color: #999999;
+}
+
+.b_comment3 {
+	color: #3f5fbf;
+}
+
+.b_comment4 {
+	color: #000080;
+}
+
+.b_literal1 {
+	color: #2a00ff;
+}
+
+.b_literal2 {
+	color: teal;
+}
+/*Coloration batch*/
+.batch_keyword1 {
+	color: #7F0055;
+}
+
+.batch_keyword2 {
+	color: #0033FF;
+}
+
+.batch_keyword3 {
+	color: #3066AC;
+}
+
+.batch_keyword4 {
+	color: #3366CC;
+}
+
+.batch_function,.batch_markup {
+	color: navy;
+}
+
+.batch_operator {
+	color: #7F0055;
+}
+
+.batch_label {
+	color: olive;
+}
+
+.batch_digit{
+	color: red;
+}
+
+.batch_comment1 {
+	color: #3f7f5f;
+}
+
+.batch_comment2 {
+	color: #999999;
+}
+
+.batch_comment3 {
+	color: #3f5fbf;
+}
+
+.batch_comment4 {
+	color: #000080;
+}
+
+.batch_literal1 {
+	color: #2a00ff;
+}
+
+.batch_literal2 {
+	color: teal;
+}
+/*Coloration bbj*/
+.bbj_keyword1 {
+	color: #7F0055;
+}
+
+.bbj_keyword2 {
+	color: #0033FF;
+}
+
+.bbj_keyword3 {
+	color: #3066AC;
+}
+
+.bbj_keyword4 {
+	color: #3366CC;
+}
+
+.bbj_function,.bbj_markup {
+	color: navy;
+}
+
+.bbj_operator {
+	color: #7F0055;
+}
+
+.bbj_label {
+	color: olive;
+}
+
+.bbj_digit{
+	color: red;
+}
+
+.bbj_comment1 {
+	color: #3f7f5f;
+}
+
+.bbj_comment2 {
+	color: #999999;
+}
+
+.bbj_comment3 {
+	color: #3f5fbf;
+}
+
+.bbj_comment4 {
+	color: #000080;
+}
+
+.bbj_literal1 {
+	color: #2a00ff;
+}
+
+.bbj_literal2 {
+	color: teal;
+}
+/*Coloration bcb*/
+.bcb_keyword1 {
+	color: #0033FF;
+}
+
+.bcb_keyword2 {
+	color: #339933;
+}
+
+.bcb_keyword3 {
+	color: #3066AC;
+}
+
+.bcb_keyword4 {
+	color: #3366CC;
+}
+
+.bcb_function{
+	color: navy;
+}
+.bcb_markup {
+	font-weight: bold;
+	color: #339933;
+}
+
+.bcb_operator {
+	color: #0033FF;
+}
+
+.bcb_label {
+	color: olive;
+}
+
+.bcb_digit{
+	color: red;
+}
+
+.bcb_comment1 {
+	color: #999999;
+}
+
+.bcb_comment2 {
+	color: #999999;
+}
+
+.bcb_comment3 {
+	color: #3f5fbf;
+}
+
+.bcb_comment4 {
+	color: #000080;
+}
+
+.bcb_literal1 {
+	color: #993399;
+}
+
+.bcb_literal2 {
+	color: teal;
+}
+/*Coloration bcel*/
+.bcel_keyword1 {
+	color: #7F0055;
+}
+
+.bcel_keyword2 {
+	color: #0033FF;
+}
+
+.bcel_keyword3 {
+	color: #3066AC;
+}
+
+.bcel_keyword4 {
+	color: #3366CC;
+}
+
+.bcel_function,.bcel_markup {
+	color: navy;
+}
+
+.bcel_operator {
+	color: #7F0055;
+}
+
+.bcel_label {
+	color: olive;
+}
+
+.bcel_digit{
+	color: red;
+}
+
+.bcel_comment1 {
+	color: #3f7f5f;
+}
+
+.bcel_comment2 {
+	color: #999999;
+}
+
+.bcel_comment3 {
+	color: #3f5fbf;
+}
+
+.bcel_comment4 {
+	color: #000080;
+}
+
+.bcel_literal1 {
+	color: #2a00ff;
+}
+
+.bcel_literal2 {
+	color: teal;
+}
+/*Coloration bibtex*/
+.bibtex_keyword1 {
+	color: #7F0055;
+}
+
+.bibtex_keyword2 {
+	color: #0033FF;
+}
+
+.bibtex_keyword3 {
+	color: #3066AC;
+}
+
+.bibtex_keyword4 {
+	color: #3366CC;
+}
+
+.bibtex_function,.bibtex_markup {
+	color: navy;
+}
+
+.bibtex_operator {
+	color: #7F0055;
+}
+
+.bibtex_label {
+	color: olive;
+}
+
+.bibtex_digit{
+	color: red;
+}
+
+.bibtex_comment1 {
+	color: #3f7f5f;
+}
+
+.bibtex_comment2 {
+	color: #999999;
+}
+
+.bibtex_comment3 {
+	color: #3f5fbf;
+}
+
+.bibtex_comment4 {
+	color: #000080;
+}
+
+.bibtex_literal1 {
+	color: #2a00ff;
+}
+
+.bibtex_literal2 {
+	color: teal;
+}
+/*Coloration c*/
+.c_keyword1 {
+	font-weight: bold;
+	color: black;
+}
+
+.c_keyword2 {
+	color: #0033FF;
+}
+
+.c_keyword3 {
+	font-weight: bold;
+	color: black;
+}
+
+.c_keyword4 {
+	color: #3366CC;
+}
+
+.c_function,.c_markup {
+	color: navy;
+}
+
+.c_operator {
+	color: #000080;
+}
+
+.c_label {
+	color: olive;
+}
+
+.c_digit{
+	color: red;
+}
+
+.c_comment1 {
+	font-style: italic;
+	color: #000080;
+}
+
+.c_comment2 {
+	color: #999999;
+}
+
+.c_comment3 {
+	color: #3f5fbf;
+}
+
+.c_comment4 {
+	color: #000080;
+}
+
+.c_literal1 {
+	color: #2a00ff;
+}
+
+.c_literal2 {
+	color: teal;
+}
+/*Coloration chill*/
+.chill_keyword1 {
+	color: #7F0055;
+}
+
+.chill_keyword2 {
+	color: #0033FF;
+}
+
+.chill_keyword3 {
+	color: #3066AC;
+}
+
+.chill_keyword4 {
+	color: #3366CC;
+}
+
+.chill_function,.chill_markup {
+	color: navy;
+}
+
+.chill_operator {
+	color: #7F0055;
+}
+
+.chill_label {
+	color: olive;
+}
+
+.chill_digit{
+	color: red;
+}
+
+.chill_comment1 {
+	color: #3f7f5f;
+}
+
+.chill_comment2 {
+	color: #999999;
+}
+
+.chill_comment3 {
+	color: #3f5fbf;
+}
+
+.chill_comment4 {
+	color: #000080;
+}
+
+.chill_literal1 {
+	color: #2a00ff;
+}
+
+.chill_literal2 {
+	color: teal;
+}
+/*Coloration cil*/
+.cil_keyword1 {
+	color: #7F0055;
+}
+
+.cil_keyword2 {
+	color: #0033FF;
+}
+
+.cil_keyword3 {
+	color: #3066AC;
+}
+
+.cil_keyword4 {
+	color: #3366CC;
+}
+
+.cil_function,.cil_markup {
+	color: navy;
+}
+
+.cil_operator {
+	color: #7F0055;
+}
+
+.cil_label {
+	color: olive;
+}
+
+.cil_digit{
+	color: red;
+}
+
+.cil_comment1 {
+	color: #3f7f5f;
+}
+
+.cil_comment2 {
+	color: #999999;
+}
+
+.cil_comment3 {
+	color: #3f5fbf;
+}
+
+.cil_comment4 {
+	color: #000080;
+}
+
+.cil_literal1 {
+	color: #2a00ff;
+}
+
+.cil_literal2 {
+	color: teal;
+}
+/*Coloration cobol*/
+.cobol_keyword1 {
+	color: #7F0055;
+}
+
+.cobol_keyword2 {
+	color: #0033FF;
+}
+
+.cobol_keyword3 {
+	color: #3066AC;
+}
+
+.cobol_keyword4 {
+	color: #3366CC;
+}
+
+.cobol_function,.cobol_markup {
+	color: navy;
+}
+
+.cobol_operator {
+	color: #7F0055;
+}
+
+.cobol_label {
+	color: olive;
+}
+
+.cobol_digit{
+	color: red;
+}
+
+.cobol_comment1 {
+	color: #3f7f5f;
+}
+
+.cobol_comment2 {
+	color: #999999;
+}
+
+.cobol_comment3 {
+	color: #3f5fbf;
+}
+
+.cobol_comment4 {
+	color: #000080;
+}
+
+.cobol_literal1 {
+	color: #2a00ff;
+}
+
+.cobol_literal2 {
+	color: teal;
+}
+/*Coloration coldfusion*/
+.coldfusion_keyword1 {
+	color: #7F0055;
+}
+
+.coldfusion_keyword2 {
+	color: #0033FF;
+}
+
+.coldfusion_keyword3 {
+	color: #3066AC;
+}
+
+.coldfusion_keyword4 {
+	color: #3366CC;
+}
+
+.coldfusion_function,.coldfusion_markup {
+	color: navy;
+}
+
+.coldfusion_operator {
+	color: #7F0055;
+}
+
+.coldfusion_label {
+	color: olive;
+}
+
+.coldfusion_digit{
+	color: red;
+}
+
+.coldfusion_comment1 {
+	color: #3f7f5f;
+}
+
+.coldfusion_comment2 {
+	color: #999999;
+}
+
+.coldfusion_comment3 {
+	color: #3f5fbf;
+}
+
+.coldfusion_comment4 {
+	color: #000080;
+}
+
+.coldfusion_literal1 {
+	color: #2a00ff;
+}
+
+.coldfusion_literal2 {
+	color: teal;
+}
+/*Coloration cplusplus*/
+.cplusplus_keyword1 {
+	color: #0033FF;
+}
+
+.cplusplus_keyword2 {
+	font-weight : bold;
+	color: #3366CC;
+}
+
+.cplusplus_keyword3 {
+	color: #3066AC;
+}
+
+.cplusplus_keyword4 {
+	color: #3366CC;
+}
+
+.cplusplus_function,.cplusplus_markup {
+	color: navy;
+}
+
+.cplusplus_operator {
+	color: #7F0055;
+}
+
+.cplusplus_label {
+	color: olive;
+}
+
+.cplusplus_digit{
+	color: red;
+}
+
+.cplusplus_comment1 {
+	font-style: italic;
+	color: #000080;
+}
+
+.cplusplus_comment2 {
+	color: #999999;
+}
+
+.cplusplus_comment3 {
+	color: #3f5fbf;
+}
+
+.cplusplus_comment4 {
+	color: #000080;
+}
+
+.cplusplus_literal1 {
+	color: #2a00ff;
+}
+
+.cplusplus_literal2 {
+	color: teal;
+}
+/*Coloration cpp*/
+.cpp_keyword1 {
+	font-weight: bold;
+	color: black;
+}
+
+.cpp_keyword2 {
+	color: #008000;
+}
+
+.cpp_keyword3 {
+	font-weight: bold;
+	font-style: italic;
+	color: black;
+}
+
+.cpp_keyword4 {
+	color: #3366CC;
+}
+
+.cpp_function{
+	color: navy;
+}
+.cpp_markup {
+	color: #008000;
+}
+
+.cpp_operator {
+	color: #000080;
+}
+
+.cpp_label {
+	color: olive;
+}
+
+.cpp_digit{
+	color: red;
+}
+
+.cpp_comment1 {
+	color: #000080;
+}
+
+.cpp_comment2 {
+	font-style: italic;
+	color: #000080;
+}
+
+.cpp_comment3 {
+	color: #3f5fbf;
+}
+
+.cpp_comment4 {
+	color: #000080;
+}
+
+.cpp_literal1 {
+	color: #2a00ff;
+}
+
+.cpp_literal2 {
+	color: teal;
+}
+/*Coloration csharp*/
+.csharp_keyword1 {
+	color: #0033FF;
+}
+
+.csharp_keyword2 {
+	color: #0033FF;
+}
+
+.csharp_keyword3 {
+	color: #3066AC;
+}
+
+.csharp_keyword4 {
+	color: #3366CC;
+}
+
+.csharp_function,.csharp_markup {
+	color: navy;
+}
+
+.csharp_operator {
+	color: #000080;
+}
+
+.csharp_label {
+	color: olive;
+}
+
+.csharp_digit{
+	color: red;
+}
+
+.csharp_comment1 {
+	color: #008000;
+}
+
+.csharp_comment2 {
+	color: #008000;
+}
+
+.csharp_comment3 {
+	color: #3f5fbf;
+}
+
+.csharp_comment4 {
+	color: #000080;
+}
+
+.csharp_literal1 {
+	color: #993399;
+}
+
+.csharp_literal2 {
+	color: teal;
+}
+/*Coloration css*/
+.css_keyword1 {
+	color: #7F0055;
+}
+
+.css_keyword2 {
+	color: #0033FF;
+}
+
+.css_keyword3 {
+	color: #3066AC;
+}
+
+.css_keyword4 {
+	color: #3366CC;
+}
+
+.css_function,.css_markup {
+	color: navy;
+}
+
+.css_operator {
+	color: #7F0055;
+}
+
+.css_label {
+	color: olive;
+}
+
+.css_digit{
+	color: red;
+}
+
+.css_comment1 {
+	color: #3f7f5f;
+}
+
+.css_comment2 {
+	color: #999999;
+}
+
+.css_comment3 {
+	color: #3f5fbf;
+}
+
+.css_comment4 {
+	color: #000080;
+}
+
+.css_literal1 {
+	color: #2a00ff;
+}
+
+.css_literal2 {
+	color: teal;
+}
+/*Coloration cvs-commit*/
+.cvs-commit_keyword1 {
+	color: #7F0055;
+}
+
+.cvs-commit_keyword2 {
+	color: #0033FF;
+}
+
+.cvs-commit_keyword3 {
+	color: #3066AC;
+}
+
+.cvs-commit_keyword4 {
+	color: #3366CC;
+}
+
+.cvs-commit_function,.cvs-commit_markup {
+	color: navy;
+}
+
+.cvs-commit_operator {
+	color: #7F0055;
+}
+
+.cvs-commit_label {
+	color: olive;
+}
+
+.cvs-commit_digit{
+	color: red;
+}
+
+.cvs-commit_comment1 {
+	color: #3f7f5f;
+}
+
+.cvs-commit_comment2 {
+	color: #999999;
+}
+
+.cvs-commit_comment3 {
+	color: #3f5fbf;
+}
+
+.cvs-commit_comment4 {
+	color: #000080;
+}
+
+.cvs-commit_literal1 {
+	color: #2a00ff;
+}
+
+.cvs-commit_literal2 {
+	color: teal;
+}
+/*Coloration d*/
+.d_keyword1 {
+	color: #7F0055;
+}
+
+.d_keyword2 {
+	color: #0033FF;
+}
+
+.d_keyword3 {
+	color: #3066AC;
+}
+
+.d_keyword4 {
+	color: #3366CC;
+}
+
+.d_function,.d_markup {
+	color: navy;
+}
+
+.d_operator {
+	color: #7F0055;
+}
+
+.d_label {
+	color: olive;
+}
+
+.d_digit{
+	color: red;
+}
+
+.d_comment1 {
+	color: #3f7f5f;
+}
+
+.d_comment2 {
+	color: #999999;
+}
+
+.d_comment3 {
+	color: #3f5fbf;
+}
+
+.d_comment4 {
+	color: #000080;
+}
+
+.d_literal1 {
+	color: #2a00ff;
+}
+
+.d_literal2 {
+	color: teal;
+}
+/*Coloration delphi*/
+.delphi_keyword1 {
+	color:navy;
+	font-weight:bold;
+}
+
+.delphi_keyword2 {
+	color:#000000;
+	font-weight:bold;
+}
+
+.delphi_keyword3 {
+	color: #3066AC;
+}
+
+.delphi_keyword4 {
+	color: #3366CC;
+}
+
+.delphi_function,.delphi_markup {
+	color: navy;
+}
+
+.delphi_operator {
+	color: #7F0055;
+}
+
+.delphi_label {
+	color: olive;
+}
+
+.delphi_digit{
+	color: red;
+}
+
+.delphi_comment1 {
+	color: #000080;
+}
+
+.delphi_comment2 {
+	font-style: italic;
+	color: #000080;
+}
+
+.delphi_comment3 {
+	color:#008000;
+}
+
+.delphi_comment4 {
+	color: #000080;
+}
+
+.delphi_literal1 {
+	color: #000080;
+}
+
+.delphi_literal2 {
+	color: teal;
+}
+/*Coloration delphinet*/
+.delphinet_keyword1 {
+	color:navy;
+	font-weight:bold;
+}
+
+.delphinet_keyword2 {
+	color:navy;
+	font-weight:bold;
+}
+
+.delphinet_keyword3 {
+	color: black;
+}
+
+.delphinet_keyword4 {
+	color: #3366CC;
+}
+
+.delphinet_function,.delphinet_markup {
+	color: navy;
+}
+
+.delphinet_operator {
+	color: #7F0055;
+}
+
+.delphinet_label {
+	color: olive;
+}
+
+.delphinet_digit{
+	color: blue;
+}
+
+.delphinet_comment1 {
+	color: #369836;
+}
+
+.delphinet_comment2 {
+	font-style: italic;
+	color: #369836;
+}
+
+.delphinet_comment3 {
+	color: #408080;
+}
+
+.delphinet_comment4 {
+	color: #000080;
+}
+
+.delphinet_literal1 {
+	color: blue;
+}
+
+.delphinet_literal2 {
+	color: black;
+}
+/*Coloration doxygen*/
+.doxygen_keyword1 {
+	color: #7F0055;
+}
+
+.doxygen_keyword2 {
+	color: #0033FF;
+}
+
+.doxygen_keyword3 {
+	color: #3066AC;
+}
+
+.doxygen_keyword4 {
+	color: #3366CC;
+}
+
+.doxygen_function,.doxygen_markup {
+	color: navy;
+}
+
+.doxygen_operator {
+	color: #7F0055;
+}
+
+.doxygen_label {
+	color: olive;
+}
+
+.doxygen_digit{
+	color: red;
+}
+
+.doxygen_comment1 {
+	color: #3f7f5f;
+}
+
+.doxygen_comment2 {
+	color: #999999;
+}
+
+.doxygen_comment3 {
+	color: #3f5fbf;
+}
+
+.doxygen_comment4 {
+	color: #000080;
+}
+
+.doxygen_literal1 {
+	color: #2a00ff;
+}
+
+.doxygen_literal2 {
+	color: teal;
+}
+/*Coloration dsssl*/
+.dsssl_keyword1 {
+	color: #7F0055;
+}
+
+.dsssl_keyword2 {
+	color: #0033FF;
+}
+
+.dsssl_keyword3 {
+	color: #3066AC;
+}
+
+.dsssl_keyword4 {
+	color: #3366CC;
+}
+
+.dsssl_function,.dsssl_markup {
+	color: navy;
+}
+
+.dsssl_operator {
+	color: #7F0055;
+}
+
+.dsssl_label {
+	color: olive;
+}
+
+.dsssl_digit{
+	color: red;
+}
+
+.dsssl_comment1 {
+	color: #3f7f5f;
+}
+
+.dsssl_comment2 {
+	color: #999999;
+}
+
+.dsssl_comment3 {
+	color: #3f5fbf;
+}
+
+.dsssl_comment4 {
+	color: #000080;
+}
+
+.dsssl_literal1 {
+	color: #2a00ff;
+}
+
+.dsssl_literal2 {
+	color: teal;
+}
+/*Coloration eiffel*/
+.eiffel_keyword1 {
+	color: #7F0055;
+}
+
+.eiffel_keyword2 {
+	color: #0033FF;
+}
+
+.eiffel_keyword3 {
+	color: #3066AC;
+}
+
+.eiffel_keyword4 {
+	color: #3366CC;
+}
+
+.eiffel_function,.eiffel_markup {
+	color: navy;
+}
+
+.eiffel_operator {
+	color: #7F0055;
+}
+
+.eiffel_label {
+	color: olive;
+}
+
+.eiffel_digit{
+	color: red;
+}
+
+.eiffel_comment1 {
+	color: #3f7f5f;
+}
+
+.eiffel_comment2 {
+	color: #999999;
+}
+
+.eiffel_comment3 {
+	color: #3f5fbf;
+}
+
+.eiffel_comment4 {
+	color: #000080;
+}
+
+.eiffel_literal1 {
+	color: #2a00ff;
+}
+
+.eiffel_literal2 {
+	color: teal;
+}
+/*Coloration embperl*/
+.embperl_keyword1 {
+	color: #7F0055;
+}
+
+.embperl_keyword2 {
+	color: #0033FF;
+}
+
+.embperl_keyword3 {
+	color: #3066AC;
+}
+
+.embperl_keyword4 {
+	color: #3366CC;
+}
+
+.embperl_function,.embperl_markup {
+	color: navy;
+}
+
+.embperl_operator {
+	color: #7F0055;
+}
+
+.embperl_label {
+	color: olive;
+}
+
+.embperl_digit{
+	color: red;
+}
+
+.embperl_comment1 {
+	color: #3f7f5f;
+}
+
+.embperl_comment2 {
+	color: #999999;
+}
+
+.embperl_comment3 {
+	color: #3f5fbf;
+}
+
+.embperl_comment4 {
+	color: #000080;
+}
+
+.embperl_literal1 {
+	color: #2a00ff;
+}
+
+.embperl_literal2 {
+	color: teal;
+}
+/*Coloration erlang*/
+.erlang_keyword1 {
+	color: #7F0055;
+}
+
+.erlang_keyword2 {
+	color: #0033FF;
+}
+
+.erlang_keyword3 {
+	color: #3066AC;
+}
+
+.erlang_keyword4 {
+	color: #3366CC;
+}
+
+.erlang_function,.erlang_markup {
+	color: navy;
+}
+
+.erlang_operator {
+	color: #7F0055;
+}
+
+.erlang_label {
+	color: olive;
+}
+
+.erlang_digit{
+	color: red;
+}
+
+.erlang_comment1 {
+	color: #3f7f5f;
+}
+
+.erlang_comment2 {
+	color: #999999;
+}
+
+.erlang_comment3 {
+	color: #3f5fbf;
+}
+
+.erlang_comment4 {
+	color: #000080;
+}
+
+.erlang_literal1 {
+	color: #2a00ff;
+}
+
+.erlang_literal2 {
+	color: teal;
+}
+/*Coloration factor*/
+.factor_keyword1 {
+	color: #7F0055;
+}
+
+.factor_keyword2 {
+	color: #0033FF;
+}
+
+.factor_keyword3 {
+	color: #3066AC;
+}
+
+.factor_keyword4 {
+	color: #3366CC;
+}
+
+.factor_function,.factor_markup {
+	color: navy;
+}
+
+.factor_operator {
+	color: #7F0055;
+}
+
+.factor_label {
+	color: olive;
+}
+
+.factor_digit{
+	color: red;
+}
+
+.factor_comment1 {
+	color: #3f7f5f;
+}
+
+.factor_comment2 {
+	color: #999999;
+}
+
+.factor_comment3 {
+	color: #3f5fbf;
+}
+
+.factor_comment4 {
+	color: #000080;
+}
+
+.factor_literal1 {
+	color: #2a00ff;
+}
+
+.factor_literal2 {
+	color: teal;
+}
+/*Coloration forth*/
+.forth_keyword1 {
+	color: #7F0055;
+}
+
+.forth_keyword2 {
+	color: #0033FF;
+}
+
+.forth_keyword3 {
+	color: #3066AC;
+}
+
+.forth_keyword4 {
+	color: #3366CC;
+}
+
+.forth_function,.forth_markup {
+	color: navy;
+}
+
+.forth_operator {
+	color: #7F0055;
+}
+
+.forth_label {
+	color: olive;
+}
+
+.forth_digit{
+	color: red;
+}
+
+.forth_comment1 {
+	color: #3f7f5f;
+}
+
+.forth_comment2 {
+	color: #999999;
+}
+
+.forth_comment3 {
+	color: #3f5fbf;
+}
+
+.forth_comment4 {
+	color: #000080;
+}
+
+.forth_literal1 {
+	color: #2a00ff;
+}
+
+.forth_literal2 {
+	color: teal;
+}
+/*Coloration fortran*/
+.fortran_keyword1 {
+	color: #7F0055;
+}
+
+.fortran_keyword2 {
+	color: #0033FF;
+}
+
+.fortran_keyword3 {
+	color: #3066AC;
+}
+
+.fortran_keyword4 {
+	color: #3366CC;
+}
+
+.fortran_function,.fortran_markup {
+	color: navy;
+}
+
+.fortran_operator {
+	color: #7F0055;
+}
+
+.fortran_label {
+	color: olive;
+}
+
+.fortran_digit{
+	color: red;
+}
+
+.fortran_comment1 {
+	color: #3f7f5f;
+}
+
+.fortran_comment2 {
+	color: #999999;
+}
+
+.fortran_comment3 {
+	color: #3f5fbf;
+}
+
+.fortran_comment4 {
+	color: #000080;
+}
+
+.fortran_literal1 {
+	color: #2a00ff;
+}
+
+.fortran_literal2 {
+	color: teal;
+}
+/*Coloration foxpro*/
+.foxpro_keyword1 {
+	color: #7F0055;
+}
+
+.foxpro_keyword2 {
+	color: #0033FF;
+}
+
+.foxpro_keyword3 {
+	color: #3066AC;
+}
+
+.foxpro_keyword4 {
+	color: #3366CC;
+}
+
+.foxpro_function,.foxpro_markup {
+	color: navy;
+}
+
+.foxpro_operator {
+	color: #7F0055;
+}
+
+.foxpro_label {
+	color: olive;
+}
+
+.foxpro_digit{
+	color: red;
+}
+
+.foxpro_comment1 {
+	color: #3f7f5f;
+}
+
+.foxpro_comment2 {
+	color: #999999;
+}
+
+.foxpro_comment3 {
+	color: #3f5fbf;
+}
+
+.foxpro_comment4 {
+	color: #000080;
+}
+
+.foxpro_literal1 {
+	color: #2a00ff;
+}
+
+.foxpro_literal2 {
+	color: teal;
+}
+/*Coloration freemarker*/
+.freemarker_keyword1 {
+	color: #7F0055;
+}
+
+.freemarker_keyword2 {
+	color: #0033FF;
+}
+
+.freemarker_keyword3 {
+	color: #3066AC;
+}
+
+.freemarker_keyword4 {
+	color: #3366CC;
+}
+
+.freemarker_function,.freemarker_markup {
+	color: navy;
+}
+
+.freemarker_operator {
+	color: #7F0055;
+}
+
+.freemarker_label {
+	color: olive;
+}
+
+.freemarker_digit{
+	color: red;
+}
+
+.freemarker_comment1 {
+	color: #3f7f5f;
+}
+
+.freemarker_comment2 {
+	color: #999999;
+}
+
+.freemarker_comment3 {
+	color: #3f5fbf;
+}
+
+.freemarker_comment4 {
+	color: #000080;
+}
+
+.freemarker_literal1 {
+	color: #2a00ff;
+}
+
+.freemarker_literal2 {
+	color: teal;
+}
+/*Coloration gettext*/
+.gettext_keyword1 {
+	color: #7F0055;
+}
+
+.gettext_keyword2 {
+	color: #0033FF;
+}
+
+.gettext_keyword3 {
+	color: #3066AC;
+}
+
+.gettext_keyword4 {
+	color: #3366CC;
+}
+
+.gettext_function,.gettext_markup {
+	color: navy;
+}
+
+.gettext_operator {
+	color: #7F0055;
+}
+
+.gettext_label {
+	color: olive;
+}
+
+.gettext_digit{
+	color: red;
+}
+
+.gettext_comment1 {
+	color: #3f7f5f;
+}
+
+.gettext_comment2 {
+	color: #999999;
+}
+
+.gettext_comment3 {
+	color: #3f5fbf;
+}
+
+.gettext_comment4 {
+	color: #000080;
+}
+
+.gettext_literal1 {
+	color: #2a00ff;
+}
+
+.gettext_literal2 {
+	color: teal;
+}
+/*Coloration gnuplot*/
+.gnuplot_keyword1 {
+	color: #7F0055;
+}
+
+.gnuplot_keyword2 {
+	color: #0033FF;
+}
+
+.gnuplot_keyword3 {
+	color: #3066AC;
+}
+
+.gnuplot_keyword4 {
+	color: #3366CC;
+}
+
+.gnuplot_function,.gnuplot_markup {
+	color: navy;
+}
+
+.gnuplot_operator {
+	color: #7F0055;
+}
+
+.gnuplot_label {
+	color: olive;
+}
+
+.gnuplot_digit{
+	color: red;
+}
+
+.gnuplot_comment1 {
+	color: #3f7f5f;
+}
+
+.gnuplot_comment2 {
+	color: #999999;
+}
+
+.gnuplot_comment3 {
+	color: #3f5fbf;
+}
+
+.gnuplot_comment4 {
+	color: #000080;
+}
+
+.gnuplot_literal1 {
+	color: #2a00ff;
+}
+
+.gnuplot_literal2 {
+	color: teal;
+}
+/*Coloration groovy*/
+.groovy_keyword1 {
+	color: #7F0055;
+}
+
+.groovy_keyword2 {
+	color: #0033FF;
+}
+
+.groovy_keyword3 {
+	color: #3066AC;
+}
+
+.groovy_keyword4 {
+	color: #3366CC;
+}
+
+.groovy_function,.groovy_markup {
+	color: navy;
+}
+
+.groovy_operator {
+	color: #7F0055;
+}
+
+.groovy_label {
+	color: olive;
+}
+
+.groovy_digit{
+	color: red;
+}
+
+.groovy_comment1 {
+	color: #3f7f5f;
+}
+
+.groovy_comment2 {
+	color: #999999;
+}
+
+.groovy_comment3 {
+	color: #3f5fbf;
+}
+
+.groovy_comment4 {
+	color: #000080;
+}
+
+.groovy_literal1 {
+	color: #2a00ff;
+}
+
+.groovy_literal2 {
+	color: teal;
+}
+/*Coloration haskell*/
+.haskell_keyword1 {
+	color: #7F0055;
+}
+
+.haskell_keyword2 {
+	color: #0033FF;
+}
+
+.haskell_keyword3 {
+	color: #3066AC;
+}
+
+.haskell_keyword4 {
+	color: #3366CC;
+}
+
+.haskell_function,.haskell_markup {
+	color: navy;
+}
+
+.haskell_operator {
+	color: #7F0055;
+}
+
+.haskell_label {
+	color: olive;
+}
+
+.haskell_digit{
+	color: red;
+}
+
+.haskell_comment1 {
+	color: #3f7f5f;
+}
+
+.haskell_comment2 {
+	color: #999999;
+}
+
+.haskell_comment3 {
+	color: #3f5fbf;
+}
+
+.haskell_comment4 {
+	color: #000080;
+}
+
+.haskell_literal1 {
+	color: #2a00ff;
+}
+
+.haskell_literal2 {
+	color: teal;
+}
+/*Coloration hex*/
+.hex_keyword1 {
+	color: #7F0055;
+}
+
+.hex_keyword2 {
+	color: #0033FF;
+}
+
+.hex_keyword3 {
+	color: #3066AC;
+}
+
+.hex_keyword4 {
+	color: #3366CC;
+}
+
+.hex_function,.hex_markup {
+	color: navy;
+}
+
+.hex_operator {
+	color: #7F0055;
+}
+
+.hex_label {
+	color: olive;
+}
+
+.hex_digit{
+	color: red;
+}
+
+.hex_comment1 {
+	color: #3f7f5f;
+}
+
+.hex_comment2 {
+	color: #999999;
+}
+
+.hex_comment3 {
+	color: #3f5fbf;
+}
+
+.hex_comment4 {
+	color: #000080;
+}
+
+.hex_literal1 {
+	color: #2a00ff;
+}
+
+.hex_literal2 {
+	color: teal;
+}
+/*Coloration htaccess*/
+.htaccess_keyword1 {
+	color: #7F0055;
+}
+
+.htaccess_keyword2 {
+	color: #0033FF;
+}
+
+.htaccess_keyword3 {
+	color: #3066AC;
+}
+
+.htaccess_keyword4 {
+	color: #3366CC;
+}
+
+.htaccess_function,.htaccess_markup {
+	color: navy;
+}
+
+.htaccess_operator {
+	color: #7F0055;
+}
+
+.htaccess_label {
+	color: olive;
+}
+
+.htaccess_digit{
+	color: red;
+}
+
+.htaccess_comment1 {
+	color: #3f7f5f;
+}
+
+.htaccess_comment2 {
+	color: #999999;
+}
+
+.htaccess_comment3 {
+	color: #3f5fbf;
+}
+
+.htaccess_comment4 {
+	color: #000080;
+}
+
+.htaccess_literal1 {
+	color: #2a00ff;
+}
+
+.htaccess_literal2 {
+	color: teal;
+}
+/*Coloration html*/
+.html_keyword1 {
+	color: #7F0055;
+}
+
+.html_keyword2 {
+	color: #0033FF;
+}
+
+.html_keyword3 {
+	color: #3066AC;
+}
+
+.html_keyword4 {
+	color: #3366CC;
+}
+
+.html_function,.html_markup {
+	color: navy;
+}
+
+.html_operator {
+	color: #7F0055;
+}
+
+.html_label {
+	color: olive;
+}
+
+.html_digit{
+	color: red;
+}
+
+.html_comment1 {
+	color: #3f7f5f;
+}
+
+.html_comment2 {
+	color: #999999;
+}
+
+.html_comment3 {
+	color: #3f5fbf;
+}
+
+.html_comment4 {
+	color: #000080;
+}
+
+.html_literal1 {
+	color: #2a00ff;
+}
+
+.html_literal2 {
+	color: teal;
+}
+/*Coloration i4gl*/
+.i4gl_keyword1 {
+	color: #7F0055;
+}
+
+.i4gl_keyword2 {
+	color: #0033FF;
+}
+
+.i4gl_keyword3 {
+	color: #3066AC;
+}
+
+.i4gl_keyword4 {
+	color: #3366CC;
+}
+
+.i4gl_function,.i4gl_markup {
+	color: navy;
+}
+
+.i4gl_operator {
+	color: #7F0055;
+}
+
+.i4gl_label {
+	color: olive;
+}
+
+.i4gl_digit{
+	color: red;
+}
+
+.i4gl_comment1 {
+	color: #3f7f5f;
+}
+
+.i4gl_comment2 {
+	color: #999999;
+}
+
+.i4gl_comment3 {
+	color: #3f5fbf;
+}
+
+.i4gl_comment4 {
+	color: #000080;
+}
+
+.i4gl_literal1 {
+	color: #2a00ff;
+}
+
+.i4gl_literal2 {
+	color: teal;
+}
+/*Coloration icon*/
+.icon_keyword1 {
+	color: #7F0055;
+}
+
+.icon_keyword2 {
+	color: #0033FF;
+}
+
+.icon_keyword3 {
+	color: #3066AC;
+}
+
+.icon_keyword4 {
+	color: #3366CC;
+}
+
+.icon_function,.icon_markup {
+	color: navy;
+}
+
+.icon_operator {
+	color: #7F0055;
+}
+
+.icon_label {
+	color: olive;
+}
+
+.icon_digit{
+	color: red;
+}
+
+.icon_comment1 {
+	color: #3f7f5f;
+}
+
+.icon_comment2 {
+	color: #999999;
+}
+
+.icon_comment3 {
+	color: #3f5fbf;
+}
+
+.icon_comment4 {
+	color: #000080;
+}
+
+.icon_literal1 {
+	color: #2a00ff;
+}
+
+.icon_literal2 {
+	color: teal;
+}
+/*Coloration idl*/
+.idl_keyword1 {
+	color: #7F0055;
+}
+
+.idl_keyword2 {
+	color: #0033FF;
+}
+
+.idl_keyword3 {
+	color: #3066AC;
+}
+
+.idl_keyword4 {
+	color: #3366CC;
+}
+
+.idl_function,.idl_markup {
+	color: navy;
+}
+
+.idl_operator {
+	color: #7F0055;
+}
+
+.idl_label {
+	color: olive;
+}
+
+.idl_digit{
+	color: red;
+}
+
+.idl_comment1 {
+	color: #3f7f5f;
+}
+
+.idl_comment2 {
+	color: #999999;
+}
+
+.idl_comment3 {
+	color: #3f5fbf;
+}
+
+.idl_comment4 {
+	color: #000080;
+}
+
+.idl_literal1 {
+	color: #2a00ff;
+}
+
+.idl_literal2 {
+	color: teal;
+}
+/*Coloration inform*/
+.inform_keyword1 {
+	color: #7F0055;
+}
+
+.inform_keyword2 {
+	color: #0033FF;
+}
+
+.inform_keyword3 {
+	color: #3066AC;
+}
+
+.inform_keyword4 {
+	color: #3366CC;
+}
+
+.inform_function,.inform_markup {
+	color: navy;
+}
+
+.inform_operator {
+	color: #7F0055;
+}
+
+.inform_label {
+	color: olive;
+}
+
+.inform_digit{
+	color: red;
+}
+
+.inform_comment1 {
+	color: #3f7f5f;
+}
+
+.inform_comment2 {
+	color: #999999;
+}
+
+.inform_comment3 {
+	color: #3f5fbf;
+}
+
+.inform_comment4 {
+	color: #000080;
+}
+
+.inform_literal1 {
+	color: #2a00ff;
+}
+
+.inform_literal2 {
+	color: teal;
+}
+/*Coloration ini*/
+.ini_keyword1 {
+	color: #7F0055;
+}
+
+.ini_keyword2 {
+	color: #0033FF;
+}
+
+.ini_keyword3 {
+	color: #3066AC;
+}
+
+.ini_keyword4 {
+	color: #3366CC;
+}
+
+.ini_function,.ini_markup {
+	color: navy;
+}
+
+.ini_operator {
+	color: #7F0055;
+}
+
+.ini_label {
+	color: olive;
+}
+
+.ini_digit{
+	color: red;
+}
+
+.ini_comment1 {
+	color: #3f7f5f;
+}
+
+.ini_comment2 {
+	color: #999999;
+}
+
+.ini_comment3 {
+	color: #3f5fbf;
+}
+
+.ini_comment4 {
+	color: #000080;
+}
+
+.ini_literal1 {
+	color: #2a00ff;
+}
+
+.ini_literal2 {
+	color: teal;
+}
+/*Coloration inno-setup*/
+.inno-setup_keyword1 {
+	color: #7F0055;
+}
+
+.inno-setup_keyword2 {
+	color: #0033FF;
+}
+
+.inno-setup_keyword3 {
+	color: #3066AC;
+}
+
+.inno-setup_keyword4 {
+	color: #3366CC;
+}
+
+.inno-setup_function,.inno-setup_markup {
+	color: navy;
+}
+
+.inno-setup_operator {
+	color: #7F0055;
+}
+
+.inno-setup_label {
+	color: olive;
+}
+
+.inno-setup_digit{
+	color: red;
+}
+
+.inno-setup_comment1 {
+	color: #3f7f5f;
+}
+
+.inno-setup_comment2 {
+	color: #999999;
+}
+
+.inno-setup_comment3 {
+	color: #3f5fbf;
+}
+
+.inno-setup_comment4 {
+	color: #000080;
+}
+
+.inno-setup_literal1 {
+	color: #2a00ff;
+}
+
+.inno-setup_literal2 {
+	color: teal;
+}
+/*Coloration interlis*/
+.interlis_keyword1 {
+	color: #7F0055;
+}
+
+.interlis_keyword2 {
+	color: #0033FF;
+}
+
+.interlis_keyword3 {
+	color: #3066AC;
+}
+
+.interlis_keyword4 {
+	color: #3366CC;
+}
+
+.interlis_function,.interlis_markup {
+	color: navy;
+}
+
+.interlis_operator {
+	color: #7F0055;
+}
+
+.interlis_label {
+	color: olive;
+}
+
+.interlis_digit{
+	color: red;
+}
+
+.interlis_comment1 {
+	color: #3f7f5f;
+}
+
+.interlis_comment2 {
+	color: #999999;
+}
+
+.interlis_comment3 {
+	color: #3f5fbf;
+}
+
+.interlis_comment4 {
+	color: #000080;
+}
+
+.interlis_literal1 {
+	color: #2a00ff;
+}
+
+.interlis_literal2 {
+	color: teal;
+}
+/*Coloration io*/
+.io_keyword1 {
+	color: #7F0055;
+}
+
+.io_keyword2 {
+	color: #0033FF;
+}
+
+.io_keyword3 {
+	color: #3066AC;
+}
+
+.io_keyword4 {
+	color: #3366CC;
+}
+
+.io_function,.io_markup {
+	color: navy;
+}
+
+.io_operator {
+	color: #7F0055;
+}
+
+.io_label {
+	color: olive;
+}
+
+.io_digit{
+	color: red;
+}
+
+.io_comment1 {
+	color: #3f7f5f;
+}
+
+.io_comment2 {
+	color: #999999;
+}
+
+.io_comment3 {
+	color: #3f5fbf;
+}
+
+.io_comment4 {
+	color: #000080;
+}
+
+.io_literal1 {
+	color: #2a00ff;
+}
+
+.io_literal2 {
+	color: teal;
+}
+/*Coloration java*/
+.java_keyword1 {
+	font-weight : bold;
+	color: #7F0055;
+}
+
+.java_keyword2 {
+	color: #0033FF;
+}
+
+.java_keyword3 {
+	color: #3066AC;
+}
+
+.java_keyword4 {
+	color: #3366CC;
+}
+
+.java_function,.java_markup {
+	color: navy;
+}
+
+.java_operator {
+	color: #7F0055;
+}
+
+.java_label {
+	color: #3366CC;
+	font-weight: bold;
+}
+
+.java_digit{
+	color: red;
+}
+
+.java_comment1 {
+	color: #3f7f5f;
+}
+
+.java_comment2 {
+	color: #999999;
+}
+
+.java_comment3 {
+	color: #3f5fbf;
+}
+
+.java_comment4 {
+	color: #000080;
+}
+
+.java_literal1 {
+	color: #2a00ff;
+}
+
+.java_literal2 {
+	color: teal;
+}
+/*Coloration javacc*/
+.javacc_keyword1 {
+	color: #7F0055;
+}
+
+.javacc_keyword2 {
+	color: #0033FF;
+}
+
+.javacc_keyword3 {
+	color: #3066AC;
+}
+
+.javacc_keyword4 {
+	color: #3366CC;
+}
+
+.javacc_function,.javacc_markup {
+	color: navy;
+}
+
+.javacc_operator {
+	color: #7F0055;
+}
+
+.javacc_label {
+	color: olive;
+}
+
+.javacc_digit{
+	color: red;
+}
+
+.javacc_comment1 {
+	color: #3f7f5f;
+}
+
+.javacc_comment2 {
+	color: #999999;
+}
+
+.javacc_comment3 {
+	color: #3f5fbf;
+}
+
+.javacc_comment4 {
+	color: #000080;
+}
+
+.javacc_literal1 {
+	color: #2a00ff;
+}
+
+.javacc_literal2 {
+	color: teal;
+}
+/*Coloration javascript*/
+.javascript_keyword1 {
+	font-weight : bold;
+	color: #7F0055;
+}
+
+.javascript_keyword2 {
+	color: #0033FF;
+}
+
+.javascript_keyword3 {
+	color: #3066AC;
+}
+
+.javascript_keyword4 {
+	color: #3366CC;
+}
+
+.javascript_function,.javascript_markup {
+	color: navy;
+}
+
+.javascript_operator {
+	color: #7F0055;
+}
+
+.javascript_label {
+	color: olive;
+}
+
+.javascript_digit{
+	color: red;
+}
+
+.javascript_comment1 {
+	color: #3f7f5f;
+}
+
+.javascript_comment2 {
+	color: #999999;
+}
+
+.javascript_comment3 {
+	color: #3f5fbf;
+}
+
+.javascript_comment4 {
+	color: #000080;
+}
+
+.javascript_literal1 {
+	color: #2a00ff;
+}
+
+.javascript_literal2 {
+	color: teal;
+}
+/*Coloration jcl*/
+.jcl_keyword1 {
+	color: #7F0055;
+}
+
+.jcl_keyword2 {
+	color: #0033FF;
+}
+
+.jcl_keyword3 {
+	color: #3066AC;
+}
+
+.jcl_keyword4 {
+	color: #3366CC;
+}
+
+.jcl_function,.jcl_markup {
+	color: navy;
+}
+
+.jcl_operator {
+	color: #7F0055;
+}
+
+.jcl_label {
+	color: olive;
+}
+
+.jcl_digit{
+	color: red;
+}
+
+.jcl_comment1 {
+	color: #3f7f5f;
+}
+
+.jcl_comment2 {
+	color: #999999;
+}
+
+.jcl_comment3 {
+	color: #3f5fbf;
+}
+
+.jcl_comment4 {
+	color: #000080;
+}
+
+.jcl_literal1 {
+	color: #2a00ff;
+}
+
+.jcl_literal2 {
+	color: teal;
+}
+/*Coloration jhtml*/
+.jhtml_keyword1 {
+	color: #7F0055;
+}
+
+.jhtml_keyword2 {
+	color: #0033FF;
+}
+
+.jhtml_keyword3 {
+	color: #3066AC;
+}
+
+.jhtml_keyword4 {
+	color: #3366CC;
+}
+
+.jhtml_function,.jhtml_markup {
+	color: navy;
+}
+
+.jhtml_operator {
+	color: #7F0055;
+}
+
+.jhtml_label {
+	color: olive;
+}
+
+.jhtml_digit{
+	color: red;
+}
+
+.jhtml_comment1 {
+	color: #3f7f5f;
+}
+
+.jhtml_comment2 {
+	color: #999999;
+}
+
+.jhtml_comment3 {
+	color: #3f5fbf;
+}
+
+.jhtml_comment4 {
+	color: #000080;
+}
+
+.jhtml_literal1 {
+	color: #2a00ff;
+}
+
+.jhtml_literal2 {
+	color: teal;
+}
+/*Coloration jmk*/
+.jmk_keyword1 {
+	color: #7F0055;
+}
+
+.jmk_keyword2 {
+	color: #0033FF;
+}
+
+.jmk_keyword3 {
+	color: #3066AC;
+}
+
+.jmk_keyword4 {
+	color: #3366CC;
+}
+
+.jmk_function,.jmk_markup {
+	color: navy;
+}
+
+.jmk_operator {
+	color: #7F0055;
+}
+
+.jmk_label {
+	color: olive;
+}
+
+.jmk_digit{
+	color: red;
+}
+
+.jmk_comment1 {
+	color: #3f7f5f;
+}
+
+.jmk_comment2 {
+	color: #999999;
+}
+
+.jmk_comment3 {
+	color: #3f5fbf;
+}
+
+.jmk_comment4 {
+	color: #000080;
+}
+
+.jmk_literal1 {
+	color: #2a00ff;
+}
+
+.jmk_literal2 {
+	color: teal;
+}
+/*Coloration js*/
+.js_keyword1 {
+	font-weight : bold;
+	color: #7F0055;
+}
+
+.js_keyword2 {
+	color: #0033FF;
+}
+
+.js_keyword3 {
+	color: #3066AC;
+}
+
+.js_keyword4 {
+	color: #3366CC;
+}
+
+.js_function,.js_markup {
+	color: navy;
+}
+
+.js_operator {
+	color: #7F0055;
+}
+
+.js_label {
+	color: olive;
+}
+
+.js_digit{
+	color: red;
+}
+
+.js_comment1 {
+	color: #3f7f5f;
+}
+
+.js_comment2 {
+	color: #999999;
+}
+
+.js_comment3 {
+	color: #3f5fbf;
+}
+
+.js_comment4 {
+	color: #000080;
+}
+
+.js_literal1 {
+	color: #2a00ff;
+}
+
+.js_literal2 {
+	color: teal;
+}
+/*Coloration jsp*/
+.jsp_keyword1 {
+	color: #7F0055;
+}
+
+.jsp_keyword2 {
+	color: #0033FF;
+}
+
+.jsp_keyword3 {
+	color: #3066AC;
+}
+
+.jsp_keyword4 {
+	color: #3366CC;
+}
+
+.jsp_function,.jsp_markup {
+	color: navy;
+}
+
+.jsp_operator {
+	color: #7F0055;
+}
+
+.jsp_label {
+	color: olive;
+}
+
+.jsp_digit{
+	color: red;
+}
+
+.jsp_comment1 {
+	color: #3f7f5f;
+}
+
+.jsp_comment2 {
+	color: #999999;
+}
+
+.jsp_comment3 {
+	color: #3f5fbf;
+}
+
+.jsp_comment4 {
+	color: #000080;
+}
+
+.jsp_literal1 {
+	color: #2a00ff;
+}
+
+.jsp_literal2 {
+	color: teal;
+}
+/*Coloration latex*/
+.latex_keyword1 {
+	color: #7F0055;
+}
+
+.latex_keyword2 {
+	color: #0033FF;
+}
+
+.latex_keyword3 {
+	color: #3066AC;
+}
+
+.latex_keyword4 {
+	color: #3366CC;
+}
+
+.latex_function,.latex_markup {
+	color: navy;
+}
+
+.latex_operator {
+	color: #7F0055;
+}
+
+.latex_label {
+	color: olive;
+}
+
+.latex_digit{
+	color: red;
+}
+
+.latex_comment1 {
+	color: #3f7f5f;
+}
+
+.latex_comment2 {
+	color: #999999;
+}
+
+.latex_comment3 {
+	color: #3f5fbf;
+}
+
+.latex_comment4 {
+	color: #000080;
+}
+
+.latex_literal1 {
+	color: #2a00ff;
+}
+
+.latex_literal2 {
+	color: teal;
+}
+/*Coloration lilypond*/
+.lilypond_keyword1 {
+	color: #7F0055;
+}
+
+.lilypond_keyword2 {
+	color: #0033FF;
+}
+
+.lilypond_keyword3 {
+	color: #3066AC;
+}
+
+.lilypond_keyword4 {
+	color: #3366CC;
+}
+
+.lilypond_function,.lilypond_markup {
+	color: navy;
+}
+
+.lilypond_operator {
+	color: #7F0055;
+}
+
+.lilypond_label {
+	color: olive;
+}
+
+.lilypond_digit{
+	color: red;
+}
+
+.lilypond_comment1 {
+	color: #3f7f5f;
+}
+
+.lilypond_comment2 {
+	color: #999999;
+}
+
+.lilypond_comment3 {
+	color: #3f5fbf;
+}
+
+.lilypond_comment4 {
+	color: #000080;
+}
+
+.lilypond_literal1 {
+	color: #2a00ff;
+}
+
+.lilypond_literal2 {
+	color: teal;
+}
+/*Coloration linux*/
+.linux_keyword1 {
+	color: black;
+	font-weight: bold;
+}
+
+.linux_keyword2 {
+	color:black;
+	font-weight:bold;
+	font-style: italic;
+}
+
+.linux_keyword3 {
+	color: #3066AC;
+}
+
+.linux_keyword4 {
+	color: #3366CC;
+}
+
+.linux_function,.linux_markup {
+	color: navy;
+}
+
+.linux_operator {
+	color: #7F0055;
+}
+
+.linux_label {
+	color: olive;
+}
+
+.linux_digit{
+	color:#990000;
+}
+
+.linux_comment1 {
+	color: #999999;
+}
+
+.linux_comment2 {
+	color: #999999;
+	font-weight: bold;
+}
+
+.linux_comment3 {
+	color: #3f5fbf;
+}
+
+.linux_comment4 {
+	color: #000080;
+}
+
+.linux_literal1 {
+	color: #008000;
+}
+
+.linux_literal2 {
+	color: teal;
+}
+/*Coloration lisp*/
+.lisp_keyword1 {
+	color: #7F0055;
+}
+
+.lisp_keyword2 {
+	color: #0033FF;
+}
+
+.lisp_keyword3 {
+	color: #3066AC;
+}
+
+.lisp_keyword4 {
+	color: #3366CC;
+}
+
+.lisp_function,.lisp_markup {
+	color: navy;
+}
+
+.lisp_operator {
+	color: #7F0055;
+}
+
+.lisp_label {
+	color: olive;
+}
+
+.lisp_digit{
+	color: red;
+}
+
+.lisp_comment1 {
+	color: #3f7f5f;
+}
+
+.lisp_comment2 {
+	color: #999999;
+}
+
+.lisp_comment3 {
+	color: #3f5fbf;
+}
+
+.lisp_comment4 {
+	color: #000080;
+}
+
+.lisp_literal1 {
+	color: #2a00ff;
+}
+
+.lisp_literal2 {
+	color: teal;
+}
+/*Coloration literate-haskell*/
+.literate-haskell_keyword1 {
+	color: #7F0055;
+}
+
+.literate-haskell_keyword2 {
+	color: #0033FF;
+}
+
+.literate-haskell_keyword3 {
+	color: #3066AC;
+}
+
+.literate-haskell_keyword4 {
+	color: #3366CC;
+}
+
+.literate-haskell_function,.literate-haskell_markup {
+	color: navy;
+}
+
+.literate-haskell_operator {
+	color: #7F0055;
+}
+
+.literate-haskell_label {
+	color: olive;
+}
+
+.literate-haskell_digit{
+	color: red;
+}
+
+.literate-haskell_comment1 {
+	color: #3f7f5f;
+}
+
+.literate-haskell_comment2 {
+	color: #999999;
+}
+
+.literate-haskell_comment3 {
+	color: #3f5fbf;
+}
+
+.literate-haskell_comment4 {
+	color: #000080;
+}
+
+.literate-haskell_literal1 {
+	color: #2a00ff;
+}
+
+.literate-haskell_literal2 {
+	color: teal;
+}
+/*Coloration lotos*/
+.lotos_keyword1 {
+	color: #7F0055;
+}
+
+.lotos_keyword2 {
+	color: #0033FF;
+}
+
+.lotos_keyword3 {
+	color: #3066AC;
+}
+
+.lotos_keyword4 {
+	color: #3366CC;
+}
+
+.lotos_function,.lotos_markup {
+	color: navy;
+}
+
+.lotos_operator {
+	color: #7F0055;
+}
+
+.lotos_label {
+	color: olive;
+}
+
+.lotos_digit{
+	color: red;
+}
+
+.lotos_comment1 {
+	color: #3f7f5f;
+}
+
+.lotos_comment2 {
+	color: #999999;
+}
+
+.lotos_comment3 {
+	color: #3f5fbf;
+}
+
+.lotos_comment4 {
+	color: #000080;
+}
+
+.lotos_literal1 {
+	color: #2a00ff;
+}
+
+.lotos_literal2 {
+	color: teal;
+}
+/*Coloration lua*/
+.lua_keyword1 {
+	color: #7F0055;
+}
+
+.lua_keyword2 {
+	color: #0033FF;
+}
+
+.lua_keyword3 {
+	color: #3066AC;
+}
+
+.lua_keyword4 {
+	color: #3366CC;
+}
+
+.lua_function,.lua_markup {
+	color: navy;
+}
+
+.lua_operator {
+	color: #7F0055;
+}
+
+.lua_label {
+	color: olive;
+}
+
+.lua_digit{
+	color: red;
+}
+
+.lua_comment1 {
+	color: #3f7f5f;
+}
+
+.lua_comment2 {
+	color: #999999;
+}
+
+.lua_comment3 {
+	color: #3f5fbf;
+}
+
+.lua_comment4 {
+	color: #000080;
+}
+
+.lua_literal1 {
+	color: #2a00ff;
+}
+
+.lua_literal2 {
+	color: teal;
+}
+/*Coloration mail*/
+.mail_keyword1 {
+	color: #7F0055;
+}
+
+.mail_keyword2 {
+	color: #0033FF;
+}
+
+.mail_keyword3 {
+	color: #3066AC;
+}
+
+.mail_keyword4 {
+	color: #3366CC;
+}
+
+.mail_function,.mail_markup {
+	color: navy;
+}
+
+.mail_operator {
+	color: #7F0055;
+}
+
+.mail_label {
+	color: olive;
+}
+
+.mail_digit{
+	color: red;
+}
+
+.mail_comment1 {
+	color: #3f7f5f;
+}
+
+.mail_comment2 {
+	color: #999999;
+}
+
+.mail_comment3 {
+	color: #3f5fbf;
+}
+
+.mail_comment4 {
+	color: #000080;
+}
+
+.mail_literal1 {
+	color: #2a00ff;
+}
+
+.mail_literal2 {
+	color: teal;
+}
+/*Coloration makefile*/
+.makefile_keyword1 {
+	color: #7F0055;
+}
+
+.makefile_keyword2 {
+	color: #0033FF;
+}
+
+.makefile_keyword3 {
+	color: #3066AC;
+}
+
+.makefile_keyword4 {
+	color: #3366CC;
+}
+
+.makefile_function,.makefile_markup {
+	color: navy;
+}
+
+.makefile_operator {
+	color: #7F0055;
+}
+
+.makefile_label {
+	color: olive;
+}
+
+.makefile_digit{
+	color: red;
+}
+
+.makefile_comment1 {
+	color: #3f7f5f;
+}
+
+.makefile_comment2 {
+	color: #999999;
+}
+
+.makefile_comment3 {
+	color: #3f5fbf;
+}
+
+.makefile_comment4 {
+	color: #000080;
+}
+
+.makefile_literal1 {
+	color: #2a00ff;
+}
+
+.makefile_literal2 {
+	color: teal;
+}
+/*Coloration maple*/
+.maple_keyword1 {
+	color: #7F0055;
+}
+
+.maple_keyword2 {
+	color: #0033FF;
+}
+
+.maple_keyword3 {
+	color: #3066AC;
+}
+
+.maple_keyword4 {
+	color: #3366CC;
+}
+
+.maple_function,.maple_markup {
+	color: navy;
+}
+
+.maple_operator {
+	color: #7F0055;
+}
+
+.maple_label {
+	color: olive;
+}
+
+.maple_digit{
+	color: red;
+}
+
+.maple_comment1 {
+	color: #3f7f5f;
+}
+
+.maple_comment2 {
+	color: #999999;
+}
+
+.maple_comment3 {
+	color: #3f5fbf;
+}
+
+.maple_comment4 {
+	color: #000080;
+}
+
+.maple_literal1 {
+	color: #2a00ff;
+}
+
+.maple_literal2 {
+	color: teal;
+}
+/*Coloration matlab*/
+.matlab_keyword1 {
+	color: #0000FF;
+}
+
+.matlab_keyword2 {
+	color: #0000FF;
+}
+
+.maple_operator {
+	color: #000000;
+}
+
+.matlab_comment1 {
+	color: #228B22;
+}
+
+.matlab_comment2 {
+	color: #B28C00;
+}
+
+.matlab_literal1 {
+	color: #B20000;
+}
+
+/*Coloration ml*/
+.ml_keyword1 {
+	color: #7F0055;
+}
+
+.ml_keyword2 {
+	color: #0033FF;
+}
+
+.ml_keyword3 {
+	color: #3066AC;
+}
+
+.ml_keyword4 {
+	color: #3366CC;
+}
+
+.ml_function,.ml_markup {
+	color: navy;
+}
+
+.ml_operator {
+	color: #7F0055;
+}
+
+.ml_label {
+	color: olive;
+}
+
+.ml_digit{
+	color: red;
+}
+
+.ml_comment1 {
+	color: #3f7f5f;
+}
+
+.ml_comment2 {
+	color: #999999;
+}
+
+.ml_comment3 {
+	color: #3f5fbf;
+}
+
+.ml_comment4 {
+	color: #000080;
+}
+
+.ml_literal1 {
+	color: #2a00ff;
+}
+
+.ml_literal2 {
+	color: teal;
+}
+/*Coloration modula3*/
+.modula3_keyword1 {
+	color: #7F0055;
+}
+
+.modula3_keyword2 {
+	color: #0033FF;
+}
+
+.modula3_keyword3 {
+	color: #3066AC;
+}
+
+.modula3_keyword4 {
+	color: #3366CC;
+}
+
+.modula3_function,.modula3_markup {
+	color: navy;
+}
+
+.modula3_operator {
+	color: #7F0055;
+}
+
+.modula3_label {
+	color: olive;
+}
+
+.modula3_digit{
+	color: red;
+}
+
+.modula3_comment1 {
+	color: #3f7f5f;
+}
+
+.modula3_comment2 {
+	color: #999999;
+}
+
+.modula3_comment3 {
+	color: #3f5fbf;
+}
+
+.modula3_comment4 {
+	color: #000080;
+}
+
+.modula3_literal1 {
+	color: #2a00ff;
+}
+
+.modula3_literal2 {
+	color: teal;
+}
+/*Coloration moin*/
+.moin_keyword1 {
+	color: #7F0055;
+}
+
+.moin_keyword2 {
+	color: #0033FF;
+}
+
+.moin_keyword3 {
+	color: #3066AC;
+}
+
+.moin_keyword4 {
+	color: #3366CC;
+}
+
+.moin_function,.moin_markup {
+	color: navy;
+}
+
+.moin_operator {
+	color: #7F0055;
+}
+
+.moin_label {
+	color: olive;
+}
+
+.moin_digit{
+	color: red;
+}
+
+.moin_comment1 {
+	color: #3f7f5f;
+}
+
+.moin_comment2 {
+	color: #999999;
+}
+
+.moin_comment3 {
+	color: #3f5fbf;
+}
+
+.moin_comment4 {
+	color: #000080;
+}
+
+.moin_literal1 {
+	color: #2a00ff;
+}
+
+.moin_literal2 {
+	color: teal;
+}
+/*Coloration mqsc*/
+.mqsc_keyword1 {
+	color: #7F0055;
+}
+
+.mqsc_keyword2 {
+	color: #0033FF;
+}
+
+.mqsc_keyword3 {
+	color: #3066AC;
+}
+
+.mqsc_keyword4 {
+	color: #3366CC;
+}
+
+.mqsc_function,.mqsc_markup {
+	color: navy;
+}
+
+.mqsc_operator {
+	color: #7F0055;
+}
+
+.mqsc_label {
+	color: olive;
+}
+
+.mqsc_digit{
+	color: red;
+}
+
+.mqsc_comment1 {
+	color: #3f7f5f;
+}
+
+.mqsc_comment2 {
+	color: #999999;
+}
+
+.mqsc_comment3 {
+	color: #3f5fbf;
+}
+
+.mqsc_comment4 {
+	color: #000080;
+}
+
+.mqsc_literal1 {
+	color: #2a00ff;
+}
+
+.mqsc_literal2 {
+	color: teal;
+}
+/*Coloration myghty*/
+.myghty_keyword1 {
+	color: #7F0055;
+}
+
+.myghty_keyword2 {
+	color: #0033FF;
+}
+
+.myghty_keyword3 {
+	color: #3066AC;
+}
+
+.myghty_keyword4 {
+	color: #3366CC;
+}
+
+.myghty_function,.myghty_markup {
+	color: navy;
+}
+
+.myghty_operator {
+	color: #7F0055;
+}
+
+.myghty_label {
+	color: olive;
+}
+
+.myghty_digit{
+	color: red;
+}
+
+.myghty_comment1 {
+	color: #3f7f5f;
+}
+
+.myghty_comment2 {
+	color: #999999;
+}
+
+.myghty_comment3 {
+	color: #3f5fbf;
+}
+
+.myghty_comment4 {
+	color: #000080;
+}
+
+.myghty_literal1 {
+	color: #2a00ff;
+}
+
+.myghty_literal2 {
+	color: teal;
+}
+/*Coloration netrexx*/
+.netrexx_keyword1 {
+	color: #7F0055;
+}
+
+.netrexx_keyword2 {
+	color: #0033FF;
+}
+
+.netrexx_keyword3 {
+	color: #3066AC;
+}
+
+.netrexx_keyword4 {
+	color: #3366CC;
+}
+
+.netrexx_function,.netrexx_markup {
+	color: navy;
+}
+
+.netrexx_operator {
+	color: #7F0055;
+}
+
+.netrexx_label {
+	color: olive;
+}
+
+.netrexx_digit{
+	color: red;
+}
+
+.netrexx_comment1 {
+	color: #3f7f5f;
+}
+
+.netrexx_comment2 {
+	color: #999999;
+}
+
+.netrexx_comment3 {
+	color: #3f5fbf;
+}
+
+.netrexx_comment4 {
+	color: #000080;
+}
+
+.netrexx_literal1 {
+	color: #2a00ff;
+}
+
+.netrexx_literal2 {
+	color: teal;
+}
+/*Coloration nqc*/
+.nqc_keyword1 {
+	color: #7F0055;
+}
+
+.nqc_keyword2 {
+	color: #0033FF;
+}
+
+.nqc_keyword3 {
+	color: #3066AC;
+}
+
+.nqc_keyword4 {
+	color: #3366CC;
+}
+
+.nqc_function,.nqc_markup {
+	color: navy;
+}
+
+.nqc_operator {
+	color: #7F0055;
+}
+
+.nqc_label {
+	color: olive;
+}
+
+.nqc_digit{
+	color: red;
+}
+
+.nqc_comment1 {
+	color: #3f7f5f;
+}
+
+.nqc_comment2 {
+	color: #999999;
+}
+
+.nqc_comment3 {
+	color: #3f5fbf;
+}
+
+.nqc_comment4 {
+	color: #000080;
+}
+
+.nqc_literal1 {
+	color: #2a00ff;
+}
+
+.nqc_literal2 {
+	color: teal;
+}
+/*Coloration nsis2*/
+.nsis2_keyword1 {
+	color: #7F0055;
+}
+
+.nsis2_keyword2 {
+	color: #0033FF;
+}
+
+.nsis2_keyword3 {
+	color: #3066AC;
+}
+
+.nsis2_keyword4 {
+	color: #3366CC;
+}
+
+.nsis2_function,.nsis2_markup {
+	color: navy;
+}
+
+.nsis2_operator {
+	color: #7F0055;
+}
+
+.nsis2_label {
+	color: olive;
+}
+
+.nsis2_digit{
+	color: red;
+}
+
+.nsis2_comment1 {
+	color: #3f7f5f;
+}
+
+.nsis2_comment2 {
+	color: #999999;
+}
+
+.nsis2_comment3 {
+	color: #3f5fbf;
+}
+
+.nsis2_comment4 {
+	color: #000080;
+}
+
+.nsis2_literal1 {
+	color: #2a00ff;
+}
+
+.nsis2_literal2 {
+	color: teal;
+}
+/*Coloration objective-c*/
+.objective-c_keyword1 {
+	color: #7F0055;
+}
+
+.objective-c_keyword2 {
+	color: #0033FF;
+}
+
+.objective-c_keyword3 {
+	color: #3066AC;
+}
+
+.objective-c_keyword4 {
+	color: #3366CC;
+}
+
+.objective-c_function,.objective-c_markup {
+	color: navy;
+}
+
+.objective-c_operator {
+	color: #7F0055;
+}
+
+.objective-c_label {
+	color: olive;
+}
+
+.objective-c_digit{
+	color: red;
+}
+
+.objective-c_comment1 {
+	color: #3f7f5f;
+}
+
+.objective-c_comment2 {
+	color: #999999;
+}
+
+.objective-c_comment3 {
+	color: #3f5fbf;
+}
+
+.objective-c_comment4 {
+	color: #000080;
+}
+
+.objective-c_literal1 {
+	color: #2a00ff;
+}
+
+.objective-c_literal2 {
+	color: teal;
+}
+/*Coloration objectrexx*/
+.objectrexx_keyword1 {
+	color: #7F0055;
+}
+
+.objectrexx_keyword2 {
+	color: #0033FF;
+}
+
+.objectrexx_keyword3 {
+	color: #3066AC;
+}
+
+.objectrexx_keyword4 {
+	color: #3366CC;
+}
+
+.objectrexx_function,.objectrexx_markup {
+	color: navy;
+}
+
+.objectrexx_operator {
+	color: #7F0055;
+}
+
+.objectrexx_label {
+	color: olive;
+}
+
+.objectrexx_digit{
+	color: red;
+}
+
+.objectrexx_comment1 {
+	color: #3f7f5f;
+}
+
+.objectrexx_comment2 {
+	color: #999999;
+}
+
+.objectrexx_comment3 {
+	color: #3f5fbf;
+}
+
+.objectrexx_comment4 {
+	color: #000080;
+}
+
+.objectrexx_literal1 {
+	color: #2a00ff;
+}
+
+.objectrexx_literal2 {
+	color: teal;
+}
+/*Coloration ocaml*/
+.ocaml_keyword1 {
+	color: #7F0055;
+}
+
+.ocaml_keyword2 {
+	color: #0033FF;
+}
+
+.ocaml_keyword3 {
+	color: #3066AC;
+}
+
+.ocaml_keyword4 {
+	color: #3366CC;
+}
+
+.ocaml_function,.ocaml_markup {
+	color: navy;
+}
+
+.ocaml_operator {
+	color: #7F0055;
+}
+
+.ocaml_label {
+	color: olive;
+}
+
+.ocaml_digit{
+	color: red;
+}
+
+.ocaml_comment1 {
+	color: #3f7f5f;
+}
+
+.ocaml_comment2 {
+	color: #999999;
+}
+
+.ocaml_comment3 {
+	color: #3f5fbf;
+}
+
+.ocaml_comment4 {
+	color: #000080;
+}
+
+.ocaml_literal1 {
+	color: #2a00ff;
+}
+
+.ocaml_literal2 {
+	color: teal;
+}
+/*Coloration occam*/
+.occam_keyword1 {
+	color: #7F0055;
+}
+
+.occam_keyword2 {
+	color: #0033FF;
+}
+
+.occam_keyword3 {
+	color: #3066AC;
+}
+
+.occam_keyword4 {
+	color: #3366CC;
+}
+
+.occam_function,.occam_markup {
+	color: navy;
+}
+
+.occam_operator {
+	color: #7F0055;
+}
+
+.occam_label {
+	color: olive;
+}
+
+.occam_digit{
+	color: red;
+}
+
+.occam_comment1 {
+	color: #3f7f5f;
+}
+
+.occam_comment2 {
+	color: #999999;
+}
+
+.occam_comment3 {
+	color: #3f5fbf;
+}
+
+.occam_comment4 {
+	color: #000080;
+}
+
+.occam_literal1 {
+	color: #2a00ff;
+}
+
+.occam_literal2 {
+	color: teal;
+}
+/*Coloration omnimark*/
+.omnimark_keyword1 {
+	color: #7F0055;
+}
+
+.omnimark_keyword2 {
+	color: #0033FF;
+}
+
+.omnimark_keyword3 {
+	color: #3066AC;
+}
+
+.omnimark_keyword4 {
+	color: #3366CC;
+}
+
+.omnimark_function,.omnimark_markup {
+	color: navy;
+}
+
+.omnimark_operator {
+	color: #7F0055;
+}
+
+.omnimark_label {
+	color: olive;
+}
+
+.omnimark_digit{
+	color: red;
+}
+
+.omnimark_comment1 {
+	color: #3f7f5f;
+}
+
+.omnimark_comment2 {
+	color: #999999;
+}
+
+.omnimark_comment3 {
+	color: #3f5fbf;
+}
+
+.omnimark_comment4 {
+	color: #000080;
+}
+
+.omnimark_literal1 {
+	color: #2a00ff;
+}
+
+.omnimark_literal2 {
+	color: teal;
+}
+/*Coloration oracle*/
+.oracle_keyword1 {
+	color:#000080;
+	font-weight:bold;
+}
+
+.oracle_keyword2 {
+	color: #0033FF;
+}
+
+.oracle_keyword3 {
+	color: #3066AC;
+}
+
+.oracle_keyword4 {
+	color: #3366CC;
+}
+
+.oracle_function,.oracle_markup {
+	color: navy;
+}
+
+.oracle_operator {
+	color: #7F0055;
+}
+
+.oracle_label {
+	color: olive;
+}
+
+.oracle_digit{
+	color: red;
+}
+
+.oracle_comment1 {
+	color:#008000;
+}
+
+.oracle_comment2 {
+	color: #999999;
+}
+
+.oracle_comment3 {
+	color: #3f5fbf;
+}
+
+.oracle_comment4 {
+	color: #000080;
+}
+
+.oracle_literal1 {
+	color: #2a00ff;
+}
+
+.oracle_literal2 {
+	color: teal;
+}
+/*Coloration other*/
+.other_keyword1 {
+	color: #7F0055;
+}
+
+.other_keyword2 {
+	color: #0033FF;
+}
+
+.other_keyword3 {
+	color: #3066AC;
+}
+
+.other_keyword4 {
+	color: #3366CC;
+}
+
+.other_function,.other_markup {
+	color: navy;
+}
+
+.other_operator {
+	color: #7F0055;
+}
+
+.other_label {
+	color: olive;
+}
+
+.other_digit{
+	color: red;
+}
+
+.other_comment1 {
+	color: #3f7f5f;
+}
+
+.other_comment2 {
+	color: #999999;
+}
+
+.other_comment3 {
+	color: #3f5fbf;
+}
+
+.other_comment4 {
+	color: #000080;
+}
+
+.other_literal1 {
+	color: #2a00ff;
+}
+
+.other_literal2 {
+	color: teal;
+}
+/*Coloration pascal*/
+.pascal_keyword1 {
+	color: #7F0055;
+}
+
+.pascal_keyword2 {
+	color: #0033FF;
+}
+
+.pascal_keyword3 {
+	color: #3066AC;
+}
+
+.pascal_keyword4 {
+	color: #3366CC;
+}
+
+.pascal_function,.pascal_markup {
+	color: navy;
+}
+
+.pascal_operator {
+	color: #7F0055;
+}
+
+.pascal_label {
+	color: olive;
+}
+
+.pascal_digit{
+	color: red;
+}
+
+.pascal_comment1 {
+	font-style: italic;
+	color: #000080;
+}
+
+.pascal_comment2 {
+	color: #999999;
+}
+
+.pascal_comment3 {
+	color: #3f5fbf;
+}
+
+.pascal_comment4 {
+	color: #000080;
+}
+
+.pascal_literal1 {
+	color: #2a00ff;
+}
+
+.pascal_literal2 {
+	color: teal;
+}
+/*Coloration patch*/
+.patch_keyword1 {
+	color: #7F0055;
+}
+
+.patch_keyword2 {
+	color: #0033FF;
+}
+
+.patch_keyword3 {
+	color: #3066AC;
+}
+
+.patch_keyword4 {
+	color: #3366CC;
+}
+
+.patch_function,.patch_markup {
+	color: navy;
+}
+
+.patch_operator {
+	color: #7F0055;
+}
+
+.patch_label {
+	color: olive;
+}
+
+.patch_digit{
+	color: red;
+}
+
+.patch_comment1 {
+	color: #3f7f5f;
+}
+
+.patch_comment2 {
+	color: #999999;
+}
+
+.patch_comment3 {
+	color: #3f5fbf;
+}
+
+.patch_comment4 {
+	color: #000080;
+}
+
+.patch_literal1 {
+	color: #2a00ff;
+}
+
+.patch_literal2 {
+	color: teal;
+}
+/*Coloration perl*/
+.perl_keyword1 {
+	color: #7F0055;
+}
+
+.perl_keyword2 {
+	color: #0033FF;
+}
+
+.perl_keyword3 {
+	color: #3066AC;
+}
+
+.perl_keyword4 {
+	color: #3366CC;
+}
+
+.perl_function,.perl_markup {
+	color: navy;
+}
+
+.perl_operator {
+	color: #7F0055;
+}
+
+.perl_label {
+	color: olive;
+}
+
+.perl_digit{
+	color: red;
+}
+
+.perl_comment1 {
+	color: #3f7f5f;
+}
+
+.perl_comment2 {
+	color: #999999;
+}
+
+.perl_comment3 {
+	color: #3f5fbf;
+}
+
+.perl_comment4 {
+	color: #000080;
+}
+
+.perl_literal1 {
+	color: #2a00ff;
+}
+
+.perl_literal2 {
+	color: teal;
+}
+/*Coloration perso*/
+.perso_keyword1 {
+	color: #7F0055;
+}
+
+.perso_keyword2 {
+	color: #0033FF;
+}
+
+.perso_keyword3 {
+	color: #3066AC;
+}
+
+.perso_keyword4 {
+	color: #3366CC;
+}
+
+.perso_function,.perso_markup {
+	color: navy;
+}
+
+.perso_operator {
+	color: #7F0055;
+}
+
+.perso_label {
+	color: olive;
+}
+
+.perso_digit{
+	color: red;
+}
+
+.perso_comment1 {
+	color: #3f7f5f;
+}
+
+.perso_comment2 {
+	color: #999999;
+}
+
+.perso_comment3 {
+	color: #3f5fbf;
+}
+
+.perso_comment4 {
+	color: #000080;
+}
+
+.perso_literal1 {
+	color: #2a00ff;
+}
+
+.perso_literal2 {
+	color: teal;
+}
+/*Coloration php*/
+.php_keyword1, .php_mixte_keyword1 {
+	color:black;
+	font-weight: bold;
+}
+
+.php_keyword2, .php_mixte_keyword2 {
+	color:#000080;
+}
+
+.php_keyword3, .php_mixte_keyword3 {
+	color:#993399; 
+	
+}
+
+.php_keyword4, .php_mixte_keyword4 {
+	color:#993399; 
+}
+
+.php_function, .php_mixte_function {
+	color:#000080;
+	text-decoration: none;
+}
+.php_markup, .php_mixte_markup {
+	color: navy;
+}
+
+.php_operator, .php_mixte_operator {
+	color: black;
+}
+
+.php_label, .php_mixte_label {
+	color: red;
+}
+
+.php_digit, .php_mixte_digit{
+	color: red;
+}
+
+.php_comment1, .php_mixte_comment1 {
+	color: #999999;
+}
+
+.php_comment2, .php_mixte_comment2 {
+	color: #999999;
+}
+
+.php_comment3, .php_mixte_comment3 {
+	color: #999999;
+}
+
+.php_comment4, .php_mixte_comment4 {
+	color: #999999;
+}
+
+.php_literal1, .php_mixte_literal1 {
+	color: #2a00ff;
+}
+
+.php_literal2, .php_mixte_literal2 {
+	color: teal;
+}
+/*Coloration pike*/
+.pike_keyword1 {
+	color: #7F0055;
+}
+
+.pike_keyword2 {
+	color: #0033FF;
+}
+
+.pike_keyword3 {
+	color: #3066AC;
+}
+
+.pike_keyword4 {
+	color: #3366CC;
+}
+
+.pike_function,.pike_markup {
+	color: navy;
+}
+
+.pike_operator {
+	color: #7F0055;
+}
+
+.pike_label {
+	color: olive;
+}
+
+.pike_digit{
+	color: red;
+}
+
+.pike_comment1 {
+	color: #3f7f5f;
+}
+
+.pike_comment2 {
+	color: #999999;
+}
+
+.pike_comment3 {
+	color: #3f5fbf;
+}
+
+.pike_comment4 {
+	color: #000080;
+}
+
+.pike_literal1 {
+	color: #2a00ff;
+}
+
+.pike_literal2 {
+	color: teal;
+}
+/*Coloration pl-sql*/
+.pl-sql_keyword1 {
+	color: #7F0055;
+}
+
+.pl-sql_keyword2 {
+	color: #0033FF;
+}
+
+.pl-sql_keyword3 {
+	color: #3066AC;
+}
+
+.pl-sql_keyword4 {
+	color: #3366CC;
+}
+
+.pl-sql_function,.pl-sql_markup {
+	color: navy;
+}
+
+.pl-sql_operator {
+	color: #7F0055;
+}
+
+.pl-sql_label {
+	color: olive;
+}
+
+.pl-sql_digit{
+	color: red;
+}
+
+.pl-sql_comment1 {
+	color: #3f7f5f;
+}
+
+.pl-sql_comment2 {
+	color: #999999;
+}
+
+.pl-sql_comment3 {
+	color: #3f5fbf;
+}
+
+.pl-sql_comment4 {
+	color: #000080;
+}
+
+.pl-sql_literal1 {
+	color: #2a00ff;
+}
+
+.pl-sql_literal2 {
+	color: teal;
+}
+/*Coloration pl1*/
+.pl1_keyword1 {
+	color: #7F0055;
+}
+
+.pl1_keyword2 {
+	color: #0033FF;
+}
+
+.pl1_keyword3 {
+	color: #3066AC;
+}
+
+.pl1_keyword4 {
+	color: #3366CC;
+}
+
+.pl1_function,.pl1_markup {
+	color: navy;
+}
+
+.pl1_operator {
+	color: #7F0055;
+}
+
+.pl1_label {
+	color: olive;
+}
+
+.pl1_digit{
+	color: red;
+}
+
+.pl1_comment1 {
+	color: #3f7f5f;
+}
+
+.pl1_comment2 {
+	color: #999999;
+}
+
+.pl1_comment3 {
+	color: #3f5fbf;
+}
+
+.pl1_comment4 {
+	color: #000080;
+}
+
+.pl1_literal1 {
+	color: #2a00ff;
+}
+
+.pl1_literal2 {
+	color: teal;
+}
+/*Coloration pop11*/
+.pop11_keyword1 {
+	color: #7F0055;
+}
+
+.pop11_keyword2 {
+	color: #0033FF;
+}
+
+.pop11_keyword3 {
+	color: #3066AC;
+}
+
+.pop11_keyword4 {
+	color: #3366CC;
+}
+
+.pop11_function,.pop11_markup {
+	color: navy;
+}
+
+.pop11_operator {
+	color: #7F0055;
+}
+
+.pop11_label {
+	color: olive;
+}
+
+.pop11_digit{
+	color: red;
+}
+
+.pop11_comment1 {
+	color: #3f7f5f;
+}
+
+.pop11_comment2 {
+	color: #999999;
+}
+
+.pop11_comment3 {
+	color: #3f5fbf;
+}
+
+.pop11_comment4 {
+	color: #000080;
+}
+
+.pop11_literal1 {
+	color: #2a00ff;
+}
+
+.pop11_literal2 {
+	color: teal;
+}
+/*Coloration postgresql*/
+.postgresql_keyword1 {
+	color: #0033FF;
+}
+
+.postgresql_keyword2 {
+	color: #0033FF;
+}
+
+.postgresql_keyword3 {
+	color: #3066AC;
+}
+
+.postgresql_keyword4 {
+	color: #3366CC;
+}
+
+.postgresql_function,.postgresql_markup {
+	color: navy;
+}
+
+.postgresql_operator {
+	color: #7F0055;
+}
+
+.postgresql_label {
+	color: olive;
+}
+
+.postgresql_digit{
+	color: red;
+}
+
+.postgresql_comment1 {
+	color: #3f7f5f;
+}
+
+.postgresql_comment2 {
+	color: #999999;
+}
+
+.postgresql_comment3 {
+	color: #3f5fbf;
+}
+
+.postgresql_comment4 {
+	color: #000080;
+}
+
+.postgresql_literal1 {
+	color: #7F0055;
+}
+
+.postgresql_literal2 {
+	color: teal;
+}
+/*Coloration postscript*/
+.postscript_keyword1 {
+	color: #7F0055;
+}
+
+.postscript_keyword2 {
+	color: #0033FF;
+}
+
+.postscript_keyword3 {
+	color: #3066AC;
+}
+
+.postscript_keyword4 {
+	color: #3366CC;
+}
+
+.postscript_function,.postscript_markup {
+	color: navy;
+}
+
+.postscript_operator {
+	color: #7F0055;
+}
+
+.postscript_label {
+	color: olive;
+}
+
+.postscript_digit{
+	color: red;
+}
+
+.postscript_comment1 {
+	color: #3f7f5f;
+}
+
+.postscript_comment2 {
+	color: #999999;
+}
+
+.postscript_comment3 {
+	color: #3f5fbf;
+}
+
+.postscript_comment4 {
+	color: #000080;
+}
+
+.postscript_literal1 {
+	color: #2a00ff;
+}
+
+.postscript_literal2 {
+	color: teal;
+}
+/*Coloration povray*/
+.povray_keyword1 {
+	color: #7F0055;
+}
+
+.povray_keyword2 {
+	color: #0033FF;
+}
+
+.povray_keyword3 {
+	color: #3066AC;
+}
+
+.povray_keyword4 {
+	color: #3366CC;
+}
+
+.povray_function,.povray_markup {
+	color: navy;
+}
+
+.povray_operator {
+	color: #7F0055;
+}
+
+.povray_label {
+	color: olive;
+}
+
+.povray_digit{
+	color: red;
+}
+
+.povray_comment1 {
+	color: #3f7f5f;
+}
+
+.povray_comment2 {
+	color: #999999;
+}
+
+.povray_comment3 {
+	color: #3f5fbf;
+}
+
+.povray_comment4 {
+	color: #000080;
+}
+
+.povray_literal1 {
+	color: #2a00ff;
+}
+
+.povray_literal2 {
+	color: teal;
+}
+/*Coloration powerdynamo*/
+.powerdynamo_keyword1 {
+	color: #7F0055;
+}
+
+.powerdynamo_keyword2 {
+	color: #0033FF;
+}
+
+.powerdynamo_keyword3 {
+	color: #3066AC;
+}
+
+.powerdynamo_keyword4 {
+	color: #3366CC;
+}
+
+.powerdynamo_function,.powerdynamo_markup {
+	color: navy;
+}
+
+.powerdynamo_operator {
+	color: #7F0055;
+}
+
+.powerdynamo_label {
+	color: olive;
+}
+
+.powerdynamo_digit{
+	color: red;
+}
+
+.powerdynamo_comment1 {
+	color: #3f7f5f;
+}
+
+.powerdynamo_comment2 {
+	color: #999999;
+}
+
+.powerdynamo_comment3 {
+	color: #3f5fbf;
+}
+
+.powerdynamo_comment4 {
+	color: #000080;
+}
+
+.powerdynamo_literal1 {
+	color: #2a00ff;
+}
+
+.powerdynamo_literal2 {
+	color: teal;
+}
+/*Coloration progress*/
+.progress_keyword1 {
+	color: #7F0055;
+}
+
+.progress_keyword2 {
+	color: #0033FF;
+}
+
+.progress_keyword3 {
+	color: #3066AC;
+}
+
+.progress_keyword4 {
+	color: #3366CC;
+}
+
+.progress_function,.progress_markup {
+	color: navy;
+}
+
+.progress_operator {
+	color: #7F0055;
+}
+
+.progress_label {
+	color: olive;
+}
+
+.progress_digit{
+	color: red;
+}
+
+.progress_comment1 {
+	color: #3f7f5f;
+}
+
+.progress_comment2 {
+	color: #999999;
+}
+
+.progress_comment3 {
+	color: #3f5fbf;
+}
+
+.progress_comment4 {
+	color: #000080;
+}
+
+.progress_literal1 {
+	color: #2a00ff;
+}
+
+.progress_literal2 {
+	color: teal;
+}
+/*Coloration prolog*/
+.prolog_keyword1 {
+	color: #7F0055;
+}
+
+.prolog_keyword2 {
+	color: #0033FF;
+}
+
+.prolog_keyword3 {
+	color: #3066AC;
+}
+
+.prolog_keyword4 {
+	color: #3366CC;
+}
+
+.prolog_function,.prolog_markup {
+	color: navy;
+}
+
+.prolog_operator {
+	color: #7F0055;
+}
+
+.prolog_label {
+	color: olive;
+}
+
+.prolog_digit{
+	color: red;
+}
+
+.prolog_comment1 {
+	color: #3f7f5f;
+}
+
+.prolog_comment2 {
+	color: #999999;
+}
+
+.prolog_comment3 {
+	color: #3f5fbf;
+}
+
+.prolog_comment4 {
+	color: #000080;
+}
+
+.prolog_literal1 {
+	color: #2a00ff;
+}
+
+.prolog_literal2 {
+	color: teal;
+}
+/*Coloration props*/
+.props_keyword1 {
+	color: #7F0055;
+}
+
+.props_keyword2 {
+	color: #0033FF;
+}
+
+.props_keyword3 {
+	color: #3066AC;
+}
+
+.props_keyword4 {
+	color: #3366CC;
+}
+
+.props_function,.props_markup {
+	color: navy;
+}
+
+.props_operator {
+	color: #7F0055;
+}
+
+.props_label {
+	color: olive;
+}
+
+.props_digit{
+	color: red;
+}
+
+.props_comment1 {
+	color: #3f7f5f;
+}
+
+.props_comment2 {
+	color: #999999;
+}
+
+.props_comment3 {
+	color: #3f5fbf;
+}
+
+.props_comment4 {
+	color: #000080;
+}
+
+.props_literal1 {
+	color: #2a00ff;
+}
+
+.props_literal2 {
+	color: teal;
+}
+/*Coloration psp*/
+.psp_keyword1 {
+	color: #7F0055;
+}
+
+.psp_keyword2 {
+	color: #0033FF;
+}
+
+.psp_keyword3 {
+	color: #3066AC;
+}
+
+.psp_keyword4 {
+	color: #3366CC;
+}
+
+.psp_function,.psp_markup {
+	color: navy;
+}
+
+.psp_operator {
+	color: #7F0055;
+}
+
+.psp_label {
+	color: olive;
+}
+
+.psp_digit{
+	color: red;
+}
+
+.psp_comment1 {
+	color: #3f7f5f;
+}
+
+.psp_comment2 {
+	color: #999999;
+}
+
+.psp_comment3 {
+	color: #3f5fbf;
+}
+
+.psp_comment4 {
+	color: #000080;
+}
+
+.psp_literal1 {
+	color: #2a00ff;
+}
+
+.psp_literal2 {
+	color: teal;
+}
+/*Coloration ptl*/
+.ptl_keyword1 {
+	color: #7F0055;
+}
+
+.ptl_keyword2 {
+	color: #0033FF;
+}
+
+.ptl_keyword3 {
+	color: #3066AC;
+}
+
+.ptl_keyword4 {
+	color: #3366CC;
+}
+
+.ptl_function,.ptl_markup {
+	color: navy;
+}
+
+.ptl_operator {
+	color: #7F0055;
+}
+
+.ptl_label {
+	color: olive;
+}
+
+.ptl_digit{
+	color: red;
+}
+
+.ptl_comment1 {
+	color: #3f7f5f;
+}
+
+.ptl_comment2 {
+	color: #999999;
+}
+
+.ptl_comment3 {
+	color: #3f5fbf;
+}
+
+.ptl_comment4 {
+	color: #000080;
+}
+
+.ptl_literal1 {
+	color: #2a00ff;
+}
+
+.ptl_literal2 {
+	color: teal;
+}
+/*Coloration pvwave*/
+.pvwave_keyword1 {
+	color: #7F0055;
+}
+
+.pvwave_keyword2 {
+	color: #0033FF;
+}
+
+.pvwave_keyword3 {
+	color: #3066AC;
+}
+
+.pvwave_keyword4 {
+	color: #3366CC;
+}
+
+.pvwave_function,.pvwave_markup {
+	color: navy;
+}
+
+.pvwave_operator {
+	color: #7F0055;
+}
+
+.pvwave_label {
+	color: olive;
+}
+
+.pvwave_digit{
+	color: red;
+}
+
+.pvwave_comment1 {
+	color: #3f7f5f;
+}
+
+.pvwave_comment2 {
+	color: #999999;
+}
+
+.pvwave_comment3 {
+	color: #3f5fbf;
+}
+
+.pvwave_comment4 {
+	color: #000080;
+}
+
+.pvwave_literal1 {
+	color: #2a00ff;
+}
+
+.pvwave_literal2 {
+	color: teal;
+}
+/*Coloration pyrex*/
+.pyrex_keyword1 {
+	color: #7F0055;
+}
+
+.pyrex_keyword2 {
+	color: #0033FF;
+}
+
+.pyrex_keyword3 {
+	color: #3066AC;
+}
+
+.pyrex_keyword4 {
+	color: #3366CC;
+}
+
+.pyrex_function,.pyrex_markup {
+	color: navy;
+}
+
+.pyrex_operator {
+	color: #7F0055;
+}
+
+.pyrex_label {
+	color: olive;
+}
+
+.pyrex_digit{
+	color: red;
+}
+
+.pyrex_comment1 {
+	color: #3f7f5f;
+}
+
+.pyrex_comment2 {
+	color: #999999;
+}
+
+.pyrex_comment3 {
+	color: #3f5fbf;
+}
+
+.pyrex_comment4 {
+	color: #000080;
+}
+
+.pyrex_literal1 {
+	color: #2a00ff;
+}
+
+.pyrex_literal2 {
+	color: teal;
+}
+/*Coloration python*/
+.python_keyword1 {
+	color: #FF8040;
+}
+
+.python_keyword2 {
+	color: #0033FF;
+}
+
+.python_keyword3 {
+	color: #3066AC;
+}
+
+.python_keyword4 {
+	color: #3366CC;
+}
+
+.python_function,.python_markup {
+	color: navy;
+}
+
+.python_operator {
+	color: #7F0055;
+}
+
+.python_label {
+	color: olive;
+}
+
+.python_digit{
+	color: red;
+}
+
+.python_comment1 {
+	color: #999999;
+}
+
+.python_comment2 {
+	color: #999999;
+}
+
+.python_comment3 {
+	color: #999999;
+}
+
+.python_comment4 {
+	color: #999999;
+}
+
+.python_literal1 {
+	color: #339933;
+}
+
+.python_literal2 {
+	color: teal;
+}
+/*Coloration rd*/
+.rd_keyword1 {
+	color: #7F0055;
+}
+
+.rd_keyword2 {
+	color: #0033FF;
+}
+
+.rd_keyword3 {
+	color: #3066AC;
+}
+
+.rd_keyword4 {
+	color: #3366CC;
+}
+
+.rd_function,.rd_markup {
+	color: navy;
+}
+
+.rd_operator {
+	color: #7F0055;
+}
+
+.rd_label {
+	color: olive;
+}
+
+.rd_digit{
+	color: red;
+}
+
+.rd_comment1 {
+	color: #3f7f5f;
+}
+
+.rd_comment2 {
+	color: #999999;
+}
+
+.rd_comment3 {
+	color: #3f5fbf;
+}
+
+.rd_comment4 {
+	color: #000080;
+}
+
+.rd_literal1 {
+	color: #2a00ff;
+}
+
+.rd_literal2 {
+	color: teal;
+}
+/*Coloration rebol*/
+.rebol_keyword1 {
+	color: #7F0055;
+}
+
+.rebol_keyword2 {
+	color: #0033FF;
+}
+
+.rebol_keyword3 {
+	color: #3066AC;
+}
+
+.rebol_keyword4 {
+	color: #3366CC;
+}
+
+.rebol_function,.rebol_markup {
+	color: navy;
+}
+
+.rebol_operator {
+	color: #7F0055;
+}
+
+.rebol_label {
+	color: olive;
+}
+
+.rebol_digit{
+	color: red;
+}
+
+.rebol_comment1 {
+	color: #3f7f5f;
+}
+
+.rebol_comment2 {
+	color: #999999;
+}
+
+.rebol_comment3 {
+	color: #3f5fbf;
+}
+
+.rebol_comment4 {
+	color: #000080;
+}
+
+.rebol_literal1 {
+	color: #2a00ff;
+}
+
+.rebol_literal2 {
+	color: teal;
+}
+/*Coloration redcode*/
+.redcode_keyword1 {
+	color: #7F0055;
+}
+
+.redcode_keyword2 {
+	color: #0033FF;
+}
+
+.redcode_keyword3 {
+	color: #3066AC;
+}
+
+.redcode_keyword4 {
+	color: #3366CC;
+}
+
+.redcode_function,.redcode_markup {
+	color: navy;
+}
+
+.redcode_operator {
+	color: #7F0055;
+}
+
+.redcode_label {
+	color: olive;
+}
+
+.redcode_digit{
+	color: red;
+}
+
+.redcode_comment1 {
+	color: #3f7f5f;
+}
+
+.redcode_comment2 {
+	color: #999999;
+}
+
+.redcode_comment3 {
+	color: #3f5fbf;
+}
+
+.redcode_comment4 {
+	color: #000080;
+}
+
+.redcode_literal1 {
+	color: #2a00ff;
+}
+
+.redcode_literal2 {
+	color: teal;
+}
+/*Coloration relax-ng-compact*/
+.relax-ng-compact_keyword1 {
+	color: #7F0055;
+}
+
+.relax-ng-compact_keyword2 {
+	color: #0033FF;
+}
+
+.relax-ng-compact_keyword3 {
+	color: #3066AC;
+}
+
+.relax-ng-compact_keyword4 {
+	color: #3366CC;
+}
+
+.relax-ng-compact_function,.relax-ng-compact_markup {
+	color: navy;
+}
+
+.relax-ng-compact_operator {
+	color: #7F0055;
+}
+
+.relax-ng-compact_label {
+	color: olive;
+}
+
+.relax-ng-compact_digit{
+	color: red;
+}
+
+.relax-ng-compact_comment1 {
+	color: #3f7f5f;
+}
+
+.relax-ng-compact_comment2 {
+	color: #999999;
+}
+
+.relax-ng-compact_comment3 {
+	color: #3f5fbf;
+}
+
+.relax-ng-compact_comment4 {
+	color: #000080;
+}
+
+.relax-ng-compact_literal1 {
+	color: #2a00ff;
+}
+
+.relax-ng-compact_literal2 {
+	color: teal;
+}
+/*Coloration rest*/
+.rest_keyword1 {
+	color: #7F0055;
+}
+
+.rest_keyword2 {
+	color: #0033FF;
+}
+
+.rest_keyword3 {
+	color: #3066AC;
+}
+
+.rest_keyword4 {
+	color: #3366CC;
+}
+
+.rest_function,.rest_markup {
+	color: navy;
+}
+
+.rest_operator {
+	color: #7F0055;
+}
+
+.rest_label {
+	color: olive;
+}
+
+.rest_digit{
+	color: red;
+}
+
+.rest_comment1 {
+	color: #3f7f5f;
+}
+
+.rest_comment2 {
+	color: #999999;
+}
+
+.rest_comment3 {
+	color: #3f5fbf;
+}
+
+.rest_comment4 {
+	color: #000080;
+}
+
+.rest_literal1 {
+	color: #2a00ff;
+}
+
+.rest_literal2 {
+	color: teal;
+}
+/*Coloration rhtml*/
+.rhtml_keyword1 {
+	color: #7F0055;
+}
+
+.rhtml_keyword2 {
+	color: #0033FF;
+}
+
+.rhtml_keyword3 {
+	color: #3066AC;
+}
+
+.rhtml_keyword4 {
+	color: #3366CC;
+}
+
+.rhtml_function,.rhtml_markup {
+	color: navy;
+}
+
+.rhtml_operator {
+	color: #7F0055;
+}
+
+.rhtml_label {
+	color: olive;
+}
+
+.rhtml_digit{
+	color: red;
+}
+
+.rhtml_comment1 {
+	color: #3f7f5f;
+}
+
+.rhtml_comment2 {
+	color: #999999;
+}
+
+.rhtml_comment3 {
+	color: #3f5fbf;
+}
+
+.rhtml_comment4 {
+	color: #000080;
+}
+
+.rhtml_literal1 {
+	color: #2a00ff;
+}
+
+.rhtml_literal2 {
+	color: teal;
+}
+/*Coloration rib*/
+.rib_keyword1 {
+	color: #7F0055;
+}
+
+.rib_keyword2 {
+	color: #0033FF;
+}
+
+.rib_keyword3 {
+	color: #3066AC;
+}
+
+.rib_keyword4 {
+	color: #3366CC;
+}
+
+.rib_function,.rib_markup {
+	color: navy;
+}
+
+.rib_operator {
+	color: #7F0055;
+}
+
+.rib_label {
+	color: olive;
+}
+
+.rib_digit{
+	color: red;
+}
+
+.rib_comment1 {
+	color: #3f7f5f;
+}
+
+.rib_comment2 {
+	color: #999999;
+}
+
+.rib_comment3 {
+	color: #3f5fbf;
+}
+
+.rib_comment4 {
+	color: #000080;
+}
+
+.rib_literal1 {
+	color: #2a00ff;
+}
+
+.rib_literal2 {
+	color: teal;
+}
+/*Coloration rpmspec*/
+.rpmspec_keyword1 {
+	color: #7F0055;
+}
+
+.rpmspec_keyword2 {
+	color: #0033FF;
+}
+
+.rpmspec_keyword3 {
+	color: #3066AC;
+}
+
+.rpmspec_keyword4 {
+	color: #3366CC;
+}
+
+.rpmspec_function,.rpmspec_markup {
+	color: navy;
+}
+
+.rpmspec_operator {
+	color: #7F0055;
+}
+
+.rpmspec_label {
+	color: olive;
+}
+
+.rpmspec_digit{
+	color: red;
+}
+
+.rpmspec_comment1 {
+	color: #3f7f5f;
+}
+
+.rpmspec_comment2 {
+	color: #999999;
+}
+
+.rpmspec_comment3 {
+	color: #3f5fbf;
+}
+
+.rpmspec_comment4 {
+	color: #000080;
+}
+
+.rpmspec_literal1 {
+	color: #2a00ff;
+}
+
+.rpmspec_literal2 {
+	color: teal;
+}
+/*Coloration rtf*/
+.rtf_keyword1 {
+	color: #7F0055;
+}
+
+.rtf_keyword2 {
+	color: #0033FF;
+}
+
+.rtf_keyword3 {
+	color: #3066AC;
+}
+
+.rtf_keyword4 {
+	color: #3366CC;
+}
+
+.rtf_function,.rtf_markup {
+	color: navy;
+}
+
+.rtf_operator {
+	color: #7F0055;
+}
+
+.rtf_label {
+	color: olive;
+}
+
+.rtf_digit{
+	color: red;
+}
+
+.rtf_comment1 {
+	color: #3f7f5f;
+}
+
+.rtf_comment2 {
+	color: #999999;
+}
+
+.rtf_comment3 {
+	color: #3f5fbf;
+}
+
+.rtf_comment4 {
+	color: #000080;
+}
+
+.rtf_literal1 {
+	color: #2a00ff;
+}
+
+.rtf_literal2 {
+	color: teal;
+}
+/*Coloration ruby*/
+.ruby_keyword1 {
+	color: #7F0055;
+}
+
+.ruby_keyword2 {
+	color: #0033FF;
+}
+
+.ruby_keyword3 {
+	color: #3066AC;
+}
+
+.ruby_keyword4 {
+	color: #3366CC;
+}
+
+.ruby_function,.ruby_markup {
+	color: navy;
+}
+
+.ruby_operator {
+	color: #7F0055;
+}
+
+.ruby_label {
+	color: olive;
+}
+
+.ruby_digit{
+	color: red;
+}
+
+.ruby_comment1 {
+	color: #3f7f5f;
+}
+
+.ruby_comment2 {
+	color: #999999;
+}
+
+.ruby_comment3 {
+	color: #3f5fbf;
+}
+
+.ruby_comment4 {
+	color: #000080;
+}
+
+.ruby_literal1 {
+	color: #2a00ff;
+}
+
+.ruby_literal2 {
+	color: teal;
+}
+/*Coloration rview*/
+.rview_keyword1 {
+	color: #7F0055;
+}
+
+.rview_keyword2 {
+	color: #0033FF;
+}
+
+.rview_keyword3 {
+	color: #3066AC;
+}
+
+.rview_keyword4 {
+	color: #3366CC;
+}
+
+.rview_function,.rview_markup {
+	color: navy;
+}
+
+.rview_operator {
+	color: #7F0055;
+}
+
+.rview_label {
+	color: olive;
+}
+
+.rview_digit{
+	color: red;
+}
+
+.rview_comment1 {
+	color: #3f7f5f;
+}
+
+.rview_comment2 {
+	color: #999999;
+}
+
+.rview_comment3 {
+	color: #3f5fbf;
+}
+
+.rview_comment4 {
+	color: #000080;
+}
+
+.rview_literal1 {
+	color: #2a00ff;
+}
+
+.rview_literal2 {
+	color: teal;
+}
+/*Coloration sas*/
+.sas_keyword1 {
+	color: #7F0055;
+}
+
+.sas_keyword2 {
+	color: #0033FF;
+}
+
+.sas_keyword3 {
+	color: #3066AC;
+}
+
+.sas_keyword4 {
+	color: #3366CC;
+}
+
+.sas_function,.sas_markup {
+	color: navy;
+}
+
+.sas_operator {
+	color: #7F0055;
+}
+
+.sas_label {
+	color: olive;
+}
+
+.sas_digit{
+	color: red;
+}
+
+.sas_comment1 {
+	color: #3f7f5f;
+}
+
+.sas_comment2 {
+	color: #999999;
+}
+
+.sas_comment3 {
+	color: #3f5fbf;
+}
+
+.sas_comment4 {
+	color: #000080;
+}
+
+.sas_literal1 {
+	color: #2a00ff;
+}
+
+.sas_literal2 {
+	color: teal;
+}
+/*Coloration scheme*/
+.scheme_keyword1 {
+	color: #7F0055;
+}
+
+.scheme_keyword2 {
+	color: #0033FF;
+}
+
+.scheme_keyword3 {
+	color: #3066AC;
+}
+
+.scheme_keyword4 {
+	color: #3366CC;
+}
+
+.scheme_function,.scheme_markup {
+	color: navy;
+}
+
+.scheme_operator {
+	color: #7F0055;
+}
+
+.scheme_label {
+	color: olive;
+}
+
+.scheme_digit{
+	color: red;
+}
+
+.scheme_comment1 {
+	color: #3f7f5f;
+}
+
+.scheme_comment2 {
+	color: #999999;
+}
+
+.scheme_comment3 {
+	color: #3f5fbf;
+}
+
+.scheme_comment4 {
+	color: #000080;
+}
+
+.scheme_literal1 {
+	color: #2a00ff;
+}
+
+.scheme_literal2 {
+	color: teal;
+}
+/*Coloration sdl_pr*/
+.sdl_pr_keyword1 {
+	color: #7F0055;
+}
+
+.sdl_pr_keyword2 {
+	color: #0033FF;
+}
+
+.sdl_pr_keyword3 {
+	color: #3066AC;
+}
+
+.sdl_pr_keyword4 {
+	color: #3366CC;
+}
+
+.sdl_pr_function,.sdl_pr_markup {
+	color: navy;
+}
+
+.sdl_pr_operator {
+	color: #7F0055;
+}
+
+.sdl_pr_label {
+	color: olive;
+}
+
+.sdl_pr_digit{
+	color: red;
+}
+
+.sdl_pr_comment1 {
+	color: #3f7f5f;
+}
+
+.sdl_pr_comment2 {
+	color: #999999;
+}
+
+.sdl_pr_comment3 {
+	color: #3f5fbf;
+}
+
+.sdl_pr_comment4 {
+	color: #000080;
+}
+
+.sdl_pr_literal1 {
+	color: #2a00ff;
+}
+
+.sdl_pr_literal2 {
+	color: teal;
+}
+/*Coloration sgml*/
+.sgml_keyword1 {
+	color: #7F0055;
+}
+
+.sgml_keyword2 {
+	color: #0033FF;
+}
+
+.sgml_keyword3 {
+	color: #3066AC;
+}
+
+.sgml_keyword4 {
+	color: #3366CC;
+}
+
+.sgml_function,.sgml_markup {
+	color: navy;
+}
+
+.sgml_operator {
+	color: #7F0055;
+}
+
+.sgml_label {
+	color: olive;
+}
+
+.sgml_digit{
+	color: red;
+}
+
+.sgml_comment1 {
+	color: #3f7f5f;
+}
+
+.sgml_comment2 {
+	color: #999999;
+}
+
+.sgml_comment3 {
+	color: #3f5fbf;
+}
+
+.sgml_comment4 {
+	color: #000080;
+}
+
+.sgml_literal1 {
+	color: #2a00ff;
+}
+
+.sgml_literal2 {
+	color: teal;
+}
+/*Coloration shell*/
+.shell_keyword1 {
+	color: black;
+	font-weight: bold;
+}
+
+.shell_keyword2 {
+	color:black;
+	font-weight:bold;
+	font-style: italic;
+}
+
+.shell_keyword3 {
+	color: #3066AC;
+}
+
+.shell_keyword4 {
+	color: #3366CC;
+}
+
+.shell_function,.shell_markup {
+	color: navy;
+}
+
+.shell_operator {
+	color: #7F0055;
+}
+
+.shell_label {
+	color: olive;
+}
+
+.shell_digit{
+	color:#990000;
+}
+
+.shell_comment1 {
+	color: #999999;
+}
+
+.shell_comment2 {
+	color: #999999;
+	font-weight: bold;
+}
+
+.shell_comment3 {
+	color: #3f5fbf;
+}
+
+.shell_comment4 {
+	color: #000080;
+}
+
+.shell_literal1 {
+	color: #008000;
+}
+
+.shell_literal2 {
+	color: teal;
+}
+/*Coloration shellscript*/
+.shellscript_keyword1 {
+	color: black;
+	font-weight: bold;
+}
+
+.shellscript_keyword2 {
+	color:black;
+	font-weight:bold;
+	font-style: italic;
+}
+
+.shellscript_keyword3 {
+	color: #3066AC;
+}
+
+.shellscript_keyword4 {
+	color: #3366CC;
+}
+
+.shellscript_function,.shellscript_markup {
+	color: navy;
+}
+
+.shellscript_operator {
+	color: #7F0055;
+}
+
+.shellscript_label {
+	color: olive;
+}
+
+.shellscript_digit{
+	color: #990000;
+}
+
+.shellscript_comment1 {
+	color: #999999;
+}
+
+.shellscript_comment2 {
+	color: #999999;
+	font-weight: bold;
+}
+
+.shellscript_comment3 {
+	color: #3f5fbf;
+}
+
+.shellscript_comment4 {
+	color: #000080;
+}
+
+.shellscript_literal1 {
+	color: #008000;
+}
+
+.shellscript_literal2 {
+	color: teal;
+}
+/*Coloration shtml*/
+.shtml_keyword1 {
+	color: #7F0055;
+}
+
+.shtml_keyword2 {
+	color: #0033FF;
+}
+
+.shtml_keyword3 {
+	color: #3066AC;
+}
+
+.shtml_keyword4 {
+	color: #3366CC;
+}
+
+.shtml_function,.shtml_markup {
+	color: navy;
+}
+
+.shtml_operator {
+	color: #7F0055;
+}
+
+.shtml_label {
+	color: olive;
+}
+
+.shtml_digit{
+	color: red;
+}
+
+.shtml_comment1 {
+	color: #3f7f5f;
+}
+
+.shtml_comment2 {
+	color: #999999;
+}
+
+.shtml_comment3 {
+	color: #3f5fbf;
+}
+
+.shtml_comment4 {
+	color: #000080;
+}
+
+.shtml_literal1 {
+	color: #2a00ff;
+}
+
+.shtml_literal2 {
+	color: teal;
+}
+/*Coloration slate*/
+.slate_keyword1 {
+	color: #7F0055;
+}
+
+.slate_keyword2 {
+	color: #0033FF;
+}
+
+.slate_keyword3 {
+	color: #3066AC;
+}
+
+.slate_keyword4 {
+	color: #3366CC;
+}
+
+.slate_function,.slate_markup {
+	color: navy;
+}
+
+.slate_operator {
+	color: #7F0055;
+}
+
+.slate_label {
+	color: olive;
+}
+
+.slate_digit{
+	color: red;
+}
+
+.slate_comment1 {
+	color: #3f7f5f;
+}
+
+.slate_comment2 {
+	color: #999999;
+}
+
+.slate_comment3 {
+	color: #3f5fbf;
+}
+
+.slate_comment4 {
+	color: #000080;
+}
+
+.slate_literal1 {
+	color: #2a00ff;
+}
+
+.slate_literal2 {
+	color: teal;
+}
+/*Coloration smalltalk*/
+.smalltalk_keyword1 {
+	color: #7F0055;
+}
+
+.smalltalk_keyword2 {
+	color: #0033FF;
+}
+
+.smalltalk_keyword3 {
+	color: #3066AC;
+}
+
+.smalltalk_keyword4 {
+	color: #3366CC;
+}
+
+.smalltalk_function,.smalltalk_markup {
+	color: navy;
+}
+
+.smalltalk_operator {
+	color: #7F0055;
+}
+
+.smalltalk_label {
+	color: olive;
+}
+
+.smalltalk_digit{
+	color: red;
+}
+
+.smalltalk_comment1 {
+	color: #3f7f5f;
+}
+
+.smalltalk_comment2 {
+	color: #999999;
+}
+
+.smalltalk_comment3 {
+	color: #3f5fbf;
+}
+
+.smalltalk_comment4 {
+	color: #000080;
+}
+
+.smalltalk_literal1 {
+	color: #2a00ff;
+}
+
+.smalltalk_literal2 {
+	color: teal;
+}
+/*Coloration smi-mib*/
+.smi-mib_keyword1 {
+	color: #7F0055;
+}
+
+.smi-mib_keyword2 {
+	color: #0033FF;
+}
+
+.smi-mib_keyword3 {
+	color: #3066AC;
+}
+
+.smi-mib_keyword4 {
+	color: #3366CC;
+}
+
+.smi-mib_function,.smi-mib_markup {
+	color: navy;
+}
+
+.smi-mib_operator {
+	color: #7F0055;
+}
+
+.smi-mib_label {
+	color: olive;
+}
+
+.smi-mib_digit{
+	color: red;
+}
+
+.smi-mib_comment1 {
+	color: #3f7f5f;
+}
+
+.smi-mib_comment2 {
+	color: #999999;
+}
+
+.smi-mib_comment3 {
+	color: #3f5fbf;
+}
+
+.smi-mib_comment4 {
+	color: #000080;
+}
+
+.smi-mib_literal1 {
+	color: #2a00ff;
+}
+
+.smi-mib_literal2 {
+	color: teal;
+}
+/*Coloration splus*/
+.splus_keyword1 {
+	color: #7F0055;
+}
+
+.splus_keyword2 {
+	color: #0033FF;
+}
+
+.splus_keyword3 {
+	color: #3066AC;
+}
+
+.splus_keyword4 {
+	color: #3366CC;
+}
+
+.splus_function,.splus_markup {
+	color: navy;
+}
+
+.splus_operator {
+	color: #7F0055;
+}
+
+.splus_label {
+	color: olive;
+}
+
+.splus_digit{
+	color: red;
+}
+
+.splus_comment1 {
+	color: #3f7f5f;
+}
+
+.splus_comment2 {
+	color: #999999;
+}
+
+.splus_comment3 {
+	color: #3f5fbf;
+}
+
+.splus_comment4 {
+	color: #000080;
+}
+
+.splus_literal1 {
+	color: #2a00ff;
+}
+
+.splus_literal2 {
+	color: teal;
+}
+/*Coloration sql*/
+.sql_keyword1 {
+	color: #0033FF;
+}
+
+.sql_keyword2 {
+	color: #0033FF;
+}
+
+.sql_keyword3 {
+	color: #3066AC;
+}
+
+.sql_keyword4 {
+	color: #3366CC;
+}
+
+.sql_function,.sql_markup {
+	color: navy;
+}
+
+.sql_operator {
+	color: #7F0055;
+}
+
+.sql_label {
+	color: olive;
+}
+
+.sql_digit{
+	color: red;
+}
+
+.sql_comment1 {
+	color: #669933;
+}
+
+.sql_comment2 {
+	color: #669933;
+}
+
+.sql_comment3 {
+	color: #669933;
+}
+
+.sql_comment4 {
+	color: #669933;
+}
+
+.sql_literal1 {
+	color: #993399;
+}
+
+.sql_literal2 {
+	color: teal;
+}
+/*Coloration sqr*/
+.sqr_keyword1 {
+	color: #7F0055;
+}
+
+.sqr_keyword2 {
+	color: #0033FF;
+}
+
+.sqr_keyword3 {
+	color: #3066AC;
+}
+
+.sqr_keyword4 {
+	color: #3366CC;
+}
+
+.sqr_function,.sqr_markup {
+	color: navy;
+}
+
+.sqr_operator {
+	color: #7F0055;
+}
+
+.sqr_label {
+	color: olive;
+}
+
+.sqr_digit{
+	color: red;
+}
+
+.sqr_comment1 {
+	color: #3f7f5f;
+}
+
+.sqr_comment2 {
+	color: #999999;
+}
+
+.sqr_comment3 {
+	color: #3f5fbf;
+}
+
+.sqr_comment4 {
+	color: #000080;
+}
+
+.sqr_literal1 {
+	color: #2a00ff;
+}
+
+.sqr_literal2 {
+	color: teal;
+}
+/*Coloration squidconf*/
+.squidconf_keyword1 {
+	color: #7F0055;
+}
+
+.squidconf_keyword2 {
+	color: #0033FF;
+}
+
+.squidconf_keyword3 {
+	color: #3066AC;
+}
+
+.squidconf_keyword4 {
+	color: #3366CC;
+}
+
+.squidconf_function,.squidconf_markup {
+	color: navy;
+}
+
+.squidconf_operator {
+	color: #7F0055;
+}
+
+.squidconf_label {
+	color: olive;
+}
+
+.squidconf_digit{
+	color: red;
+}
+
+.squidconf_comment1 {
+	color: #3f7f5f;
+}
+
+.squidconf_comment2 {
+	color: #999999;
+}
+
+.squidconf_comment3 {
+	color: #3f5fbf;
+}
+
+.squidconf_comment4 {
+	color: #000080;
+}
+
+.squidconf_literal1 {
+	color: #2a00ff;
+}
+
+.squidconf_literal2 {
+	color: teal;
+}
+/*Coloration ssharp*/
+.ssharp_keyword1 {
+	color: #7F0055;
+}
+
+.ssharp_keyword2 {
+	color: #0033FF;
+}
+
+.ssharp_keyword3 {
+	color: #3066AC;
+}
+
+.ssharp_keyword4 {
+	color: #3366CC;
+}
+
+.ssharp_function,.ssharp_markup {
+	color: navy;
+}
+
+.ssharp_operator {
+	color: #7F0055;
+}
+
+.ssharp_label {
+	color: olive;
+}
+
+.ssharp_digit{
+	color: red;
+}
+
+.ssharp_comment1 {
+	color: #3f7f5f;
+}
+
+.ssharp_comment2 {
+	color: #999999;
+}
+
+.ssharp_comment3 {
+	color: #3f5fbf;
+}
+
+.ssharp_comment4 {
+	color: #000080;
+}
+
+.ssharp_literal1 {
+	color: #2a00ff;
+}
+
+.ssharp_literal2 {
+	color: teal;
+}
+/*Coloration svn-commit*/
+.svn-commit_keyword1 {
+	color: #7F0055;
+}
+
+.svn-commit_keyword2 {
+	color: #0033FF;
+}
+
+.svn-commit_keyword3 {
+	color: #3066AC;
+}
+
+.svn-commit_keyword4 {
+	color: #3366CC;
+}
+
+.svn-commit_function,.svn-commit_markup {
+	color: navy;
+}
+
+.svn-commit_operator {
+	color: #7F0055;
+}
+
+.svn-commit_label {
+	color: olive;
+}
+
+.svn-commit_digit{
+	color: red;
+}
+
+.svn-commit_comment1 {
+	color: #3f7f5f;
+}
+
+.svn-commit_comment2 {
+	color: #999999;
+}
+
+.svn-commit_comment3 {
+	color: #3f5fbf;
+}
+
+.svn-commit_comment4 {
+	color: #000080;
+}
+
+.svn-commit_literal1 {
+	color: #2a00ff;
+}
+
+.svn-commit_literal2 {
+	color: teal;
+}
+/*Coloration swig*/
+.swig_keyword1 {
+	color: #7F0055;
+}
+
+.swig_keyword2 {
+	color: #0033FF;
+}
+
+.swig_keyword3 {
+	color: #3066AC;
+}
+
+.swig_keyword4 {
+	color: #3366CC;
+}
+
+.swig_function,.swig_markup {
+	color: navy;
+}
+
+.swig_operator {
+	color: #7F0055;
+}
+
+.swig_label {
+	color: olive;
+}
+
+.swig_digit{
+	color: red;
+}
+
+.swig_comment1 {
+	color: #3f7f5f;
+}
+
+.swig_comment2 {
+	color: #999999;
+}
+
+.swig_comment3 {
+	color: #3f5fbf;
+}
+
+.swig_comment4 {
+	color: #000080;
+}
+
+.swig_literal1 {
+	color: #2a00ff;
+}
+
+.swig_literal2 {
+	color: teal;
+}
+/*Coloration tcl*/
+.tcl_keyword1 {
+	color: #7F0055;
+}
+
+.tcl_keyword2 {
+	color: #0033FF;
+}
+
+.tcl_keyword3 {
+	color: #3066AC;
+}
+
+.tcl_keyword4 {
+	color: #3366CC;
+}
+
+.tcl_function,.tcl_markup {
+	color: navy;
+}
+
+.tcl_operator {
+	color: #7F0055;
+}
+
+.tcl_label {
+	color: olive;
+}
+
+.tcl_digit{
+	color: red;
+}
+
+.tcl_comment1 {
+	color: #3f7f5f;
+}
+
+.tcl_comment2 {
+	color: #999999;
+}
+
+.tcl_comment3 {
+	color: #3f5fbf;
+}
+
+.tcl_comment4 {
+	color: #000080;
+}
+
+.tcl_literal1 {
+	color: #2a00ff;
+}
+
+.tcl_literal2 {
+	color: teal;
+}
+/*Coloration tex*/
+.tex_keyword1 {
+	color: #7F0055;
+}
+
+.tex_keyword2 {
+	color: #0033FF;
+}
+
+.tex_keyword3 {
+	color: #3066AC;
+}
+
+.tex_keyword4 {
+	color: #3366CC;
+}
+
+.tex_function,.tex_markup {
+	color: navy;
+}
+
+.tex_operator {
+	color: #7F0055;
+}
+
+.tex_label {
+	color: olive;
+}
+
+.tex_digit{
+	color: red;
+}
+
+.tex_comment1 {
+	color: #3f7f5f;
+}
+
+.tex_comment2 {
+	color: #999999;
+}
+
+.tex_comment3 {
+	color: #3f5fbf;
+}
+
+.tex_comment4 {
+	color: #000080;
+}
+
+.tex_literal1 {
+	color: #2a00ff;
+}
+
+.tex_literal2 {
+	color: teal;
+}
+/*Coloration texinfo*/
+.texinfo_keyword1 {
+	color: #7F0055;
+}
+
+.texinfo_keyword2 {
+	color: #0033FF;
+}
+
+.texinfo_keyword3 {
+	color: #3066AC;
+}
+
+.texinfo_keyword4 {
+	color: #3366CC;
+}
+
+.texinfo_function,.texinfo_markup {
+	color: navy;
+}
+
+.texinfo_operator {
+	color: #7F0055;
+}
+
+.texinfo_label {
+	color: olive;
+}
+
+.texinfo_digit{
+	color: red;
+}
+
+.texinfo_comment1 {
+	color: #3f7f5f;
+}
+
+.texinfo_comment2 {
+	color: #999999;
+}
+
+.texinfo_comment3 {
+	color: #3f5fbf;
+}
+
+.texinfo_comment4 {
+	color: #000080;
+}
+
+.texinfo_literal1 {
+	color: #2a00ff;
+}
+
+.texinfo_literal2 {
+	color: teal;
+}
+/*Coloration text*/
+.text_keyword1 {
+	color: #7F0055;
+}
+
+.text_keyword2 {
+	color: #0033FF;
+}
+
+.text_keyword3 {
+	color: #3066AC;
+}
+
+.text_keyword4 {
+	color: #3366CC;
+}
+
+.text_function,.text_markup {
+	color: navy;
+}
+
+.text_operator {
+	color: #7F0055;
+}
+
+.text_label {
+	color: olive;
+}
+
+.text_digit{
+	color: red;
+}
+
+.text_comment1 {
+	color: #3f7f5f;
+}
+
+.text_comment2 {
+	color: #999999;
+}
+
+.text_comment3 {
+	color: #3f5fbf;
+}
+
+.text_comment4 {
+	color: #000080;
+}
+
+.text_literal1 {
+	color: #2a00ff;
+}
+
+.text_literal2 {
+	color: teal;
+}
+/*Coloration tpl*/
+.tpl_keyword1 {
+	color: #7F0055;
+}
+
+.tpl_keyword2 {
+	color: #0033FF;
+}
+
+.tpl_keyword3 {
+	color: #3066AC;
+}
+
+.tpl_keyword4 {
+	color: #3366CC;
+}
+
+.tpl_function,.tpl_markup {
+	color: navy;
+}
+
+.tpl_operator {
+	color: #7F0055;
+}
+
+.tpl_label {
+	color: olive;
+}
+
+.tpl_digit{
+	color: red;
+}
+
+.tpl_comment1 {
+	color: #3f7f5f;
+}
+
+.tpl_comment2 {
+	color: #999999;
+}
+
+.tpl_comment3 {
+	color: #3f5fbf;
+}
+
+.tpl_comment4 {
+	color: #000080;
+}
+
+.tpl_literal1 {
+	color: #2a00ff;
+}
+
+.tpl_literal2 {
+	color: teal;
+}
+/*Coloration tsql*/
+.tsql_keyword1 {
+	color: #7F0055;
+}
+
+.tsql_keyword2 {
+	color: #0033FF;
+}
+
+.tsql_keyword3 {
+	color: #3066AC;
+}
+
+.tsql_keyword4 {
+	color: #3366CC;
+}
+
+.tsql_function,.tsql_markup {
+	color: navy;
+}
+
+.tsql_operator {
+	color: #7F0055;
+}
+
+.tsql_label {
+	color: olive;
+}
+
+.tsql_digit{
+	color: red;
+}
+
+.tsql_comment1 {
+	color: #3f7f5f;
+}
+
+.tsql_comment2 {
+	color: #999999;
+}
+
+.tsql_comment3 {
+	color: #3f5fbf;
+}
+
+.tsql_comment4 {
+	color: #000080;
+}
+
+.tsql_literal1 {
+	color: #2a00ff;
+}
+
+.tsql_literal2 {
+	color: teal;
+}
+/*Coloration twiki*/
+.twiki_keyword1 {
+	color: #7F0055;
+}
+
+.twiki_keyword2 {
+	color: #0033FF;
+}
+
+.twiki_keyword3 {
+	color: #3066AC;
+}
+
+.twiki_keyword4 {
+	color: #3366CC;
+}
+
+.twiki_function,.twiki_markup {
+	color: navy;
+}
+
+.twiki_operator {
+	color: #7F0055;
+}
+
+.twiki_label {
+	color: olive;
+}
+
+.twiki_digit{
+	color: red;
+}
+
+.twiki_comment1 {
+	color: #3f7f5f;
+}
+
+.twiki_comment2 {
+	color: #999999;
+}
+
+.twiki_comment3 {
+	color: #3f5fbf;
+}
+
+.twiki_comment4 {
+	color: #000080;
+}
+
+.twiki_literal1 {
+	color: #2a00ff;
+}
+
+.twiki_literal2 {
+	color: teal;
+}
+/*Coloration typoscript*/
+.typoscript_keyword1 {
+	color: #7F0055;
+}
+
+.typoscript_keyword2 {
+	color: #0033FF;
+}
+
+.typoscript_keyword3 {
+	color: #3066AC;
+}
+
+.typoscript_keyword4 {
+	color: #3366CC;
+}
+
+.typoscript_function,.typoscript_markup {
+	color: navy;
+}
+
+.typoscript_operator {
+	color: #7F0055;
+}
+
+.typoscript_label {
+	color: olive;
+}
+
+.typoscript_digit{
+	color: red;
+}
+
+.typoscript_comment1 {
+	color: #3f7f5f;
+}
+
+.typoscript_comment2 {
+	color: #999999;
+}
+
+.typoscript_comment3 {
+	color: #3f5fbf;
+}
+
+.typoscript_comment4 {
+	color: #000080;
+}
+
+.typoscript_literal1 {
+	color: #2a00ff;
+}
+
+.typoscript_literal2 {
+	color: teal;
+}
+/*Coloration uscript*/
+.uscript_keyword1 {
+	color: #7F0055;
+}
+
+.uscript_keyword2 {
+	color: #0033FF;
+}
+
+.uscript_keyword3 {
+	color: #3066AC;
+}
+
+.uscript_keyword4 {
+	color: #3366CC;
+}
+
+.uscript_function,.uscript_markup {
+	color: navy;
+}
+
+.uscript_operator {
+	color: #7F0055;
+}
+
+.uscript_label {
+	color: olive;
+}
+
+.uscript_digit{
+	color: red;
+}
+
+.uscript_comment1 {
+	color: #3f7f5f;
+}
+
+.uscript_comment2 {
+	color: #999999;
+}
+
+.uscript_comment3 {
+	color: #3f5fbf;
+}
+
+.uscript_comment4 {
+	color: #000080;
+}
+
+.uscript_literal1 {
+	color: #2a00ff;
+}
+
+.uscript_literal2 {
+	color: teal;
+}
+/*Coloration vb*/
+.vb_keyword1 {
+	font-weight : bold;
+	color: #3366CC;
+}
+
+.vb_keyword2 {
+	color: #3366CC;
+}
+
+.vb_keyword3 {
+	color: #3366CC;
+}
+
+.vb_keyword4 {
+	color: #3366CC;
+}
+
+.vb_function,.vb_markup {
+	color: #3366CC;
+}
+
+.vb_operator {
+	color: #7F0055;
+}
+
+.vb_label {
+	color: olive;
+}
+
+.vb_digit{
+	color: red;
+}
+
+.vb_comment1 {
+	color: #008000;
+}
+
+.vb_comment2 {
+	color: #999999;
+}
+
+.vb_comment3 {
+	color: #3f5fbf;
+}
+
+.vb_comment4 {
+	color: #000080;
+}
+
+.vb_literal1 {
+	color: #993399;
+}
+
+.vb_literal2 {
+	color: #3366CC;
+}
+/*Coloration vbnet*/
+.vbnet_keyword1 {
+	font-weight : bold;
+	color: #3366CC;
+}
+
+.vbnet_keyword2 {
+	color: #3366CC;
+}
+
+.vbnet_keyword3 {
+	color: #3366CC;
+}
+
+.vbnet_keyword4 {
+	color: #3366CC;
+}
+
+.vbnet_function,.vbnet_markup {
+	color: #3366CC;
+}
+
+.vbnet_operator {
+	color: #7F0055;
+}
+
+.vbnet_label {
+	color: olive;
+}
+
+.vbnet_digit{
+	color: red;
+}
+
+.vbnet_comment1 {
+	color: #008000;
+}
+
+.vbnet_comment2 {
+	color: #999999;
+}
+
+.vbnet_comment3 {
+	color: #3f5fbf;
+}
+
+.vbnet_comment4 {
+	color: #000080;
+}
+
+.vbnet_literal1 {
+	color: #993399;
+}
+
+.vbnet_literal2 {
+	color: #3366CC;
+}
+/*Coloration vbscript*/
+.vbscript_keyword1 {
+	color: #7F0055;
+}
+
+.vbscript_keyword2 {
+	font-weight : bold;
+	color: #3366CC;
+}
+
+.vbscript_keyword3 {
+	color: #3066AC;
+}
+
+.vbscript_keyword4 {
+	color: #3366CC;
+}
+
+.vbscript_function,.vbscript_markup {
+	color: navy;
+}
+
+.vbscript_operator {
+	color: #7F0055;
+}
+
+.vbscript_label {
+	color: olive;
+}
+
+.vbscript_digit{
+	color: red;
+}
+
+.vbscript_comment1 {
+	color: #3f7f5f;
+}
+
+.vbscript_comment2 {
+	color: #999999;
+}
+
+.vbscript_comment3 {
+	color: #3f5fbf;
+}
+
+.vbscript_comment4 {
+	color: #000080;
+}
+
+.vbscript_literal1 {
+	color: #2a00ff;
+}
+
+.vbscript_literal2 {
+	color: teal;
+}
+/*Coloration velocity*/
+.velocity_keyword1 {
+	color: #7F0055;
+}
+
+.velocity_keyword2 {
+	color: #0033FF;
+}
+
+.velocity_keyword3 {
+	color: #3066AC;
+}
+
+.velocity_keyword4 {
+	color: #3366CC;
+}
+
+.velocity_function,.velocity_markup {
+	color: navy;
+}
+
+.velocity_operator {
+	color: #7F0055;
+}
+
+.velocity_label {
+	color: olive;
+}
+
+.velocity_digit{
+	color: red;
+}
+
+.velocity_comment1 {
+	color: #3f7f5f;
+}
+
+.velocity_comment2 {
+	color: #999999;
+}
+
+.velocity_comment3 {
+	color: #3f5fbf;
+}
+
+.velocity_comment4 {
+	color: #000080;
+}
+
+.velocity_literal1 {
+	color: #2a00ff;
+}
+
+.velocity_literal2 {
+	color: teal;
+}
+/*Coloration verilog*/
+.verilog_keyword1 {
+	color: #7F0055;
+}
+
+.verilog_keyword2 {
+	color: #0033FF;
+}
+
+.verilog_keyword3 {
+	color: #3066AC;
+}
+
+.verilog_keyword4 {
+	color: #3366CC;
+}
+
+.verilog_function,.verilog_markup {
+	color: navy;
+}
+
+.verilog_operator {
+	color: #7F0055;
+}
+
+.verilog_label {
+	color: olive;
+}
+
+.verilog_digit{
+	color: red;
+}
+
+.verilog_comment1 {
+	color: #3f7f5f;
+}
+
+.verilog_comment2 {
+	color: #999999;
+}
+
+.verilog_comment3 {
+	color: #3f5fbf;
+}
+
+.verilog_comment4 {
+	color: #000080;
+}
+
+.verilog_literal1 {
+	color: #2a00ff;
+}
+
+.verilog_literal2 {
+	color: teal;
+}
+/*Coloration vhdl*/
+.vhdl_keyword1 {
+	color: #7F0055;
+}
+
+.vhdl_keyword2 {
+	color: #0033FF;
+}
+
+.vhdl_keyword3 {
+	color: #3066AC;
+}
+
+.vhdl_keyword4 {
+	color: #3366CC;
+}
+
+.vhdl_function,.vhdl_markup {
+	color: navy;
+}
+
+.vhdl_operator {
+	color: #7F0055;
+}
+
+.vhdl_label {
+	color: olive;
+}
+
+.vhdl_digit{
+	color: red;
+}
+
+.vhdl_comment1 {
+	color: #3f7f5f;
+}
+
+.vhdl_comment2 {
+	color: #999999;
+}
+
+.vhdl_comment3 {
+	color: #3f5fbf;
+}
+
+.vhdl_comment4 {
+	color: #000080;
+}
+
+.vhdl_literal1 {
+	color: #2a00ff;
+}
+
+.vhdl_literal2 {
+	color: teal;
+}
+/*Coloration xml*/
+.xml_keyword1 {
+	color: #7F0055;
+}
+
+.xml_keyword2 {
+	color: #0033FF;
+}
+
+.xml_keyword3 {
+	color: #3066AC;
+}
+
+.xml_keyword4 {
+	color: #3366CC;
+}
+
+.xml_function,.xml_markup {
+	color: navy;
+}
+
+.xml_operator {
+	color: #7F0055;
+}
+
+.xml_label {
+	color: olive;
+}
+
+.xml_digit{
+	color: red;
+}
+
+.xml_comment1 {
+	color: #3f7f5f;
+}
+
+.xml_comment2 {
+	color: #999999;
+}
+
+.xml_comment3 {
+	color: #3f5fbf;
+}
+
+.xml_comment4 {
+	color: #000080;
+}
+
+.xml_literal1 {
+	color: #2a00ff;
+}
+
+.xml_literal2 {
+	color: teal;
+}
+/*Coloration xq*/
+.xq_keyword1 {
+	color: #7F0055;
+}
+
+.xq_keyword2 {
+	color: #0033FF;
+}
+
+.xq_keyword3 {
+	color: #3066AC;
+}
+
+.xq_keyword4 {
+	color: #3366CC;
+}
+
+.xq_function,.xq_markup {
+	color: navy;
+}
+
+.xq_operator {
+	color: #7F0055;
+}
+
+.xq_label {
+	color: olive;
+}
+
+.xq_digit{
+	color: red;
+}
+
+.xq_comment1 {
+	color: #3f7f5f;
+}
+
+.xq_comment2 {
+	color: #999999;
+}
+
+.xq_comment3 {
+	color: #3f5fbf;
+}
+
+.xq_comment4 {
+	color: #000080;
+}
+
+.xq_literal1 {
+	color: #2a00ff;
+}
+
+.xq_literal2 {
+	color: teal;
+}
+/*Coloration xsl*/
+.xsl_keyword1 {
+	color: #7F0055;
+}
+
+.xsl_keyword2 {
+	color: #0033FF;
+}
+
+.xsl_keyword3 {
+	color: #3066AC;
+}
+
+.xsl_keyword4 {
+	color: #3366CC;
+}
+
+.xsl_function,.xsl_markup {
+	color: navy;
+}
+
+.xsl_operator {
+	color: #7F0055;
+}
+
+.xsl_label {
+	color: olive;
+}
+
+.xsl_digit{
+	color: red;
+}
+
+.xsl_comment1 {
+	color: #3f7f5f;
+}
+
+.xsl_comment2 {
+	color: #999999;
+}
+
+.xsl_comment3 {
+	color: #3f5fbf;
+}
+
+.xsl_comment4 {
+	color: #000080;
+}
+
+.xsl_literal1 {
+	color: #2a00ff;
+}
+
+.xsl_literal2 {
+	color: teal;
+}
+/*Coloration zpt*/
+.zpt_keyword1 {
+	color: #7F0055;
+}
+
+.zpt_keyword2 {
+	color: #0033FF;
+}
+
+.zpt_keyword3 {
+	color: #3066AC;
+}
+
+.zpt_keyword4 {
+	color: #3366CC;
+}
+
+.zpt_function,.zpt_markup {
+	color: navy;
+}
+
+.zpt_operator {
+	color: #7F0055;
+}
+
+.zpt_label {
+	color: olive;
+}
+
+.zpt_digit{
+	color: red;
+}
+
+.zpt_comment1 {
+	color: #3f7f5f;
+}
+
+.zpt_comment2 {
+	color: #999999;
+}
+
+.zpt_comment3 {
+	color: #3f5fbf;
+}
+
+.zpt_comment4 {
+	color: #000080;
+}
+
+.zpt_literal1 {
+	color: #2a00ff;
+}
+
+.zpt_literal2 {
+	color: teal;
+}
